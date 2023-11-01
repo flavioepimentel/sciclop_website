@@ -1,13 +1,13 @@
-import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
-import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Hero from "./Hero";
+import Navbar from "../pages/Layout/components/Navbar";
+import Billing from "../pages/Home/components/Billing";
+import CardDeal from "../pages/Home/components/CardDeal";
+import Business from "../pages/Home/components/Business";
+import Clients from "../pages/Home/components/Clients";
+import CTA from "../pages/Home/components/CTA";
+import Stats from "../pages/Home/components/Stats";
+import Footer from "../pages/Layout/components/Footer";
+import Testimonials from "../pages/Home/components/Testimonials";
+import Hero from "../pages/Home/components/Hero";
 
 export {
   Navbar,

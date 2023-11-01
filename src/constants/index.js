@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Quem somos",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Produtos",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Login",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Benefícios",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Atingir o equilíbrio entre máxima produtividade e o custo mínimo.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Máxima Confiabilidade",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Nós nos concentramos em produzir um fluxo de informação com grande nível de precisão, com a segurança e confiabilidade.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Informação em Tempo Real",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Acesse dados para decisões do dia a dia baseada em fatos para intervenções acertivas antes que produzam efeitos negativos, garantindo o melhor resultado.",
   },
 ];
 
@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -73,82 +73,58 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Usuários Ativos",
+    value: "3100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Empresas Clientes",
+    value: "200+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Veiculos Monitorados",
+    value: "2300+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Informação",
     links: [
       {
-        name: "Content",
+        name: "Orçamento",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Como Funciona",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
+        name: "Termos & Serviços",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunicação",
     links: [
       {
-        name: "Help Center",
+        name: "Suporte",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Contato",
+        link: "https://www.hoobank.com/help-center/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Aplicativo",
     links: [
       {
-        name: "Our Partner",
+        name: "Login",
         link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },

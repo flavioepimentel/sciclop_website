@@ -1,17 +1,17 @@
-import { card } from "../assets";
-import styles, { layout } from "../style";
+import { card } from "../../../assets";
+import styles, { layout } from "../../../style";
 import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Avalie as melhores marcas e fornecedores<br className="sm:block hidden" /> em alguns
+        passos
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Escolha as marcas que demonstram o melhor desempenho na sua área de ação e 
+        de empresas prestadoras de serviços que atendam aos níveis de qualidade ideais.
       </p>
 
       <Button styles={`mt-10`} />

@@ -1,5 +1,5 @@
-import { features } from "../constants";
-import styles, { layout } from "../style";
+import { features } from "../../../constants";
+import styles, { layout } from "../../../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -22,13 +22,13 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Gerencie a frota, <br className="sm:block hidden" /> 
+        em tempo real.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        Nós fornecemos o conhecimento aprofundado sobre o que impacta o custo 
+        da sua frota, para o gerenciamento instantâneo das causas de sua 
+        variação e o treinamento no uso inteligente das informações.
       </p>
 
       <Button styles={`mt-10`} />

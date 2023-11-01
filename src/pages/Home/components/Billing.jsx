@@ -1,5 +1,5 @@
-import { apple, bill, google } from "../assets";
-import styles, { layout } from "../style";
+import { apple, bill, google } from "../../../assets";
+import styles, { layout } from "../../../style";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
@@ -14,13 +14,12 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+        Controle facilmente <br className="sm:block hidden" /> finanças e operação
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+        Permite a segregação de informações estratégicas para decisões 
+        em sinergia com o objetivo de produção de testes específicos voltados 
+        à mudança de processos avaliando resultados operacionais.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

@@ -19,9 +19,10 @@ jobs:
         with:
           node-version: "14"
       - run: npm install
-      - uses: flavioepimentel/npm-install@v1
+      - uses: bahmutov/npm-install@v1
+        env:
+          NODE_ENV: production
         with:
-          working-directory: main
           install-command: yarn --frozen-lockfile --silent --ignore-engines
       - name: Use Node.js 14
         uses: actions/setup-node@v1

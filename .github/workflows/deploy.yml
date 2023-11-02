@@ -50,6 +50,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
+          server-dir: ./public_html/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

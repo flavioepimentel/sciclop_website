@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: "14"
       - run: npm install
-      - uses: bahmutov/npm-install@v1
+      - uses: flavioepimentel/npm-install@v1
         with:
           working-directory: main
           install-command: yarn --frozen-lockfile --silent --ignore-engines

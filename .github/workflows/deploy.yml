@@ -19,19 +19,8 @@ jobs:
         with:
           node-version: "14"
       - run: npm install
-      - uses: bahmutov/npm-install@v1
-        env:
-          NODE_ENV: production
-        with:
-          install-command: yarn --frozen-lockfile --silent --ignore-engines
-      - name: Use Node.js 14
-        uses: actions/setup-node@v1
-        with:
-          node-version: "14"
 
-      - name: Install dependences
-        working-directory: ./main
-        run: yarn --ignore-engines
+      - uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build

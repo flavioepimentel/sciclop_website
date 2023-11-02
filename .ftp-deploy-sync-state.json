@@ -1,0 +1,185 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1698946954184,
+    "data": [
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "file",
+            "name": "hoobank.svg",
+            "size": 1787,
+            "hash": "ed7ed7f4b6533af6d3fd775abec133808e748da236e8a38208da85f3d5c42f9c"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 503,
+            "hash": "92dae1e6ebc1cb7246bd966193d6581662d21445d61fc10250d80d83e2550e81"
+        },
+        {
+            "type": "file",
+            "name": "assets/Discount.61d9dc08.svg",
+            "size": 2549,
+            "hash": "61d9dc08cae7877892c35a4847d1313052b6e6da838e4d9691e06524a486b1a0"
+        },
+        {
+            "type": "file",
+            "name": "assets/Send.454b3199.svg",
+            "size": 752,
+            "hash": "454b3199249b9d3eb9f20e68f77d6deda33a9fac00df0c9ce335da2e3f2ca4dd"
+        },
+        {
+            "type": "file",
+            "name": "assets/Shield.6d9e87e5.svg",
+            "size": 1081,
+            "hash": "6d9e87e519efd07cba90b5acb99230b3d580b76ef4e8bab4d14352d4e8ca17a1"
+        },
+        {
+            "type": "file",
+            "name": "assets/Star.b8bf87ea.svg",
+            "size": 1191,
+            "hash": "b8bf87eafdbd8544ebc08bb6cd08fd5d690f1e83123c00738bfb3714d28b52fb"
+        },
+        {
+            "type": "file",
+            "name": "assets/airbnb.ac0ba47e.png",
+            "size": 7264,
+            "hash": "ac0ba47e9bc58e4f8b1ffbd1bc36c504c63450d55a7d222cdbd9de90c2b07e3a"
+        },
+        {
+            "type": "file",
+            "name": "assets/apple.994d47a8.svg",
+            "size": 15652,
+            "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
+        },
+        {
+            "type": "file",
+            "name": "assets/arrow-up.012ff21b.svg",
+            "size": 786,
+            "hash": "012ff21b02c517d4fcc72502cf548a223a1f5f2698f53166cdbdfe505762f908"
+        },
+        {
+            "type": "file",
+            "name": "assets/bill.fd47dad8.png",
+            "size": 667556,
+            "hash": "fd47dad83d0152b25b67e993f5c3b254348c165fdf6c48f2949802ad9f6a8d2d"
+        },
+        {
+            "type": "file",
+            "name": "assets/binance.ef218256.png",
+            "size": 4371,
+            "hash": "ef218256775bf5515e03fbfd4b6504679152b00f114d421acf73e7d61cb85455"
+        },
+        {
+            "type": "file",
+            "name": "assets/card.af071def.png",
+            "size": 494632,
+            "hash": "af071def50bce53af319edec899848e93085c734d463150de7d9f587d97b093e"
+        },
+        {
+            "type": "file",
+            "name": "assets/close.945782e8.svg",
+            "size": 1340,
+            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
+        },
+        {
+            "type": "file",
+            "name": "assets/coinbase.fd06c89f.png",
+            "size": 6164,
+            "hash": "fd06c89fcea0f7f4599640a82c834a65ddf086b6c52b490e375307eebcec0150"
+        },
+        {
+            "type": "file",
+            "name": "assets/dropbox.fb49a0e9.png",
+            "size": 6116,
+            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+        },
+        {
+            "type": "file",
+            "name": "assets/facebook.b1172216.svg",
+            "size": 526,
+            "hash": "b11722164735b01578721faa624cc6f3f9e0ad889108c69b4af097d77075a874"
+        },
+        {
+            "type": "file",
+            "name": "assets/google.3035153f.svg",
+            "size": 16339,
+            "hash": "3035153f0b2eb64176899d23af136f988bb9901a33151f8a9a221b8e71ffebbf"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.5d0dc6d2.css",
+            "size": 12235,
+            "hash": "5d0dc6d2701b6218e1936277ee65b684752ecd1ff5e90e6f4220b89e4851c152"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.c9bca18a.js",
+            "size": 175080,
+            "hash": "ce7080fca8b761efe2661a6a7791844f311cafaff0b0e4a11705665a0de9e185"
+        },
+        {
+            "type": "file",
+            "name": "assets/instagram.a54e883a.svg",
+            "size": 2802,
+            "hash": "a54e883a82211a14b9077da7b5d413ac1a799812e10374df0ee1102e2abb75ca"
+        },
+        {
+            "type": "file",
+            "name": "assets/linkedin.3be30c66.svg",
+            "size": 912,
+            "hash": "3be30c662a96554da51c1a398e102ec3d7f7838b26acb4cdc47d2a5bdce20364"
+        },
+        {
+            "type": "file",
+            "name": "assets/logo.efc6c435.svg",
+            "size": 6411,
+            "hash": "efc6c43546dfe2cba884d610825f9790300e8d80a989d673ba731bcbf8ce2e4a"
+        },
+        {
+            "type": "file",
+            "name": "assets/menu.e0613cf3.svg",
+            "size": 1088,
+            "hash": "e0613cf3937a320c26e43134046bdaec7a18a3b442c8fe561995cc1df465b375"
+        },
+        {
+            "type": "file",
+            "name": "assets/people01.a772086b.png",
+            "size": 18507,
+            "hash": "a772086b08342d502299731738e57ec61970a55355161fbccd5902abcad9247b"
+        },
+        {
+            "type": "file",
+            "name": "assets/people02.ee8ce82b.png",
+            "size": 13233,
+            "hash": "ee8ce82b0a1df11a819d70e6c732a14fce288c1d2da2e7701779a33b5a99356a"
+        },
+        {
+            "type": "file",
+            "name": "assets/people03.d9f4f98a.png",
+            "size": 9894,
+            "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
+        },
+        {
+            "type": "file",
+            "name": "assets/quotes.a87d5e6d.svg",
+            "size": 688,
+            "hash": "a87d5e6d46e567afa1537924ab169a3ea645911ef45eb744894793a68887d5c3"
+        },
+        {
+            "type": "file",
+            "name": "assets/robot.352cd501.png",
+            "size": 1090500,
+            "hash": "352cd501ef5be01249cd8752224f422981b9d0be8edc281fcbca7bc12439682a"
+        },
+        {
+            "type": "file",
+            "name": "assets/twitter.8f349e28.svg",
+            "size": 1083,
+            "hash": "8f349e2881fea664427e048cd6812521a6ab9ea025dc4a6c312e5cd716700111"
+        }
+    ]
+}

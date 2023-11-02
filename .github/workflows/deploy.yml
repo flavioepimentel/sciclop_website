@@ -1,31 +1,32 @@
-name: Deploy
-
 on:
   push:
     branches:
       - main
-
+name: Build And Deploy Sisclope
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-      - uses: bahmutov/npm-install@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "14"
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
 
-      - run: npm install
-      - run: npm run build
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
           path: ./dist
-
+          if-no-files-found: error
   deploy:
     name: Deploy
     needs: build

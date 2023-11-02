@@ -11,19 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-
-      - name: Setup Node
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: "14"
+
       - run: npm install
-
-      - uses: bahmutov/npm-install@v1
-
-      - name: Build project
-        run: npm run build
+      - run: npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
@@ -47,5 +42,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN_GITHUBPAGES }}
           publish_dir: ./dist

@@ -1,23 +1,37 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
-  {
+  { //	O que é o Siclope, contato, Descrição da dor.
     id: "home",
     title: "Inicio",
   },
-  {
+  { // Quem somos, A quem serve, como funcioa
     id: "features",
-    title: "Quem somos",
+    title: "Quem Somos",
   },
-  {
-    id: "product",
-    title: "Produtos",
+  { // Quem somos, A quem serve, como funcioa
+    id: "modulos",
+    title: "Módulos",
+    dropdown:[{ // Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+      id: "fleet",
+      title: "Frotas",
+    },
+    { // Pneus, mecânica e material rodante
+      id: "mainteince",
+      title: "Manutenção",
+    },
+    { // Administração, compras, almoxarifado, Custos operacionais e controles
+      id: "financial",
+      title: "Administrativo",
+    }]
   },
-  {
-    id: "clients",
-    title: "Login",
-  },
+  // { // Quem somos, A quem serve, como funcioa
+  //   id: "https://frotas-erp.bubbleapps.io/version-test/",
+  //   title: "Login",
+  // },
 ];
+
+
 
 export const features = [
   {

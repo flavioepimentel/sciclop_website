@@ -13,6 +13,7 @@ const Navbar = () => {
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
+          <>
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
@@ -22,7 +23,16 @@ const Navbar = () => {
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
+        </>
         ))}
+
+          <li 
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+              active ? "text-white" : "text-dimWhite"
+            } mr-10`}
+        >
+          <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
+        </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">

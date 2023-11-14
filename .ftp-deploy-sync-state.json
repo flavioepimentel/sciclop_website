@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1698955758447,
+    "generatedTime": 1699989218976,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 503,
-            "hash": "92dae1e6ebc1cb7246bd966193d6581662d21445d61fc10250d80d83e2550e81"
+            "hash": "15502444a5b4bf93142a22f566489fd249f9aa2ce1aa32a8ce8843ede52f692c"
         },
         {
             "type": "file",
@@ -63,12 +63,6 @@
         },
         {
             "type": "file",
-            "name": "assets/bill.fd47dad8.png",
-            "size": 667556,
-            "hash": "fd47dad83d0152b25b67e993f5c3b254348c165fdf6c48f2949802ad9f6a8d2d"
-        },
-        {
-            "type": "file",
             "name": "assets/binance.ef218256.png",
             "size": 4371,
             "hash": "ef218256775bf5515e03fbfd4b6504679152b00f114d421acf73e7d61cb85455"
@@ -111,15 +105,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.5d0dc6d2.css",
-            "size": 12235,
-            "hash": "5d0dc6d2701b6218e1936277ee65b684752ecd1ff5e90e6f4220b89e4851c152"
+            "name": "assets/index.8349f3f7.js",
+            "size": 174803,
+            "hash": "6486b5d88ffcf24fef4e795430cb552782ef7f5c21c4870c00b07a2dc734aea4"
         },
         {
             "type": "file",
-            "name": "assets/index.c9bca18a.js",
-            "size": 175080,
-            "hash": "ce7080fca8b761efe2661a6a7791844f311cafaff0b0e4a11705665a0de9e185"
+            "name": "assets/index.e1eb9155.css",
+            "size": 12322,
+            "hash": "e1eb91557b455cba90c6dda6db063ae5074b2089bb66c21f4c14302d8c6f0d4b"
         },
         {
             "type": "file",
@@ -135,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "assets/logo.efc6c435.svg",
-            "size": 6411,
-            "hash": "efc6c43546dfe2cba884d610825f9790300e8d80a989d673ba731bcbf8ce2e4a"
-        },
-        {
-            "type": "file",
             "name": "assets/menu.e0613cf3.svg",
             "size": 1088,
             "hash": "e0613cf3937a320c26e43134046bdaec7a18a3b442c8fe561995cc1df465b375"
+        },
+        {
+            "type": "file",
+            "name": "assets/notebook_mocukp.7b104016.png",
+            "size": 102483,
+            "hash": "7b1040164e91413704a44f338612ea596191b7af04eddaa9b5ea274cdabb9cfa"
         },
         {
             "type": "file",
@@ -171,9 +165,9 @@
         },
         {
             "type": "file",
-            "name": "assets/robot.352cd501.png",
-            "size": 1090500,
-            "hash": "352cd501ef5be01249cd8752224f422981b9d0be8edc281fcbca7bc12439682a"
+            "name": "assets/siclope_logo.52119268.png",
+            "size": 22202,
+            "hash": "52119268bfa914519dbb957811fb97256cf268f0bf1b976f413fd16bdc425d02"
         },
         {
             "type": "file",

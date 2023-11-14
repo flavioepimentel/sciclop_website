@@ -4,13 +4,13 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`bg-black-gradient ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={` ${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
     <Outlet/>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-black-gradient ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Footer />
       </div>

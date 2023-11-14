@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[46px] text-[30px] text-black ss:leading-[100.8px] leading-[75px] w-full">
           Racionalmente.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

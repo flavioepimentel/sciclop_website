@@ -34,7 +34,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
+          <p className={`font-poppins font-normal text-white text-[18px] leading-[30.8px] ml-2`}>
             <span className="text-white">20%</span> Desconto no{" "}
             <span className="text-white">1 Mês</span> de Contratação
           </p>
@@ -59,7 +59,6 @@ const Hero = () => {
           logística, locação de veículos, alimentícia, industrial além de informática e análise de sistemas.
         </p>
       </div>
-
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         {/* <Canvas>
           <Suspense fallback={null}>

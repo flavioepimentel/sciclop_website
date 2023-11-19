@@ -12,11 +12,11 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/sciclop_website" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="products" element={<Produtos />} />
-          <Route path="*" element={<NoPage />} />
+          <Route exact index element={<Home />} />
+          <Route exact path="about" element={<About />} />
+          <Route exact path="contact" element={<Contact />} />
+          <Route exact path="products" element={<Produtos />} />
+          <Route exact path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

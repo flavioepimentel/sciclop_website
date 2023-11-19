@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1700390672732,
+    "generatedTime": 1700390914456,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 509,
-            "hash": "286366eb7c399434fdf976e31341e33c74bee3a0f128905634d7e500f875dea2"
+            "hash": "9eaacaa3c54a4a368dfe98ee3360adaec1dde8426911ceeba4d3dde8d96bd813"
         },
         {
             "type": "file",
@@ -75,15 +75,15 @@
         },
         {
             "type": "file",
-            "name": "assets/close.945782e8.svg",
-            "size": 1340,
-            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
-        },
-        {
-            "type": "file",
             "name": "assets/coinbase.fd06c89f.png",
             "size": 6164,
             "hash": "fd06c89fcea0f7f4599640a82c834a65ddf086b6c52b490e375307eebcec0150"
+        },
+        {
+            "type": "file",
+            "name": "assets/close.945782e8.svg",
+            "size": 1340,
+            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
         },
         {
             "type": "file",
@@ -111,21 +111,21 @@
         },
         {
             "type": "file",
-            "name": "assets/index.62833730.js",
-            "size": 174644,
-            "hash": "ceb10bc507a25f2ce34f681b65c1aebed9f25912e64f3592ef1b758585c88487"
-        },
-        {
-            "type": "file",
-            "name": "assets/linkedin.3be30c66.svg",
-            "size": 912,
-            "hash": "3be30c662a96554da51c1a398e102ec3d7f7838b26acb4cdc47d2a5bdce20364"
+            "name": "assets/index.f3f75516.js",
+            "size": 174689,
+            "hash": "27f27fee2a5a751fa5eb71ef44c4fac0abbab1b152202449e89f6016141d7910"
         },
         {
             "type": "file",
             "name": "assets/instagram.a54e883a.svg",
             "size": 2802,
             "hash": "a54e883a82211a14b9077da7b5d413ac1a799812e10374df0ee1102e2abb75ca"
+        },
+        {
+            "type": "file",
+            "name": "assets/linkedin.3be30c66.svg",
+            "size": 912,
+            "hash": "3be30c662a96554da51c1a398e102ec3d7f7838b26acb4cdc47d2a5bdce20364"
         },
         {
             "type": "file",

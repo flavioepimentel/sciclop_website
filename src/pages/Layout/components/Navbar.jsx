@@ -27,9 +27,7 @@ const Navbar = () => {
         ))}
 
           <li 
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active ? "text-white" : "text-dimWhite"
-            } mr-10`}
+            className={`button-name`}
         >
           <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
         </li>

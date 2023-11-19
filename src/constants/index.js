@@ -39,7 +39,7 @@ export const features = [
     icon: star,
     title: "Benefícios",
     content:
-      "Atingir o equilíbrio entre máxima produtividade e o custo mínimo.",
+      "Atingir o equilíbrio entre máxima produtividade e o custo mínimo, com gerenciamento instantâneo de variações em sua frota e suas causas.",
   },
   {
     id: "feature-2",

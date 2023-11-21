@@ -9,9 +9,9 @@ const Layout = () => (
         <Navbar />
       </div>
     </div>
-    <Outlet/>
-    <div className={`bg-black-gradient ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+    <Outlet/>
         <Footer />
       </div>
     </div>

@@ -1,10 +1,11 @@
 import airbnb from "./airbnb.png";
 import notebook_mocukp from "./notebook_mocukp.png";
 import binance from "./binance.png";
-import card from "./card.png";
+import card from "./1.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./siclope_logo.png";
+import logo_black from "./siclope_logo_black.png";
 import quotes from "./quotes.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -31,6 +32,7 @@ export {
   coinbase,
   dropbox,
   logo,
+  logo_black,
   quotes,
   send,
   shield,

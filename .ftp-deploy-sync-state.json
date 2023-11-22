@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1700390914456,
+    "generatedTime": 1700678335321,
     "data": [
         {
             "type": "folder",
@@ -17,31 +17,37 @@
             "type": "file",
             "name": "index.html",
             "size": 509,
-            "hash": "9eaacaa3c54a4a368dfe98ee3360adaec1dde8426911ceeba4d3dde8d96bd813"
+            "hash": "5a70025e1cd6aa8396d39b3e84194867dfd29f922c1a6bc68c533db544e5a95e"
         },
         {
             "type": "file",
-            "name": "assets/Discount.61d9dc08.svg",
+            "name": "assets/1.9737a973.png",
+            "size": 129289,
+            "hash": "9737a973c65f0d017919f1f063b99b536c79a07ecd2f3cd23151b976aade290c"
+        },
+        {
+            "type": "file",
+            "name": "assets/Discount.b926deb8.svg",
             "size": 2549,
-            "hash": "61d9dc08cae7877892c35a4847d1313052b6e6da838e4d9691e06524a486b1a0"
+            "hash": "b926deb8413d3c255ad877de83425f068679955fcefc30ec09e48819032ae5e4"
         },
         {
             "type": "file",
-            "name": "assets/Send.454b3199.svg",
+            "name": "assets/Send.a0c9ca6a.svg",
             "size": 752,
-            "hash": "454b3199249b9d3eb9f20e68f77d6deda33a9fac00df0c9ce335da2e3f2ca4dd"
+            "hash": "a0c9ca6a9c28b5f6aee3dbe5c15b93084050255e6d91b38a853200dadf2d816d"
         },
         {
             "type": "file",
-            "name": "assets/Shield.6d9e87e5.svg",
+            "name": "assets/Shield.70b447f9.svg",
             "size": 1081,
-            "hash": "6d9e87e519efd07cba90b5acb99230b3d580b76ef4e8bab4d14352d4e8ca17a1"
+            "hash": "70b447f99e1af583c9d8ae5c8cd245befc9dcd1bef9f24ecfdc5bc64b1074868"
         },
         {
             "type": "file",
-            "name": "assets/Star.b8bf87ea.svg",
+            "name": "assets/Star.6d99c69e.svg",
             "size": 1191,
-            "hash": "b8bf87eafdbd8544ebc08bb6cd08fd5d690f1e83123c00738bfb3714d28b52fb"
+            "hash": "6d99c69eb1711336ab1c314d04b6f2833a562664141c34246bc2f387fa6bc67d"
         },
         {
             "type": "file",
@@ -69,9 +75,9 @@
         },
         {
             "type": "file",
-            "name": "assets/card.af071def.png",
-            "size": 494632,
-            "hash": "af071def50bce53af319edec899848e93085c734d463150de7d9f587d97b093e"
+            "name": "assets/close.945782e8.svg",
+            "size": 1340,
+            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
         },
         {
             "type": "file",
@@ -81,21 +87,15 @@
         },
         {
             "type": "file",
-            "name": "assets/close.945782e8.svg",
-            "size": 1340,
-            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
-        },
-        {
-            "type": "file",
             "name": "assets/dropbox.fb49a0e9.png",
             "size": 6116,
             "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
         },
         {
             "type": "file",
-            "name": "assets/facebook.b1172216.svg",
-            "size": 526,
-            "hash": "b11722164735b01578721faa624cc6f3f9e0ad889108c69b4af097d77075a874"
+            "name": "assets/facebook.f67832a4.svg",
+            "size": 528,
+            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
         },
         {
             "type": "file",
@@ -105,27 +105,27 @@
         },
         {
             "type": "file",
-            "name": "assets/index.4c21736d.css",
-            "size": 13443,
-            "hash": "4c21736dc4594ea671a65a9b5feb092e540f42a2069e6f2c721586511aae6c63"
+            "name": "assets/index.fe468121.css",
+            "size": 13576,
+            "hash": "fe46812154c61997e8c988478fc936de567a9eef7fe61fb5e6dd6aeb4a071f61"
         },
         {
             "type": "file",
-            "name": "assets/index.f3f75516.js",
-            "size": 174689,
-            "hash": "27f27fee2a5a751fa5eb71ef44c4fac0abbab1b152202449e89f6016141d7910"
+            "name": "assets/index.30f04cfa.js",
+            "size": 174728,
+            "hash": "0b1646f0170e6dc32b32d4391fa980cfedbe9c555b38ac5d520fa8ddb0493045"
         },
         {
             "type": "file",
-            "name": "assets/instagram.a54e883a.svg",
-            "size": 2802,
-            "hash": "a54e883a82211a14b9077da7b5d413ac1a799812e10374df0ee1102e2abb75ca"
+            "name": "assets/instagram.ee63de84.svg",
+            "size": 2808,
+            "hash": "ee63de84c7ee3d1493a71a1b20395f3e82314dae509c30d51b8aae2f59bde605"
         },
         {
             "type": "file",
-            "name": "assets/linkedin.3be30c66.svg",
-            "size": 912,
-            "hash": "3be30c662a96554da51c1a398e102ec3d7f7838b26acb4cdc47d2a5bdce20364"
+            "name": "assets/linkedin.553c430f.svg",
+            "size": 914,
+            "hash": "553c430f69a6270f635a95245e7022dfaa1f7b499fcdb89428edd60b09e9eb6e"
         },
         {
             "type": "file",
@@ -147,21 +147,21 @@
         },
         {
             "type": "file",
-            "name": "assets/people02.ee8ce82b.png",
-            "size": 13233,
-            "hash": "ee8ce82b0a1df11a819d70e6c732a14fce288c1d2da2e7701779a33b5a99356a"
-        },
-        {
-            "type": "file",
             "name": "assets/people03.d9f4f98a.png",
             "size": 9894,
             "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
         },
         {
             "type": "file",
-            "name": "assets/quotes.a87d5e6d.svg",
+            "name": "assets/people02.ee8ce82b.png",
+            "size": 13233,
+            "hash": "ee8ce82b0a1df11a819d70e6c732a14fce288c1d2da2e7701779a33b5a99356a"
+        },
+        {
+            "type": "file",
+            "name": "assets/quotes.64e29e7f.svg",
             "size": 688,
-            "hash": "a87d5e6d46e567afa1537924ab169a3ea645911ef45eb744894793a68887d5c3"
+            "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
         },
         {
             "type": "file",
@@ -171,9 +171,15 @@
         },
         {
             "type": "file",
-            "name": "assets/twitter.8f349e28.svg",
-            "size": 1083,
-            "hash": "8f349e2881fea664427e048cd6812521a6ab9ea025dc4a6c312e5cd716700111"
+            "name": "assets/siclope_logo_black.d8ba29ce.png",
+            "size": 56542,
+            "hash": "d8ba29ce9291b297d45db147adc9d7c828940866295e96be97ba1847c394f79c"
+        },
+        {
+            "type": "file",
+            "name": "assets/twitter.11270ad2.svg",
+            "size": 1085,
+            "hash": "11270ad2feaaa526d7850730755a3c8ec11a89fce065e0452b25f9e7d774d782"
         }
     ]
 }

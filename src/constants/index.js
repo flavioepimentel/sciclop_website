@@ -2,13 +2,20 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   { //	O que é o Siclope, contato, Descrição da dor.
-    id: "home",
+    id: "sciclop_website",
     title: "Inicio",
   },
   { // Quem somos, A quem serve, como funcioa
-    id: "features",
+    id: "About",
     title: "Quem Somos",
   },
+  // { // Quem somos, A quem serve, como funcioa
+  //   id: "https://frotas-erp.bubbleapps.io/version-test/",
+  //   title: "Login",
+  // },
+];
+
+export const dropdownLinks = [
   { // Quem somos, A quem serve, como funcioa
     id: "modulos",
     title: "Módulos",
@@ -24,13 +31,8 @@ export const navLinks = [
       id: "financial",
       title: "Administrativo",
     }]
-  },
-  // { // Quem somos, A quem serve, como funcioa
-  //   id: "https://frotas-erp.bubbleapps.io/version-test/",
-  //   title: "Login",
-  // },
-];
-
+  }
+]
 
 
 export const features = [

@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../../assets";
 import { navLinks } from "../../constants";
+import { Dropdown } from './Dropdown'
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="Sciclope" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -18,17 +19,17 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-white"
-            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+            } ${ nav.id === "modulos" ? "dropdown" : ""}  mr-10`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.id}`}>{nav.title}</a>
           </li>
         </>
         ))}
-
-          <li 
-            className={`button-name`}
-        >
+        <li>
+          <Dropdown />
+        </li>
+          <li className={`button-name`}>
           <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
         </li>
       </ul>

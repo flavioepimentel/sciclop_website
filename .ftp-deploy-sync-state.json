@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701108259035,
+    "generatedTime": 1701128999250,
     "data": [
         {
             "type": "folder",
@@ -16,14 +16,14 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 524,
-            "hash": "d5bb1795ffc07707efbe226b45746e16c3c234403f3c81b4de039ad9691688ba"
+            "size": 1134,
+            "hash": "7d71ffda94dbd6cd6e3737ef89bb5a904400cfbc333417b5e20141f73dedbbd5"
         },
         {
             "type": "file",
-            "name": "assets/1.9737a973.png",
-            "size": 129289,
-            "hash": "9737a973c65f0d017919f1f063b99b536c79a07ecd2f3cd23151b976aade290c"
+            "name": "assets/1.8809ed31.png",
+            "size": 76464,
+            "hash": "8809ed31c62303a0c5f06f878a99e6b1cb76a5e813fb4ee312ec12c39bba9ac1"
         },
         {
             "type": "file",
@@ -111,15 +111,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.74645c62.css",
-            "size": 13550,
-            "hash": "74645c622fe0028af1ba7da28a873083be06492d8c3743aee724fe1ba82a1206"
+            "name": "assets/index.7e42ee14.js",
+            "size": 217923,
+            "hash": "247b57a9bcfc8f0591928e91f7420f4aca4dfce1a529c6a7d347f4ae1d1fb358"
         },
         {
             "type": "file",
-            "name": "assets/index.f26d0939.js",
-            "size": 174936,
-            "hash": "2dac720298e805cb4a7ac09aed9bdd616175abe3d3a88fa920afb7f8d12f60bf"
+            "name": "assets/index.68a62991.css",
+            "size": 243479,
+            "hash": "68a62991a71ff6c889d285fb0fb5be8127e80e43c5bbaaf9c612f9f97e180df9"
         },
         {
             "type": "file",

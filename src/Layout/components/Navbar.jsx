@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../../assets";
 import { navLinks } from "../../constants";
-import { DropdownMenu } from './Dropdown'
+import  DropdownComponent  from './DropdownComponent';
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente">
-      <img src={logo} alt="Sciclope" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="Sciclope" className="w-[124px] h-[32px] ml-6" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -29,26 +29,20 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-white"
-            }  mr-10`}
+            }  mr-8`}
             onClick={() => setActive(nav.title)}
           >
             <a href={`${nav.id}`}>{nav.title}</a>
           </li>
         </>
         ))}
+            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>
 
-          <div
-            className="menu"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            <button>Modulos</button>
-            {/* <DropdownMenu /> */}
-            {isDropdownVisible && <DropdownMenu />}
+            <DropdownComponent />
+            </li>
 
-        </div>
-          <li className={`button-name`}>
-          <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
+          <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-6`}>
+          <a href="https://frotas-erp.bubbleapps.io/version-test/" >Login</a>
         </li>
       </ul>
 
@@ -77,8 +71,13 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li className={`button-name`}>
-          <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
+            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+
+            <DropdownComponent />
+            </li>
+    
+            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+          <a href="https://frotas-erp.bubbleapps.io/version-test/" >Login</a>
         </li>
           </ul>
         </div>

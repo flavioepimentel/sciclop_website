@@ -2,11 +2,21 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../../assets";
 import { navLinks } from "../../constants";
-import { Dropdown } from './Dropdown'
+import { DropdownMenu } from './Dropdown'
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleMouseEnter = () => {
+    setDropdownVisible(true);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownVisible(false);
+  };
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente">
@@ -19,16 +29,24 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-white"
-            } ${ nav.id === "modulos" ? "dropdown" : ""}  mr-10`}
+            }  mr-10`}
             onClick={() => setActive(nav.title)}
           >
             <a href={`${nav.id}`}>{nav.title}</a>
           </li>
         </>
         ))}
-        <li>
-          <Dropdown />
-        </li>
+
+          <div
+            className="menu"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <button>Modulos</button>
+            {/* <DropdownMenu /> */}
+            {isDropdownVisible && <DropdownMenu />}
+
+        </div>
           <li className={`button-name`}>
           <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
         </li>
@@ -52,13 +70,16 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-dimWhite"
+                  active === nav.title ? "text-white" : "text-white"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <li className={`button-name`}>
+          <a href="https://frotas-erp.bubbleapps.io/version-test/" target="_blank">Login</a>
+        </li>
           </ul>
         </div>
       </div>

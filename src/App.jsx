@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import Modulos from "./pages/Modulos/Modulos";
 import About from "./pages/About/About";
 import NoPage from "./pages/NoPage/NoPage";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (

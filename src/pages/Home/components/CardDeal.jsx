@@ -17,7 +17,7 @@ const CardDeal = () => (
       <Button styles={`mt-10`} />
     </div>
 
-    <div className={layout.sectionImg}>
+    <div className={`${layout.sectionImg} sm:block hidden`}>
       <img src={card} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>

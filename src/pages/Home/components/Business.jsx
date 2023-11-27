@@ -31,7 +31,7 @@ const Business = () =>  (
         variação e o treinamento no uso inteligente das informações.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`text-white mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

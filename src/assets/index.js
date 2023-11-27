@@ -5,7 +5,7 @@ import card from "./1.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./siclope_logo.png";
-import logo_black from "./siclope_logo_black.png";
+import logo_black from "./siclope_logo_black2.png";
 import quotes from "./quotes.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -23,6 +23,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import icon  from "./favicon.ico";
 
 export {
   airbnb,
@@ -33,6 +34,7 @@ export {
   dropbox,
   logo,
   logo_black,
+  icon,
   quotes,
   send,
   shield,

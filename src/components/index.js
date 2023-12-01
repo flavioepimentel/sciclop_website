@@ -3,7 +3,7 @@ import Billing from "../pages/Home/components/Billing";
 import CardDeal from "../pages/Home/components/CardDeal";
 import Business from "../pages/Home/components/Business";
 import Clients from "../pages/Home/components/Clients";
-import CTA from "../pages/Home/components/CTA";
+import CTA from "./CTA";
 import Stats from "../pages/Home/components/Stats";
 import Footer from "../Layout/components/Footer";
 import Testimonials from "../pages/Home/components/Testimonials";

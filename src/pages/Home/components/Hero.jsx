@@ -55,7 +55,7 @@ const Hero = () => {
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Nosso time de especialistas com larga experiência na manutenção e administração de frotas
-          está pronta para te oferecer suporte em terraplanagem, agrícola, construção civil, tranportes, 
+          está pronto para te oferecer suporte em terraplanagem, agrícola, construção civil, tranportes, 
           logística, locação de veículos, alimentícia, industrial além de informática e análise de sistemas.
         </p>
       </div>

@@ -2,7 +2,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   { //	O que é o Siclope, contato, Descrição da dor.
-    id: "sciclop_website",
+    id: "/sciclop_website",
     title: "Inicio",
   },
   { // Quem somos, A quem serve, como funcioa
@@ -17,7 +17,7 @@ export const dropdownLinks = [
     title: "Frotas",
   },
   { // Pneus, mecânica e material rodante
-    id: "mainteince",
+    id: "maintenance",
     title: "Manutenção",
   },
   { // Administração, compras, almoxarifado, Custos operacionais e controles
@@ -55,25 +55,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+      "Administrar a frota sem fonte confiável de dados é como andar às cegas em um campo minado",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Eng de Mantuenção",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
+    "Análise de lubrificantes? Nunca havia ouvido falar, embora agora saiba que isso foi criado há muito tempo.É o exame de sangue do equipamento previnindo as doenças do desgaste prematuro trazendo redução no custo operacional.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Coord. Financeiro",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      "Novas tecnologias e a correta utilização de antigas tecnologias, devem se unir na busca de soluções ótimas que tragam redução de custos operacionais de forma técnica, sem comprometimento da produção, do equipamento ou da equipe.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Chefe de Operações",
     img: people03,
   },
 ];

@@ -8,29 +8,21 @@ export const navLinks = [
   { // Quem somos, A quem serve, como funcioa
     id: "About",
     title: "Quem Somos",
-  },
-  // { // Quem somos, A quem serve, como funcioa
-  //   id: "https://frotas-erp.bubbleapps.io/version-test/",
-  //   title: "Login",
-  // },
+  }
 ];
 
 export const dropdownLinks = [
-  { // Quem somos, A quem serve, como funcioa
-    id: "modulos",
-    title: "Módulos",
-    dropdown:[{ // Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-      id: "fleet",
-      title: "Frotas",
-    },
-    { // Pneus, mecânica e material rodante
-      id: "mainteince",
-      title: "Manutenção",
-    },
-    { // Administração, compras, almoxarifado, Custos operacionais e controles
-      id: "financial",
-      title: "Administrativo",
-    }]
+  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+    id: "fleet",
+    title: "Frotas",
+  },
+  { // Pneus, mecânica e material rodante
+    id: "mainteince",
+    title: "Manutenção",
+  },
+  { // Administração, compras, almoxarifado, Custos operacionais e controles
+    id: "financial",
+    title: "Administrativo",
   }
 ]
 

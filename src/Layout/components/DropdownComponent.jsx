@@ -1,14 +1,20 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import "../style.css"
+import {dropdownLinks} from '../../constants/index'
 
 const DropdownComponent= () => {
   return (
-    <DropdownButton variant="secondary" title="Módulos">
-      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-    </DropdownButton>
+      <DropdownButton variant="secondary" title="Módulos">
+      { dropdownLinks.map((item) => {
+      const { id, title } = item;
+      return (
+        <Dropdown.Item key={item.id} href={`modulos/#${item.title}`}>
+          {item.title}
+          </Dropdown.Item>
+        );
+      })}
+      </DropdownButton>
   );
 }
 

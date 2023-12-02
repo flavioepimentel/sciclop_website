@@ -18,7 +18,7 @@ const Financial = () => {
     </p>
     <div>
 
-      <Button styles={`mt-10`}/>
+      <Button styles={`mt-20`}/>
     </div>
 
     </div>
@@ -61,7 +61,6 @@ const Financial = () => {
       {/* gradient end */}
     </div>
     <div className={layout.sectionInfo}>
-    <h2 className={styles.heading2}></h2>
     <h2 className={styles.heading2}>
       Compras
       </h2>

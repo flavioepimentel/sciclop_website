@@ -1,6 +1,7 @@
 import styles, { layout } from "../../style";
 import { notebook_mocukp } from "../../assets";
-import Button from "../../components/Button"
+import  CTA  from "../../components/CTA"
+import  Button  from "../../components/Button"
 
 const Financial = () => {
   return (
@@ -109,6 +110,7 @@ const Financial = () => {
     </p>
     </div>
   </section>
+    <CTA />
   </>
   )
 };

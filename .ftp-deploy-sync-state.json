@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701482226321,
+    "generatedTime": 1701519707182,
     "data": [
         {
             "type": "folder",
@@ -81,15 +81,15 @@
         },
         {
             "type": "file",
-            "name": "assets/dropbox.fb49a0e9.png",
-            "size": 6116,
-            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
-        },
-        {
-            "type": "file",
             "name": "assets/coinbase.fd06c89f.png",
             "size": 6164,
             "hash": "fd06c89fcea0f7f4599640a82c834a65ddf086b6c52b490e375307eebcec0150"
+        },
+        {
+            "type": "file",
+            "name": "assets/dropbox.fb49a0e9.png",
+            "size": 6116,
+            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
         },
         {
             "type": "file",
@@ -117,15 +117,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.d2da82a3.js",
-            "size": 237246,
-            "hash": "de0dbb701c6d3536cb1590e1f7c02ecfcfb7c1eb95813abb6f311c9435fe44f1"
-        },
-        {
-            "type": "file",
             "name": "assets/instagram.ee63de84.svg",
             "size": 2808,
             "hash": "ee63de84c7ee3d1493a71a1b20395f3e82314dae509c30d51b8aae2f59bde605"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.d2da82a3.js",
+            "size": 237246,
+            "hash": "de0dbb701c6d3536cb1590e1f7c02ecfcfb7c1eb95813abb6f311c9435fe44f1"
         },
         {
             "type": "file",

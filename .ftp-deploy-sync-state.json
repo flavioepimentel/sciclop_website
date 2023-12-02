@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701175876800,
+    "generatedTime": 1701482226321,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1134,
-            "hash": "f9e6b73dc2c82535fd9e7ece4655ccc16538be3bd55e1eaf0aedabb9a5c920a1"
+            "hash": "ce016763a06bd58dab73842ed328d001e57b9e61c012db01af9ac1926ed9f094"
         },
         {
             "type": "file",
@@ -81,15 +81,15 @@
         },
         {
             "type": "file",
-            "name": "assets/coinbase.fd06c89f.png",
-            "size": 6164,
-            "hash": "fd06c89fcea0f7f4599640a82c834a65ddf086b6c52b490e375307eebcec0150"
-        },
-        {
-            "type": "file",
             "name": "assets/dropbox.fb49a0e9.png",
             "size": 6116,
             "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+        },
+        {
+            "type": "file",
+            "name": "assets/coinbase.fd06c89f.png",
+            "size": 6164,
+            "hash": "fd06c89fcea0f7f4599640a82c834a65ddf086b6c52b490e375307eebcec0150"
         },
         {
             "type": "file",
@@ -111,15 +111,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.7929016a.css",
-            "size": 243518,
-            "hash": "7929016ae21e94116c9ee0253e6d8b41efa8f5baa93bdea2bd1f9f4e76eedb44"
+            "name": "assets/index.18dd349d.css",
+            "size": 243541,
+            "hash": "18dd349ded0ba6c9bd4c61b469868c324ec8ea17e4f14419a4a961dfebbf8bb5"
         },
         {
             "type": "file",
-            "name": "assets/index.ccd7ecae.js",
-            "size": 217896,
-            "hash": "0b49c04d531839e2a95dde0b419759ad33011e48bc1ede1a749a0d3b7473763c"
+            "name": "assets/index.d2da82a3.js",
+            "size": 237246,
+            "hash": "de0dbb701c6d3536cb1590e1f7c02ecfcfb7c1eb95813abb6f311c9435fe44f1"
         },
         {
             "type": "file",

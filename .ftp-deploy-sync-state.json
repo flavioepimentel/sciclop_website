@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701699272886,
+    "generatedTime": 1701700699738,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1132,
-            "hash": "f27b709648fc20d20326adb10b3f823701dfeab1f3ca0f0ab7078eb9acc10594"
+            "size": 1122,
+            "hash": "68859fb1e9a20cc3f330b4160c66f34b094bae2b32060f6886f5a98ec1e7d24e"
         },
         {
             "type": "file",
@@ -63,9 +63,9 @@
         },
         {
             "type": "file",
-            "name": "assets/almoxarifado.9a0b7b53.png",
+            "name": "assets/almoxarifado.c201b4b8.png",
             "size": 176335,
-            "hash": "9a0b7b5311fe3b8f490be177492c898b3824d521ea937cdf878171297e3549d3"
+            "hash": "c201b4b81502bc282901b21ee88fad04f52b48201252ff8991c6109df48ce4cc"
         },
         {
             "type": "file",
@@ -105,15 +105,15 @@
         },
         {
             "type": "file",
-            "name": "assets/dropbox.fb49a0e9.png",
-            "size": 6116,
-            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+            "name": "assets/compras.185f081e.png",
+            "size": 314331,
+            "hash": "185f081e02a3d04bc61a8f5d8bcab3cc492be8d0f51b3a8988422a265cf7a0a3"
         },
         {
             "type": "file",
-            "name": "assets/facebook.f67832a4.svg",
-            "size": 528,
-            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
+            "name": "assets/dropbox.fb49a0e9.png",
+            "size": 6116,
+            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
         },
         {
             "type": "file",
@@ -123,9 +123,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index.2a28edd1.js",
-            "size": 232574,
-            "hash": "10313aba1ba8b2e5d980c12a570a57e639e28f4c9fe3766b35790c480f8869ef"
+            "name": "assets/facebook.f67832a4.svg",
+            "size": 528,
+            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
         },
         {
             "type": "file",
@@ -138,6 +138,12 @@
             "name": "assets/index.9ce65f53.css",
             "size": 243518,
             "hash": "9ce65f53343837359c4f2e86422c0acbe20017195ff5cecd1ab7258e6ac552de"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.ce7c8e65.js",
+            "size": 232608,
+            "hash": "1068bb33f14b4190750ac5f7e0a06edd2519842071e9ea05e6946d15d0838c0e"
         },
         {
             "type": "file",
@@ -159,15 +165,15 @@
         },
         {
             "type": "file",
-            "name": "assets/notebook_mocukp.7b104016.png",
-            "size": 102483,
-            "hash": "7b1040164e91413704a44f338612ea596191b7af04eddaa9b5ea274cdabb9cfa"
-        },
-        {
-            "type": "file",
             "name": "assets/people01.a772086b.png",
             "size": 18507,
             "hash": "a772086b08342d502299731738e57ec61970a55355161fbccd5902abcad9247b"
+        },
+        {
+            "type": "file",
+            "name": "assets/notebook_mocukp.7b104016.png",
+            "size": 102483,
+            "hash": "7b1040164e91413704a44f338612ea596191b7af04eddaa9b5ea274cdabb9cfa"
         },
         {
             "type": "file",

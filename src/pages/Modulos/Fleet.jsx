@@ -6,7 +6,6 @@ import  Button  from "../../components/Button"
 const Modulos = () => {
   return (
   <> 
-  <h1>Frotas</h1>
   <section className={layout.sectionReverse}>
     <div className={layout.sectionInfo}>
     <h2 className={styles.heading2}>
@@ -14,6 +13,7 @@ const Modulos = () => {
       <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
         Contém todas as informações cadastrais da frota sob controle do sistema. Armazena também os dados básicos de operação de grande parte dos módulos operantes.
       </p>
+      <Button />
       </div>
 
     <div className={layout.sectionImgReverse}>

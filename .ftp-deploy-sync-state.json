@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701651273615,
+    "generatedTime": 1701699272886,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1134,
-            "hash": "ff08a7449b168fdd7b3c50572fd922f22d1c18d894782071cdfa24c10a03f03e"
+            "size": 1132,
+            "hash": "f27b709648fc20d20326adb10b3f823701dfeab1f3ca0f0ab7078eb9acc10594"
         },
         {
             "type": "file",
@@ -51,9 +51,21 @@
         },
         {
             "type": "file",
+            "name": "assets/adm.4c11307b.png",
+            "size": 137833,
+            "hash": "4c11307b5a1f36602285214556c6b2b22bdad920643e5f642eea1c319c75368c"
+        },
+        {
+            "type": "file",
             "name": "assets/airbnb.ac0ba47e.png",
             "size": 7264,
             "hash": "ac0ba47e9bc58e4f8b1ffbd1bc36c504c63450d55a7d222cdbd9de90c2b07e3a"
+        },
+        {
+            "type": "file",
+            "name": "assets/almoxarifado.9a0b7b53.png",
+            "size": 176335,
+            "hash": "9a0b7b5311fe3b8f490be177492c898b3824d521ea937cdf878171297e3549d3"
         },
         {
             "type": "file",
@@ -66,6 +78,12 @@
             "name": "assets/arrow-up.281b0d67.svg",
             "size": 786,
             "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
+        },
+        {
+            "type": "file",
+            "name": "assets/bill.f6807505.png",
+            "size": 203272,
+            "hash": "f680750585d1b37b6fe528ffaaccdd6536bb5e83cb7d7e5f07bfe7881d5b1599"
         },
         {
             "type": "file",
@@ -105,6 +123,12 @@
         },
         {
             "type": "file",
+            "name": "assets/index.2a28edd1.js",
+            "size": 232574,
+            "hash": "10313aba1ba8b2e5d980c12a570a57e639e28f4c9fe3766b35790c480f8869ef"
+        },
+        {
+            "type": "file",
             "name": "assets/google.3035153f.svg",
             "size": 16339,
             "hash": "3035153f0b2eb64176899d23af136f988bb9901a33151f8a9a221b8e71ffebbf"
@@ -114,12 +138,6 @@
             "name": "assets/index.9ce65f53.css",
             "size": 243518,
             "hash": "9ce65f53343837359c4f2e86422c0acbe20017195ff5cecd1ab7258e6ac552de"
-        },
-        {
-            "type": "file",
-            "name": "assets/index.ff3f4cab.js",
-            "size": 233267,
-            "hash": "93803c09d331912eb472cd185f4191d76dec3d17ff273276068fdb4b3802d5ed"
         },
         {
             "type": "file",

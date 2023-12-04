@@ -22,10 +22,10 @@ const Maintenance = () => {
     <h2 className={styles.heading2}>
       Pneus
       </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-5">
-      Juntamente com combustíveis representa o maior percentual no custo operacional na maioria das atividades envolvendo frotas. Este módulo permite controlar o desempenho dos pneus com base em suas posições nos veículos, bem como nas aplicações dos equipamentos, fornecendo assim base de dados que culmina na possibilidade de definição de qual o melhor item para cada aplicação tendo por padrão o menor custo operacional. 
-      Da mesma forma, as companhias dedicadas ao reparo dos pneumáticos (as ressoladoras) têm o seu desempenho fiscalzado facilitando as negociações e permitindo a melhoria do processo de ressolagem tenho em vista a redução de custos pelo aumento da quilometragem.
-      Liga-se aos módulos de abastecimento, compras, almoxarifado, oficina.
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
+      Pneus, um componente significativo no custo operacional, agora podem ser gerenciados de maneira inteligente. 
+      Nosso módulo exclusivo não apenas controla o desempenho dos pneus, mas também fornece dados cruciais para escolher 
+      o item ideal para cada aplicação, visando sempre o menor custo operacional padrão.
     </p>
     </div>
   </section>
@@ -34,7 +34,7 @@ const Maintenance = () => {
     <h2 className={styles.heading2}>
       Mecânica
       </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
       Embora pareça redundante, este módulo tem por finalidade o acompanhamento de itens finos do processo mecânico quando for de interesse do cliente. Caso exista ou a empresa resolva por montar por exemplo uma sala de motores destinada a desmontar o componente, analisar a sua falha determinando e controlando a prestação de serviços de retíficas, com posterior montagem e testes ou uma sala dedicada à manutençao de sistemas hidráulicos como comandos, transmissões e conversores de torque, aqui estarão os recursos para registro e controle desse processo.
       Liga-se aos módulos de abastecimento, almoxarifado, compras, oficina.
     </p>

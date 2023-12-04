@@ -1,6 +1,6 @@
 import styles, { layout } from "../../style";
 import { notebook_mocukp } from "../../assets";
-import { adm, almoxarifado } from "./assets";
+import { adm, almoxarifado, compras } from "./assets";
 import  CTA  from "../../components/CTA"
 import  Button  from "../../components/Button"
 
@@ -56,7 +56,7 @@ const Financial = () => {
   </section>
   <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={notebook_mocukp} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={compras} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

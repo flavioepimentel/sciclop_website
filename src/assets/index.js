@@ -1,5 +1,6 @@
 import airbnb from "./airbnb.png";
 import notebook_mocukp from "./notebook_mocukp.png";
+import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./1.png";
 import coinbase from "./coinbase.png";
@@ -28,6 +29,7 @@ import icon  from "./favicon.ico";
 export {
   airbnb,
   notebook_mocukp,
+  bill,
   binance,
   card,
   coinbase,

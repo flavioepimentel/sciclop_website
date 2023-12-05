@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701806623039,
+    "generatedTime": 1701809868475,
     "data": [
         {
             "type": "folder",
@@ -11,7 +11,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1318,
-            "hash": "a25db449b4c48920b9d60581a52fa6c125e0c2f7b4172a2e81127ff22828f6b2"
+            "hash": "50783a759f2d7e8717a2c09e5e443fa3a0173fa7a28ec63276806af31564d5d5"
         },
         {
             "type": "file",
@@ -69,15 +69,15 @@
         },
         {
             "type": "file",
-            "name": "assets/apple.994d47a8.svg",
-            "size": 15652,
-            "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
-        },
-        {
-            "type": "file",
             "name": "assets/arrow-up.281b0d67.svg",
             "size": 786,
             "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
+        },
+        {
+            "type": "file",
+            "name": "assets/apple.994d47a8.svg",
+            "size": 15652,
+            "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
         },
         {
             "type": "file",
@@ -153,15 +153,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.50d349a9.js",
-            "size": 232315,
-            "hash": "3b051cfdbd5e7f8299d21d03ecb78ba33d2e850092c303963ed4c2b5fe12e697"
-        },
-        {
-            "type": "file",
             "name": "assets/index.c87cacc1.css",
             "size": 243518,
             "hash": "c87cacc105642b55e0cf5f3f4987a605b905d078fb334a328ae0f11f92ad94a2"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.d20bc712.js",
+            "size": 232303,
+            "hash": "439fcc1906fbfa456495624e1ea56de781b00bc5ec5817968e391288f95bbe92"
         },
         {
             "type": "file",

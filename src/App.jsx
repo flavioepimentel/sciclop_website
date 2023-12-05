@@ -11,11 +11,12 @@ import './index.css';
 
 
 export default function App() {
+
   return (
     <BrowserRouter basename="/">
       <Routes>
         <Route exact element={<Layout />}>
-          <Route exact index element={<Home />} />
+          <Route path="Home" index element={<Home />} />
           <Route exact path="About" element={<About />} />
           <Route exact path="Financial" element={<Financial />} />
           <Route exact path="Fleet" element={<Fleet />} />

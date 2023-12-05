@@ -2,7 +2,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   { //	O que é o Siclope, contato, Descrição da dor.
-    id: "",
+    id: "Home",
     title: "Inicio",
   },
   { // Quem somos, A quem serve, como funcioa

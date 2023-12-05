@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701805716027,
+    "generatedTime": 1701806623039,
     "data": [
         {
             "type": "folder",
@@ -11,7 +11,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1318,
-            "hash": "6a15ffad2d2b106db393de2142d452fdf7c4a2546304e9fe0656df98da709749"
+            "hash": "a25db449b4c48920b9d60581a52fa6c125e0c2f7b4172a2e81127ff22828f6b2"
         },
         {
             "type": "file",
@@ -105,15 +105,15 @@
         },
         {
             "type": "file",
-            "name": "assets/control.bc8492be.svg",
-            "size": 3164,
-            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
-        },
-        {
-            "type": "file",
             "name": "assets/compras.185f081e.png",
             "size": 314331,
             "hash": "185f081e02a3d04bc61a8f5d8bcab3cc492be8d0f51b3a8988422a265cf7a0a3"
+        },
+        {
+            "type": "file",
+            "name": "assets/control.bc8492be.svg",
+            "size": 3164,
+            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
         },
         {
             "type": "file",
@@ -129,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "assets/facebook.f67832a4.svg",
-            "size": 528,
-            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
-        },
-        {
-            "type": "file",
             "name": "assets/dropbox.fb49a0e9.png",
             "size": 6116,
             "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+        },
+        {
+            "type": "file",
+            "name": "assets/facebook.f67832a4.svg",
+            "size": 528,
+            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
         },
         {
             "type": "file",
@@ -153,9 +153,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index.400d97cc.js",
-            "size": 1107674,
-            "hash": "2661c9eb7663098cda5e6ad53bdd63ea35c7e13d3818c3a74b2fd37e2e07e2ca"
+            "name": "assets/index.50d349a9.js",
+            "size": 232315,
+            "hash": "3b051cfdbd5e7f8299d21d03ecb78ba33d2e850092c303963ed4c2b5fe12e697"
         },
         {
             "type": "file",

@@ -1,8 +1,10 @@
 import styles, { layout } from "../../style";
 import { notebook_mocukp } from "../../assets";
-import { postos, abastecimento, veiculos } from "./assets";
+import { postos, abastecimento, veiculos, lub, oficina, lubrifica } from "./assets";
 import  CTA  from "../../components/CTA"
 import  Button  from "../../components/Button"
+import { FeatureCard } from "./components/FetureCard";
+import { features } from "./constants";
 
 const Fleet = () => {
   return (
@@ -31,9 +33,9 @@ const Fleet = () => {
       Postos
       </h2>
       <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
-        Garanta a utilização ótima deste recurso. O módulo acompanha os estoques em cada tanque da empresa, 
-        planeja e avisa sobre eventos como conferência física de estoque, aferição de bombas de abastecimento, 
-        acompanha qualidade do material que chega dos distribuidores, avisando previamente em caso de irregularidades.
+        O módulo acompanha os estoques em cada tanque da empresa, planeja e avisa sobre eventos como conferência 
+        física de estoque, aferição de bombas de abastecimento, acompanha qualidade do material que chega dos 
+        distribuidores, avisando previamente em caso de irregularidades.
       </p>
     </div>
     <div className={layout.sectionImgReverse}>
@@ -67,7 +69,7 @@ const Fleet = () => {
   </section>
    <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={notebook_mocukp} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={lub} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -75,13 +77,12 @@ const Fleet = () => {
       {/* gradient end */}
     </div>
     <div className={layout.sectionInfo}>
-    <h2 className={styles.heading2}>
-      Lubrificação
-      </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
-       Com as informações fornecidas pelo módulo de abastecimento (a quilometragem ou horas), o sistema escala as trocas de óleo de filtros, integrado ao módulo de materiais, 
-       é possível requisitar os filtros que serão utlizados em cada equipamento e encaminhar as ordens de troca para os responsáveis.
-    </p>
+    <div className={`${layout.sectionImg} flex-col`}>
+    <h2 className={styles.heading2}>Lubrificação</h2>
+      {features.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
+    </div>
     </div>
   </section>
   <section className={layout.sectionReverse}>
@@ -95,7 +96,7 @@ const Fleet = () => {
     </p>
     </div>
     <div className={layout.sectionImgReverse}>
-      <img src={notebook_mocukp} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={lubrifica} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -105,7 +106,7 @@ const Fleet = () => {
   </section>
   <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={notebook_mocukp} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={oficina} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -118,9 +119,9 @@ const Fleet = () => {
       </h2>
     <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
       Acompanhe todas as manutenções por histórico de quebras e reparos, consumo de peças e serviços. 
-      Assim cada ocorrência permanece nos registros permitindo análises futuras para melhoria. 
-      O módulo prevê a criação de planos de manutençao preventiva e gera um processo de aperfeiçoamento 
-      da preventiva com o objetivo de reduzir as corretivas e socorros em campo.
+      Cada ocorrência permanece nos registros permitindo análises para melhorias. 
+      O módulo prevê a criação de planos de manutençao preventiva e gera um processo de aperfeiçoamento, 
+      com o objetivo de reduzir as corretivas e socorros em campo.
     </p>
     </div>
   </section>

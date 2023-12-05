@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701789142885,
+    "generatedTime": 1701793227359,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1122,
-            "hash": "7fe356bfdd1d944bf342d4e07c4952140203be0497cd4d49a3dda5ffdbb60210"
+            "hash": "78673c66a58b19b77365a1b9c7f4fdced75e5b503d15184f08899575f73b2707"
         },
         {
             "type": "file",
@@ -69,15 +69,15 @@
         },
         {
             "type": "file",
-            "name": "assets/almoxarifado.c201b4b8.png",
-            "size": 176335,
-            "hash": "c201b4b81502bc282901b21ee88fad04f52b48201252ff8991c6109df48ce4cc"
-        },
-        {
-            "type": "file",
             "name": "assets/apple.994d47a8.svg",
             "size": 15652,
             "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
+        },
+        {
+            "type": "file",
+            "name": "assets/almoxarifado.c201b4b8.png",
+            "size": 176335,
+            "hash": "c201b4b81502bc282901b21ee88fad04f52b48201252ff8991c6109df48ce4cc"
         },
         {
             "type": "file",
@@ -111,15 +111,15 @@
         },
         {
             "type": "file",
-            "name": "assets/control.bc8492be.svg",
-            "size": 3164,
-            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
-        },
-        {
-            "type": "file",
             "name": "assets/compras.185f081e.png",
             "size": 314331,
             "hash": "185f081e02a3d04bc61a8f5d8bcab3cc492be8d0f51b3a8988422a265cf7a0a3"
+        },
+        {
+            "type": "file",
+            "name": "assets/control.bc8492be.svg",
+            "size": 3164,
+            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
         },
         {
             "type": "file",
@@ -135,15 +135,15 @@
         },
         {
             "type": "file",
-            "name": "assets/facebook.f67832a4.svg",
-            "size": 528,
-            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
-        },
-        {
-            "type": "file",
             "name": "assets/dropbox.fb49a0e9.png",
             "size": 6116,
             "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+        },
+        {
+            "type": "file",
+            "name": "assets/facebook.f67832a4.svg",
+            "size": 528,
+            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
         },
         {
             "type": "file",
@@ -159,15 +159,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.42acd0ba.js",
-            "size": 232349,
-            "hash": "e11a91bdbf0cd6aba209947d1e0f0c34d19f8ad2b4d4288c5ddd6aa2233008c8"
+            "name": "assets/index.c87cacc1.css",
+            "size": 243518,
+            "hash": "c87cacc105642b55e0cf5f3f4987a605b905d078fb334a328ae0f11f92ad94a2"
         },
         {
             "type": "file",
-            "name": "assets/index.9ce65f53.css",
-            "size": 243518,
-            "hash": "9ce65f53343837359c4f2e86422c0acbe20017195ff5cecd1ab7258e6ac552de"
+            "name": "assets/index.e11aa3ea.js",
+            "size": 268228,
+            "hash": "75654b97edddee9a8d25cdaa768cf877619b5b4e85e4315c2a90c449a8a5001c"
         },
         {
             "type": "file",
@@ -273,15 +273,15 @@
         },
         {
             "type": "file",
-            "name": "assets/siclope_logo_black2.29afb14e.png",
-            "size": 5070,
-            "hash": "29afb14e36f34fd24fdda0ba9ae60e9ff97d5d763b3b1d1a024c5998f05c3c24"
-        },
-        {
-            "type": "file",
             "name": "assets/siclope_logo.52119268.png",
             "size": 22202,
             "hash": "52119268bfa914519dbb957811fb97256cf268f0bf1b976f413fd16bdc425d02"
+        },
+        {
+            "type": "file",
+            "name": "assets/siclope_logo_black2.29afb14e.png",
+            "size": 5070,
+            "hash": "29afb14e36f34fd24fdda0ba9ae60e9ff97d5d763b3b1d1a024c5998f05c3c24"
         },
         {
             "type": "file",

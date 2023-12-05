@@ -32,7 +32,7 @@ const Navbar = () => {
             }  mr-8`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <a href={`/sciclop_website/${nav.id}`}>{nav.title}</a>
           </li>
         </>
         ))}

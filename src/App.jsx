@@ -16,7 +16,9 @@ export default function App() {
     <BrowserRouter basename="/">
       <Routes>
         <Route exact element={<Layout />}>
-          <Route path="Home" index element={<Home />} />
+          {["Home", "/"].map((path) => (
+          <Route path={path} index element={<Home />} />
+          ))}
           <Route exact path="About" element={<About />} />
           <Route exact path="Financial" element={<Financial />} />
           <Route exact path="Fleet" element={<Fleet />} />

@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701810547275,
+    "generatedTime": 1701815729598,
     "data": [
         {
             "type": "folder",
@@ -11,7 +11,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1318,
-            "hash": "861fd676c4262f0330d8b2395c1d5f48321441d0b0bf3714ac209ba7f521c605"
+            "hash": "224e5e895fa4a90f90314cf7678d937856ad8bcd54405cad4b24bcbf82efd9d8"
         },
         {
             "type": "file",
@@ -81,15 +81,15 @@
         },
         {
             "type": "file",
-            "name": "assets/binance.ef218256.png",
-            "size": 4371,
-            "hash": "ef218256775bf5515e03fbfd4b6504679152b00f114d421acf73e7d61cb85455"
-        },
-        {
-            "type": "file",
             "name": "assets/bill.f6807505.png",
             "size": 203272,
             "hash": "f680750585d1b37b6fe528ffaaccdd6536bb5e83cb7d7e5f07bfe7881d5b1599"
+        },
+        {
+            "type": "file",
+            "name": "assets/binance.ef218256.png",
+            "size": 4371,
+            "hash": "ef218256775bf5515e03fbfd4b6504679152b00f114d421acf73e7d61cb85455"
         },
         {
             "type": "file",
@@ -153,21 +153,21 @@
         },
         {
             "type": "file",
-            "name": "assets/index.a9bb6080.js",
-            "size": 232322,
-            "hash": "159e2e78378cb88856f0e8858bac5d65ed5ad61e0a92568347674386629670e7"
-        },
-        {
-            "type": "file",
-            "name": "assets/instagram.ee63de84.svg",
-            "size": 2808,
-            "hash": "ee63de84c7ee3d1493a71a1b20395f3e82314dae509c30d51b8aae2f59bde605"
+            "name": "assets/index.885ae927.js",
+            "size": 232333,
+            "hash": "8f8684b6e35da87c7a87452832dd1a70a682f0649342fd2f4075c98201fb467f"
         },
         {
             "type": "file",
             "name": "assets/index.c87cacc1.css",
             "size": 243518,
             "hash": "c87cacc105642b55e0cf5f3f4987a605b905d078fb334a328ae0f11f92ad94a2"
+        },
+        {
+            "type": "file",
+            "name": "assets/instagram.ee63de84.svg",
+            "size": 2808,
+            "hash": "ee63de84c7ee3d1493a71a1b20395f3e82314dae509c30d51b8aae2f59bde605"
         },
         {
             "type": "file",

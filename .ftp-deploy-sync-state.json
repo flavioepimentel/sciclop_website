@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701799788407,
+    "generatedTime": 1701800617764,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1195,
-            "hash": "b76cbc71acedb30599ec2b2c832335f20a6273151921513f5496f144f218992c"
+            "size": 1323,
+            "hash": "fe170a61a09d4e0aaef2fdae33bb450ed70f57f673e3dcb18fe7b5a1843984ea"
         },
         {
             "type": "file",
@@ -219,15 +219,15 @@
         },
         {
             "type": "file",
-            "name": "assets/optimization.ae4bb49c.svg",
-            "size": 5586,
-            "hash": "ae4bb49c2e6c14952b2bff350ae27303414af21fe494388aaefb15cacf7ef5e2"
-        },
-        {
-            "type": "file",
             "name": "assets/oficina.9b211aaa.png",
             "size": 207983,
             "hash": "9b211aaada5a327c46507a2ff674097fcd6779e41fb9971fac554a69721e32c0"
+        },
+        {
+            "type": "file",
+            "name": "assets/optimization.ae4bb49c.svg",
+            "size": 5586,
+            "hash": "ae4bb49c2e6c14952b2bff350ae27303414af21fe494388aaefb15cacf7ef5e2"
         },
         {
             "type": "file",
@@ -255,15 +255,15 @@
         },
         {
             "type": "file",
-            "name": "assets/postos.8cc5970f.png",
-            "size": 302074,
-            "hash": "8cc5970f42588cff14ba17afb3c99763e09b9b7d5ed116fadde96b67825ff184"
-        },
-        {
-            "type": "file",
             "name": "assets/quotes.64e29e7f.svg",
             "size": 688,
             "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
+        },
+        {
+            "type": "file",
+            "name": "assets/postos.8cc5970f.png",
+            "size": 302074,
+            "hash": "8cc5970f42588cff14ba17afb3c99763e09b9b7d5ed116fadde96b67825ff184"
         },
         {
             "type": "file",

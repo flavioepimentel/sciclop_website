@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701735009310,
+    "generatedTime": 1701789089312,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1122,
-            "hash": "ba4fa99279dc878a08fddf4b79bee599769d2bf0b418a29bc40f14dce702822d"
+            "hash": "7fe356bfdd1d944bf342d4e07c4952140203be0497cd4d49a3dda5ffdbb60210"
         },
         {
             "type": "file",
@@ -117,9 +117,9 @@
         },
         {
             "type": "file",
-            "name": "assets/custos.b90e0ea0.png",
-            "size": 131620,
-            "hash": "b90e0ea01efcb656a7e87fc7bba66f2f2bfe724d046f1cdf8fc4b27f13907bba"
+            "name": "assets/control.bc8492be.svg",
+            "size": 3164,
+            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
         },
         {
             "type": "file",
@@ -129,9 +129,9 @@
         },
         {
             "type": "file",
-            "name": "assets/dropbox.fb49a0e9.png",
-            "size": 6116,
-            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+            "name": "assets/custos.b90e0ea0.png",
+            "size": 131620,
+            "hash": "b90e0ea01efcb656a7e87fc7bba66f2f2bfe724d046f1cdf8fc4b27f13907bba"
         },
         {
             "type": "file",
@@ -141,9 +141,21 @@
         },
         {
             "type": "file",
+            "name": "assets/dropbox.fb49a0e9.png",
+            "size": 6116,
+            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+        },
+        {
+            "type": "file",
             "name": "assets/favicon.62810e50.ico",
             "size": 32286,
             "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.42acd0ba.js",
+            "size": 232349,
+            "hash": "e11a91bdbf0cd6aba209947d1e0f0c34d19f8ad2b4d4288c5ddd6aa2233008c8"
         },
         {
             "type": "file",
@@ -159,21 +171,39 @@
         },
         {
             "type": "file",
-            "name": "assets/index.d95fde93.js",
-            "size": 231470,
-            "hash": "2d5eb60124dc309cd80c7f82e0bb51eb1bc8c787529280c6f45d8ece2c8dc26a"
-        },
-        {
-            "type": "file",
             "name": "assets/instagram.ee63de84.svg",
             "size": 2808,
             "hash": "ee63de84c7ee3d1493a71a1b20395f3e82314dae509c30d51b8aae2f59bde605"
         },
         {
             "type": "file",
+            "name": "assets/integration.381b5231.svg",
+            "size": 22584,
+            "hash": "381b5231cabf6e1a9f64854c678e3fd6e418d24b8d40f8845c2ecad757be51ca"
+        },
+        {
+            "type": "file",
             "name": "assets/linkedin.553c430f.svg",
             "size": 914,
             "hash": "553c430f69a6270f635a95245e7022dfaa1f7b499fcdb89428edd60b09e9eb6e"
+        },
+        {
+            "type": "file",
+            "name": "assets/lub.34fc167d.png",
+            "size": 146989,
+            "hash": "34fc167d905b55da9dcad5ee34202c399c1e1c48972c174a92aef8336a47f0f0"
+        },
+        {
+            "type": "file",
+            "name": "assets/lubrifica.fe317788.png",
+            "size": 94171,
+            "hash": "fe317788be38d108bcd71bd596da69528513602d4183c548133ee83e0353395f"
+        },
+        {
+            "type": "file",
+            "name": "assets/mecanica.2318964b.png",
+            "size": 185348,
+            "hash": "2318964ba6e013d1cb707e7f029bf02b514329b60bb8787f0e57593feb92e2fc"
         },
         {
             "type": "file",
@@ -186,6 +216,18 @@
             "name": "assets/notebook_mocukp.7b104016.png",
             "size": 102483,
             "hash": "7b1040164e91413704a44f338612ea596191b7af04eddaa9b5ea274cdabb9cfa"
+        },
+        {
+            "type": "file",
+            "name": "assets/oficina.9b211aaa.png",
+            "size": 207983,
+            "hash": "9b211aaada5a327c46507a2ff674097fcd6779e41fb9971fac554a69721e32c0"
+        },
+        {
+            "type": "file",
+            "name": "assets/optimization.ae4bb49c.svg",
+            "size": 5586,
+            "hash": "ae4bb49c2e6c14952b2bff350ae27303414af21fe494388aaefb15cacf7ef5e2"
         },
         {
             "type": "file",
@@ -222,6 +264,12 @@
             "name": "assets/quotes.64e29e7f.svg",
             "size": 688,
             "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
+        },
+        {
+            "type": "file",
+            "name": "assets/rodante.296d0ad8.png",
+            "size": 150506,
+            "hash": "296d0ad8c03b61c31d063147e5eb35c96c688e30018d2f52687b6256924500d9"
         },
         {
             "type": "file",

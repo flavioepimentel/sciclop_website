@@ -16,10 +16,10 @@ export default function App() {
       <Routes>
         <Route exact element={<Layout />}>
           <Route exact index element={<Home />} />
-          <Route exact path="about" element={<About />} />
-          <Route exact path="financial" element={<Financial />} />
-          <Route exact path="fleet" element={<Fleet />} />
-          <Route exact path="maintenance" element={<Maintenance />} />
+          <Route exact path="About" element={<About />} />
+          <Route exact path="Financial" element={<Financial />} />
+          <Route exact path="Fleet" element={<Fleet />} />
+          <Route exact path="Maintenance" element={<Maintenance />} />
           <Route exact path="*" element={<NoPage />} />
         </Route>
       </Routes>

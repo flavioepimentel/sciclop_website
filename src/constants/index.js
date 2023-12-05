@@ -13,15 +13,15 @@ export const navLinks = [
 
 export const dropdownLinks = [
   {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "fleet",
+    id: "Fleet",
     title: "Frotas",
   },
   { // Pneus, mecânica e material rodante
-    id: "maintenance",
+    id: "Maintenance",
     title: "Manutenção",
   },
   { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id: "financial",
+    id: "Financial",
     title: "Administrativo",
   }
 ]

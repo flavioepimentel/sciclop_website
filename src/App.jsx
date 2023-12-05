@@ -27,24 +27,3 @@ export default function App() {
   );
 }
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-    
-//     <Route exact path="/sciclop_website" element={<Layout />}>
-//       <Route exact index element={<Home />} />
-//       <Route exact path="about" element={<About />} />
-//       <Route exact path="financial" element={<Financial />} />
-//       <Route exact path="fleet" element={<Fleet />} />
-//       <Route exact path="maintenance" element={<Maintenance />} />
-//       <Route exact path="*" element={<NoPage />} />
-//     </Route>
-//   )
-// )
-
-// export default function App({routes}) {
-//   return (
-//     <>
-//       <RouterProvider router={router}/>
-//     </>
-//   );
-// }

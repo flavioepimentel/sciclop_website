@@ -32,7 +32,7 @@ const Navbar = () => {
             }  mr-8`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`/${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.id}`}>{nav.title}</a>
           </li>
         </>
         ))}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`/${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
             <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>

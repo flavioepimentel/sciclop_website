@@ -9,7 +9,7 @@ const DropdownComponent= () => {
       { dropdownLinks.map((item) => {
       const { id, title } = item;
       return (
-        <Dropdown.Item key={item.id} href={`/${item.id}`}>
+        <Dropdown.Item key={item.id} href={`${item.id}`}>
           {item.title}
           </Dropdown.Item>
         );

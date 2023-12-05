@@ -14,7 +14,7 @@ export default function App() {
   return (
     <BrowserRouter basename="/">
       <Routes>
-        <Route exact path="/" element={<Layout />}>
+        <Route exact element={<Layout />}>
           <Route exact index element={<Home />} />
           <Route exact path="about" element={<About />} />
           <Route exact path="financial" element={<Financial />} />

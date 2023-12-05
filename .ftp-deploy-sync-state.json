@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701789089312,
+    "generatedTime": 1701789142885,
     "data": [
         {
             "type": "folder",
@@ -111,15 +111,15 @@
         },
         {
             "type": "file",
-            "name": "assets/compras.185f081e.png",
-            "size": 314331,
-            "hash": "185f081e02a3d04bc61a8f5d8bcab3cc492be8d0f51b3a8988422a265cf7a0a3"
-        },
-        {
-            "type": "file",
             "name": "assets/control.bc8492be.svg",
             "size": 3164,
             "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
+        },
+        {
+            "type": "file",
+            "name": "assets/compras.185f081e.png",
+            "size": 314331,
+            "hash": "185f081e02a3d04bc61a8f5d8bcab3cc492be8d0f51b3a8988422a265cf7a0a3"
         },
         {
             "type": "file",
@@ -153,15 +153,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.42acd0ba.js",
-            "size": 232349,
-            "hash": "e11a91bdbf0cd6aba209947d1e0f0c34d19f8ad2b4d4288c5ddd6aa2233008c8"
-        },
-        {
-            "type": "file",
             "name": "assets/google.3035153f.svg",
             "size": 16339,
             "hash": "3035153f0b2eb64176899d23af136f988bb9901a33151f8a9a221b8e71ffebbf"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.42acd0ba.js",
+            "size": 232349,
+            "hash": "e11a91bdbf0cd6aba209947d1e0f0c34d19f8ad2b4d4288c5ddd6aa2233008c8"
         },
         {
             "type": "file",
@@ -273,15 +273,15 @@
         },
         {
             "type": "file",
-            "name": "assets/siclope_logo.52119268.png",
-            "size": 22202,
-            "hash": "52119268bfa914519dbb957811fb97256cf268f0bf1b976f413fd16bdc425d02"
-        },
-        {
-            "type": "file",
             "name": "assets/siclope_logo_black2.29afb14e.png",
             "size": 5070,
             "hash": "29afb14e36f34fd24fdda0ba9ae60e9ff97d5d763b3b1d1a024c5998f05c3c24"
+        },
+        {
+            "type": "file",
+            "name": "assets/siclope_logo.52119268.png",
+            "size": 22202,
+            "hash": "52119268bfa914519dbb957811fb97256cf268f0bf1b976f413fd16bdc425d02"
         },
         {
             "type": "file",

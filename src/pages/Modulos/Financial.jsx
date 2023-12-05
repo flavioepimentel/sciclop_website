@@ -1,6 +1,6 @@
 import styles, { layout } from "../../style";
 import { notebook_mocukp } from "../../assets";
-import { adm, almoxarifado, compras } from "./assets";
+import { adm, almoxarifado, compras, custos, controle } from "./assets";
 import  CTA  from "../../components/CTA"
 import  Button  from "../../components/Button"
 
@@ -69,10 +69,10 @@ const Financial = () => {
       </h2>
 
     <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
-      Acompanhe todas as aquisições de peças e serviços feitas para atendimento das necessidades da frota. 
-      Partindo de uma requisição, passa por todo um processo de aprovação e contação, finalizando com a checagem na entrega do que foi adquirido. 
-      Todo o processo é feito online sem nenhuma intervenção de papel. 
-      Usa por base o histórico de aquisições o que permite análise de desempenho do processo.
+      Acompanhe todas as aquisições de peças e serviços essenciais para atender às necessidades da frota. 
+      Iniciando com uma requisição, o processo passa por aprovação, cotação e culmina na verificação no momento da entrega. 
+      Todo o procedimento é conduzido de forma digital, eliminando o uso de papel. 
+      Realize análises de desempenho do processo utilizando o histórico de aquisições como base.
     </p>
     </div>
   </section>
@@ -89,7 +89,7 @@ const Financial = () => {
     </p>  
     </div>
         <div className={layout.sectionImgReverse}>
-      <img src={notebook_mocukp} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={custos} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -99,7 +99,7 @@ const Financial = () => {
   </section>
     <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={notebook_mocukp} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={controle} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -113,7 +113,7 @@ const Financial = () => {
     <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
       Aqui se concentrarão os dados necessários para as tomadas de decisões estratégicas. 
       
-      Eventos de troca de óleo e filtros, 
+      
       Refinamento de planos de preventiva, 
       Acompanhamento de ordens de serviços de oficina, 
       Desempenho de pneus, 

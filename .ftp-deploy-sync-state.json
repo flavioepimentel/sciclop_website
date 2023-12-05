@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701800617764,
+    "generatedTime": 1701804883083,
     "data": [
         {
             "type": "folder",
@@ -9,15 +9,9 @@
         },
         {
             "type": "file",
-            "name": "hoobank.svg",
-            "size": 1787,
-            "hash": "ed7ed7f4b6533af6d3fd775abec133808e748da236e8a38208da85f3d5c42f9c"
-        },
-        {
-            "type": "file",
             "name": "index.html",
-            "size": 1323,
-            "hash": "fe170a61a09d4e0aaef2fdae33bb450ed70f57f673e3dcb18fe7b5a1843984ea"
+            "size": 1318,
+            "hash": "196052277241dc9b1a123ad2aeb7b7a6f014129eda2c16ec78da60385cab4211"
         },
         {
             "type": "file",
@@ -117,15 +111,15 @@
         },
         {
             "type": "file",
-            "name": "assets/controle.e75671bf.png",
-            "size": 195681,
-            "hash": "e75671bf123fec375493816cc72e96a3c8232edf1e7384e7229a72153e169b86"
-        },
-        {
-            "type": "file",
             "name": "assets/control.bc8492be.svg",
             "size": 3164,
             "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
+        },
+        {
+            "type": "file",
+            "name": "assets/controle.e75671bf.png",
+            "size": 195681,
+            "hash": "e75671bf123fec375493816cc72e96a3c8232edf1e7384e7229a72153e169b86"
         },
         {
             "type": "file",
@@ -159,15 +153,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.c87cacc1.css",
-            "size": 243518,
-            "hash": "c87cacc105642b55e0cf5f3f4987a605b905d078fb334a328ae0f11f92ad94a2"
+            "name": "assets/index.593b74c8.js",
+            "size": 232350,
+            "hash": "e51228239e4071897f4b354f1898444869fa99b8f7073e7e75912d25d05e98ea"
         },
         {
             "type": "file",
-            "name": "assets/index.e11aa3ea.js",
-            "size": 268228,
-            "hash": "75654b97edddee9a8d25cdaa768cf877619b5b4e85e4315c2a90c449a8a5001c"
+            "name": "assets/index.c87cacc1.css",
+            "size": 243518,
+            "hash": "c87cacc105642b55e0cf5f3f4987a605b905d078fb334a328ae0f11f92ad94a2"
         },
         {
             "type": "file",
@@ -255,15 +249,15 @@
         },
         {
             "type": "file",
-            "name": "assets/quotes.64e29e7f.svg",
-            "size": 688,
-            "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
-        },
-        {
-            "type": "file",
             "name": "assets/postos.8cc5970f.png",
             "size": 302074,
             "hash": "8cc5970f42588cff14ba17afb3c99763e09b9b7d5ed116fadde96b67825ff184"
+        },
+        {
+            "type": "file",
+            "name": "assets/quotes.64e29e7f.svg",
+            "size": 688,
+            "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
         },
         {
             "type": "file",

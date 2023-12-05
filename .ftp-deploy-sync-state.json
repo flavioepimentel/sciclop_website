@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701793227359,
+    "generatedTime": 1701797055734,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1122,
-            "hash": "78673c66a58b19b77365a1b9c7f4fdced75e5b503d15184f08899575f73b2707"
+            "size": 1175,
+            "hash": "a941ade9391ec6aaf7ac16008accca080666825d99a21c9cd559472bc030673a"
         },
         {
             "type": "file",
@@ -69,15 +69,15 @@
         },
         {
             "type": "file",
-            "name": "assets/apple.994d47a8.svg",
-            "size": 15652,
-            "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
-        },
-        {
-            "type": "file",
             "name": "assets/almoxarifado.c201b4b8.png",
             "size": 176335,
             "hash": "c201b4b81502bc282901b21ee88fad04f52b48201252ff8991c6109df48ce4cc"
+        },
+        {
+            "type": "file",
+            "name": "assets/apple.994d47a8.svg",
+            "size": 15652,
+            "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
         },
         {
             "type": "file",
@@ -189,15 +189,15 @@
         },
         {
             "type": "file",
-            "name": "assets/lub.34fc167d.png",
-            "size": 146989,
-            "hash": "34fc167d905b55da9dcad5ee34202c399c1e1c48972c174a92aef8336a47f0f0"
-        },
-        {
-            "type": "file",
             "name": "assets/lubrifica.fe317788.png",
             "size": 94171,
             "hash": "fe317788be38d108bcd71bd596da69528513602d4183c548133ee83e0353395f"
+        },
+        {
+            "type": "file",
+            "name": "assets/lub.34fc167d.png",
+            "size": 146989,
+            "hash": "34fc167d905b55da9dcad5ee34202c399c1e1c48972c174a92aef8336a47f0f0"
         },
         {
             "type": "file",

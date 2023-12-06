@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Administrar a frota sem fonte confiável de dados é como andar às cegas em um campo minado",
+      "O tratamento correto da realidade, permitindo correção de rumos que trariam prejuízos, passa necessariamente por um sistema confiável de dados e o treinamento da equipe no uso desses dados.",
     name: "Herman Jensen",
     title: "Eng de Mantuenção",
     img: people01,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-    "Análise de lubrificantes? Nunca havia ouvido falar, embora agora saiba que isso foi criado há muito tempo.É o exame de sangue do equipamento previnindo as doenças do desgaste prematuro trazendo redução no custo operacional.",
+    "Análise de lubrificantes? Nunca havia ouvido falar, agora sei que isso foi criado há muito tempo. É o exame de sangue do equipamento, previnindo as doenças do desgaste, trazendo redução no custo operacional.",
     name: "Steve Mark",
     title: "Coord. Financeiro",
     img: people02,
@@ -71,7 +71,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "Novas tecnologias e a correta utilização de antigas tecnologias, devem se unir na busca de soluções ótimas que tragam redução de custos operacionais de forma técnica, sem comprometimento da produção, do equipamento ou da equipe.",
+      "Novas tecnologias e a correta utilização de antigas tecnologias, trazem soluções ótimas que reduzem custos operacionais de forma técnica, sem comprometer a produção, do equipamento ou da equipe.",
     name: "Kenn Gallagher",
     title: "Chefe de Operações",
     img: people03,

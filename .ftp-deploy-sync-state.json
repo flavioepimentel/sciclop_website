@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701820349276,
+    "generatedTime": 1701868171011,
     "data": [
         {
             "type": "folder",
@@ -11,7 +11,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1318,
-            "hash": "9292da3702638f1d779766e8a78267a0a2e65e6aa999daa1781242ea9c3337e4"
+            "hash": "84b5b9197f215e0350136a0d7f7141f071cdd13f32b5371485d862b370def21d"
         },
         {
             "type": "file",
@@ -45,9 +45,9 @@
         },
         {
             "type": "file",
-            "name": "assets/abastecimento.84d7305a.png",
-            "size": 330916,
-            "hash": "84d7305ae7b00b01637ba533656ec37c6cd23e986b685b65c1abdcf4669e1a20"
+            "name": "assets/abastecimento.6f85b22f.png",
+            "size": 331594,
+            "hash": "6f85b22fda139025651e522baed4f166b0d3599abe809aa5b34b5c7cbc45222b"
         },
         {
             "type": "file",
@@ -81,9 +81,9 @@
         },
         {
             "type": "file",
-            "name": "assets/bill.f6807505.png",
-            "size": 203272,
-            "hash": "f680750585d1b37b6fe528ffaaccdd6536bb5e83cb7d7e5f07bfe7881d5b1599"
+            "name": "assets/bill.414c71d3.png",
+            "size": 202621,
+            "hash": "414c71d3ce0de0ae2217e1238149de8ffee6bd2b9c736e43850c258c7432feef"
         },
         {
             "type": "file",
@@ -153,9 +153,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index.5a1285ed.js",
+            "name": "assets/index.b910b0e0.js",
             "size": 232380,
-            "hash": "2602cb8ab874e89bc6fc0974e1c5f50f4941f80476e87819ba9e872b909877f8"
+            "hash": "d90f1153d9dd4a58fc00d4c0da471ed0af8556406075b22574603324bb892aa6"
         },
         {
             "type": "file",
@@ -237,15 +237,15 @@
         },
         {
             "type": "file",
-            "name": "assets/people03.d9f4f98a.png",
-            "size": 9894,
-            "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
-        },
-        {
-            "type": "file",
             "name": "assets/pneu.84d5f639.png",
             "size": 170159,
             "hash": "84d5f639fa86b3ca0dde7175dac1ee71140c7e2b38d5da14ac19fdb3c01dd568"
+        },
+        {
+            "type": "file",
+            "name": "assets/people03.d9f4f98a.png",
+            "size": 9894,
+            "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
         },
         {
             "type": "file",

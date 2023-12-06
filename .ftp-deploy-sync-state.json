@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701868805972,
+    "generatedTime": 1701869964394,
     "data": [
         {
             "type": "folder",
@@ -11,7 +11,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1318,
-            "hash": "8e6c8808fd97fbe799c344b982bd5fbf4fbfe211b43649704d20e12e0a890816"
+            "hash": "85349210667e96a09fcfc21b5f728c8ee68491785745d612724c4fe19277bb75"
         },
         {
             "type": "file",
@@ -153,9 +153,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index.15292ae9.js",
-            "size": 232380,
-            "hash": "5848b74ea8cc3ff6244a9edb142f862623ae644522fc0b8352251f325723c2df"
+            "name": "assets/index.2c288d00.js",
+            "size": 232337,
+            "hash": "36d80a5eca995045fcc3b2e47a4a77ac5a6a0245d5b1f06a1214296e29b1c536"
         },
         {
             "type": "file",
@@ -237,15 +237,15 @@
         },
         {
             "type": "file",
-            "name": "assets/people03.d9f4f98a.png",
-            "size": 9894,
-            "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
-        },
-        {
-            "type": "file",
             "name": "assets/pneu.84d5f639.png",
             "size": 170159,
             "hash": "84d5f639fa86b3ca0dde7175dac1ee71140c7e2b38d5da14ac19fdb3c01dd568"
+        },
+        {
+            "type": "file",
+            "name": "assets/people03.d9f4f98a.png",
+            "size": 9894,
+            "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
         },
         {
             "type": "file",
@@ -279,15 +279,15 @@
         },
         {
             "type": "file",
-            "name": "assets/veiculos.eb91941f.png",
-            "size": 110868,
-            "hash": "eb91941f8be6b21e1ed0a96b2e8eaa9d54c59e9b41562491110fa4c3fe11586e"
-        },
-        {
-            "type": "file",
             "name": "assets/twitter.11270ad2.svg",
             "size": 1085,
             "hash": "11270ad2feaaa526d7850730755a3c8ec11a89fce065e0452b25f9e7d774d782"
+        },
+        {
+            "type": "file",
+            "name": "assets/veiculos.eb91941f.png",
+            "size": 110868,
+            "hash": "eb91941f8be6b21e1ed0a96b2e8eaa9d54c59e9b41562491110fa4c3fe11586e"
         }
     ]
 }

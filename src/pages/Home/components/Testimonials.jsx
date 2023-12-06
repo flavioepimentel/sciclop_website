@@ -12,7 +12,7 @@ const Testimonials = () => (
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Administrar a frota sem fonte confiável de dados é como andar às cegas um campo minado
+          Administrar a frota sem fonte confiável de dados é como andar às cegas em um campo minado
         </p>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import "../style.css"
-import {dropdownLinks} from '../../constants/index'
+import {dropdownLinks} from '../constants/index'
 
 const DropdownComponent= () => {
   return (

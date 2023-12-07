@@ -1,6 +1,6 @@
 import { card } from "../assets";
 import styles, { layout } from "../../../style";
-import Button from "../../../components/Button";
+import Button from "../../../Layout/components/Button";
 
 const CardDeal = () => (
   <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6 ${layout.section}`}>

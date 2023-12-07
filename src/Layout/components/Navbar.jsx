@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../../assets";
-import { navLinks } from "../../constants";
+import { close, logo, menu } from "../assets";
+import { navLinks } from "../constants";
 import  DropdownComponent  from './DropdownComponent';
 
 const Navbar = () => {

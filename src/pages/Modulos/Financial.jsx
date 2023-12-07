@@ -1,7 +1,7 @@
 import styles, { layout } from "../../style";
 import { adm, almoxarifado, compras, custos, controle } from "./assets";
-import  CTA  from "../../components/CTA"
-import  Button  from "../../components/Button"
+import  CTA  from "../../Layout/components/CTA"
+import  Button  from "../../Layout/components/Button"
 
 const Financial = () => {
   return (

@@ -9,7 +9,7 @@ const styles = {
   flexStart: "flex justify-between items-start",
 
   paddingX: "sm:px-0 px-0",
-  paddingY: "sm:py-16 py-16",
+  paddingY: "sm:py-16 py-4",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",
@@ -22,7 +22,10 @@ export const layout = {
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-  paddingText: `ml-6`,
+  paddingText: `ml-10`,
+
+  hiddenImageOnSmall: `md:block hidden`,
+  hiddenImageOnBig: `sm:hidden block`,
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
 

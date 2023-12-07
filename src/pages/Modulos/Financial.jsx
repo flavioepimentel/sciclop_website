@@ -8,7 +8,7 @@ const Financial = () => {
   return (
   <> 
     <section className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
+    <div className={`${layout.sectionImgReverse}`}>
       <img src={adm} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
@@ -34,15 +34,17 @@ const Financial = () => {
   </section>
   <section className={layout.sectionReverse}>
     <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
       Almoxarifado
       </h2>
-    <p className={`${styles.paragraph} max-w-[470px] `}>
+    <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
        Controle todos os itens em estoque, utilize a identificação de ruas e preteleiras para posicionar cada item em estoque. 
        Aprove a saída de cada unidade de consumo.
        Acompanhe o consumo, obsolescência de materias e custo com a curva ABC. Matém inventário rotativo baseado na curva de valores (ABC).
        Escolha a movimentação que melhor se adequa ao seu preocesso, PEPS, UEPS ou preço médio.
     </p>
+    </div>
     </div>
     <div className={layout.sectionImgReverse}>
       <img src={almoxarifado} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
@@ -64,29 +66,33 @@ const Financial = () => {
       {/* gradient end */}
     </div>
     <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
       Compras
       </h2>
 
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-10">
       Acompanhe todas as aquisições de peças e serviços essenciais para atender às necessidades da frota. 
       Iniciando com uma requisição, o processo passa por aprovação, cotação e culmina na verificação no momento da entrega. 
       Todo o procedimento é conduzido de forma digital, eliminando o uso de papel. 
       Realize análises de desempenho do processo utilizando o histórico de aquisições como base.
     </p>
     </div>
+    </div>
   </section>
   <section className={layout.sectionReverse}>
     <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
       Custos
       </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-10">
       Crie uma grade de custos de cada equipamento da frota, dividindo em custos fixos e variávies e suas subdivisões. 
       Tome decisões estratégicas nas aquisições, escolha de fornecedores e na venda de equipamentos da frota, 
       Use o módulo de Custos para acessar o seu custo operacional e tomar decisões táticas mais acertivas.
       Integre ao sistemas de contabilidade para mais confiabilidade nos dados dos custos.
-    </p>  
+    </p> 
+    </div> 
     </div>
         <div className={layout.sectionImgReverse}>
       <img src={custos} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
@@ -107,10 +113,11 @@ const Financial = () => {
       {/* gradient end */}
     </div>
     <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
       Controle
       </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-10">
       Aqui se concentrarão os dados necessários para as tomadas de decisões estratégicas. 
       
       
@@ -120,6 +127,7 @@ const Financial = () => {
       Acompanhamento de serviços externos (recuperações e socorros etc.)
       
     </p>
+    </div>
     </div>
   </section>
     <CTA />

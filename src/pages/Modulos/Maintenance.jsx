@@ -18,7 +18,6 @@ const Maintenance = () => {
       {/* gradient end */}
     </div>
     <div className={layout.sectionInfo}>
-    <h2 className={styles.heading2}></h2>
     <h2 className={styles.heading2}>
       Pneus
       </h2>
@@ -32,13 +31,15 @@ const Maintenance = () => {
   </section>
   <section className={layout.sectionReverse}>
     <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
       Mecânica
       </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-10">
       Este módulo é seu aliado ao criar salas especializadas para desmontagem, análise de falhas, retífica e testes de motores, ou para a manutenção de sistemas 
       hidráulicos, incluindo comandos, transmissões e conversores de torque. Oferecemos recursos abrangentes para registrar e controlar todo o processo.
     </p>
+    </div>
     </div>
     <div className={layout.sectionImgReverse}>
       <img src={mecanica} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
@@ -59,14 +60,15 @@ const Maintenance = () => {
       {/* gradient end */}
     </div>
     <div className={layout.sectionInfo}>
-    <h2 className={styles.heading2}></h2>
+    <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
       Material rodante
       </h2>
-    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
+    <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-10">
       Registre medições e acompanhe os desgastes, previna-se de problemas, 
       nosso módulo auxiliarão o atingimento de um maior do número de horas trabalhadas sem paradas desnecessárias.
     </p>
+    </div>
     </div>
   </section> 
   <CTA />

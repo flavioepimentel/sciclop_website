@@ -1,5 +1,5 @@
 import styles from "../../style";
-import { Billing, Business, CardDeal, Clients, CTA, Stats, Testimonials, Hero } from "../../components";
+import { Billing, Business, CardDeal, CTA, Testimonials, Hero } from "../../components";
 
 const Home = () => (
   <div className="w-full overflow-hidden">

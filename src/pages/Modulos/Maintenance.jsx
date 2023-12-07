@@ -1,5 +1,4 @@
 import styles, { layout } from "../../style";
-import { notebook_mocukp } from "../../assets";
 import { pneu, mecanica, rodante } from "./assets";
 import  CTA  from "../../components/CTA"
 import  Button  from "../../components/Button"

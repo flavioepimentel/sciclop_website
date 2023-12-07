@@ -1,4 +1,4 @@
-import { bill } from "../../../assets";
+import { bill } from "../assets";
 import styles, { layout } from "../../../style";
 
 const Billing = () => (

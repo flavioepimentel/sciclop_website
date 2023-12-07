@@ -1,4 +1,4 @@
-import { feedback } from "../../../constants";
+import { feedback } from "../constants";
 import styles, { layout } from "../../../style";
 import FeedbackCard from "./FeedbackCard";
 

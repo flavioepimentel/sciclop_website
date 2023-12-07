@@ -1,4 +1,4 @@
-import { features } from "../../../constants";
+import { features } from "../constants";
 import styles from "../../../style";
 
 export const FeatureCard = ({ icon, title, content, index }) => (

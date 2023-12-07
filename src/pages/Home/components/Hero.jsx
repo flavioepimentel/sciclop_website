@@ -1,5 +1,5 @@
 import styles, { layout } from "../../../style";
-import { discount } from "../../../assets";
+import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 // import { Canvas, useFrame } from '@react-three/fiber';
 // import { OrbitControls, PerspectiveCamera, useGLTF } from '@react-three/drei'

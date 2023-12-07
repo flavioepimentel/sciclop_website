@@ -1,5 +1,4 @@
 import styles, { layout } from "../../style";
-import { notebook_mocukp } from "../../assets";
 import { adm, almoxarifado, compras, custos, controle } from "./assets";
 import  CTA  from "../../components/CTA"
 import  Button  from "../../components/Button"
@@ -7,7 +6,7 @@ import  Button  from "../../components/Button"
 const Financial = () => {
   return (
   <> 
-    <section className={layout.sectionReverse}>
+    <section id="adm" className={layout.sectionReverse}>
     <div className={`${layout.sectionImgReverse}`}>
       <img src={adm} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 

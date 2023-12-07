@@ -19,9 +19,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente">
+    <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente ">
       <a href='/Home'>
-      <img src={logo} alt="Sciclope" className="w-[124px] h-[32px] ml-6" />
+      <img src={logo} alt="Sciclope" className="w-40 h-10 ml-6" />
       </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

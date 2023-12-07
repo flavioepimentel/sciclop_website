@@ -29,16 +29,14 @@ const Navbar = () => {
           <>
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-white"
-            }  mr-8`}
+            className={`li__navbar font-poppins font-normal cursor-pointer text-[16px] text-white mr-8`}
             onClick={() => setActive(nav.title)}
           >
             <a href={`${nav.id}`}>{nav.title}</a>
           </li>
         </>
         ))}
-            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+            <li className={`li__navbar font-poppins font-normal cursor-pointer text-[16px] text-white`}>
 
             <DropdownComponent />
             </li>
@@ -65,20 +63,19 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-white"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                className={`li__navbar font-poppins font-medium cursor-pointer text-[16px] text-white
+                ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+            <li className={`li__navbar  font-poppins font-normal cursor-pointer text-[16px] text-white`}>
 
             <DropdownComponent />
             </li>
     
-            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+            <li className={`li__navbar font-poppins font-normal cursor-pointer text-[16px] text-white`}>
           <a href="https://frotas-erp.bubbleapps.io/version-test/" >Login</a>
         </li>
           </ul>

@@ -9,8 +9,8 @@ const Fleet = () => {
   return (
   <> 
   <section className={layout.sectionReverse}>
-    <div className={` ${layout.sectionImgReverse} sm:invisible md:invisible`}>
-      <img src={veiculos} alt="billing" className="sm:invisible md:invisible w-[100%] h-[100%] relative z-[5]" />
+    <div className={` ${layout.sectionImgReverse} `}>
+      <img src={veiculos} alt="billing" className=" w-[100%] h-[100%] relative z-[5]" />
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
@@ -40,7 +40,7 @@ const Fleet = () => {
       </p>
       </div>
     </div>
-    <div className={layout.sectionImgReverse}>
+    <div className={`${layout.sectionImgReverse} ${layout.hiddenImageOnSmall}`}>
       <img src={postos} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
@@ -64,7 +64,7 @@ const Fleet = () => {
     </div>
   </div>
   <div className={layout.sectionImgReverse}>
-      <img src={abastecimento} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={abastecimento} alt="abastecimento" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -73,8 +73,8 @@ const Fleet = () => {
     </div>
   </section>
    <section className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
-      <img src={lub} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+    <div className={`${layout.sectionImgReverse} ${layout.hiddenImageOnSmall}`}>
+      <img src={lub} alt="lub" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

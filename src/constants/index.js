@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
 
 export const navLinks = [
   { //	O que é o Siclope, contato, Descrição da dor.
@@ -58,7 +58,7 @@ export const feedback = [
       "O tratamento correto da realidade, permitindo correção de rumos que trariam prejuízos, passa necessariamente por um sistema confiável de dados e o treinamento da equipe no uso desses dados.",
     name: "Herman Jensen",
     title: "Eng de Mantuenção",
-    img: people01,
+    img: 'people01',
   },
   {
     id: "feedback-2",
@@ -66,7 +66,7 @@ export const feedback = [
     "Análise de lubrificantes? Nunca havia ouvido falar, agora sei que isso foi criado há muito tempo. É o exame de sangue do equipamento, previnindo as doenças do desgaste, trazendo redução no custo operacional.",
     name: "Steve Mark",
     title: "Coord. Financeiro",
-    img: people02,
+    img: 'people02',
   },
   {
     id: "feedback-3",
@@ -74,7 +74,7 @@ export const feedback = [
       "Novas tecnologias e a correta utilização de antigas tecnologias, trazem soluções ótimas que reduzem custos operacionais de forma técnica, sem comprometer a produção, do equipamento ou da equipe.",
     name: "Kenn Gallagher",
     title: "Chefe de Operações",
-    img: people03,
+    img: 'people03',
   },
 ];
 
@@ -164,18 +164,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: 'airbnb',
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: 'binance',
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: 'coinbase',
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: 'dropbox',
   },
 ];

@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: font-poppins;
+  src: url(../src/Layout/assets/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
 :root {
   --black-gradient: linear-gradient(144.39deg,
       #3f3f3fb4 -278.56%,

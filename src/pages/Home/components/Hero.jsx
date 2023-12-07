@@ -1,4 +1,4 @@
-import styles from "../../../style";
+import styles, { layout } from "../../../style";
 import { discount } from "../../../assets";
 import GetStarted from "./GetStarted";
 // import { Canvas, useFrame } from '@react-three/fiber';
@@ -31,9 +31,9 @@ function Model({...props}) {
 const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-          <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
+      <div className={`${layout.paddingText} flex-1 ${styles.flexStart} ${styles.paddingX} flex-col xl:px-0 sm:px-16 px-6`}>
+        <div className={`flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}>          
+        <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`font-poppins font-normal text-white text-[18px] leading-[30.8px] ml-2`}>
             <span className="text-white">20%</span> Desconto no{" "}
             <span className="text-white">1 Mês</span> de Contratação

@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () =>  (
   <section id="features" className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6 ${layout.section}`}>
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfo} ${layout.paddingText}`}>
       <h2 className={styles.heading2}>
         Gerencie a frota, <br className="sm:block hidden" /> 
         em tempo real.

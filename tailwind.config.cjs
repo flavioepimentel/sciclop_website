@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  variants: {
+    visibility: ['responsive'],
+    visibility: ['responsive', 'hover', 'focus'],
+    },
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {

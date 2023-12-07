@@ -20,6 +20,6 @@ export const features = [
     icon: optimization,
     title: "Otimização",
     content:
-      "Gera um processo de aperfeiçoamento atráves dos planos de manutençao preventiva",
+      "Gera um processo de aperfeiçoamento continuo atráves dos planos de manutençao preventiva.",
   },
 ];

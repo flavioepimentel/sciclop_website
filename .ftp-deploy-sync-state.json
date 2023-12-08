@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702005797796,
+    "generatedTime": 1702006108312,
     "data": [
         {
             "type": "folder",
@@ -45,15 +45,15 @@
         },
         {
             "type": "file",
-            "name": "assets/Shield.70b447f9.svg",
-            "size": 1081,
-            "hash": "70b447f99e1af583c9d8ae5c8cd245befc9dcd1bef9f24ecfdc5bc64b1074868"
-        },
-        {
-            "type": "file",
             "name": "assets/Star.6d99c69e.svg",
             "size": 1191,
             "hash": "6d99c69eb1711336ab1c314d04b6f2833a562664141c34246bc2f387fa6bc67d"
+        },
+        {
+            "type": "file",
+            "name": "assets/Shield.70b447f9.svg",
+            "size": 1081,
+            "hash": "70b447f99e1af583c9d8ae5c8cd245befc9dcd1bef9f24ecfdc5bc64b1074868"
         },
         {
             "type": "file",
@@ -75,15 +75,15 @@
         },
         {
             "type": "file",
-            "name": "assets/arrow-up.281b0d67.svg",
-            "size": 786,
-            "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
-        },
-        {
-            "type": "file",
             "name": "assets/bill.0663d5f1.svg",
             "size": 702010,
             "hash": "0663d5f12572e60bd8ef1bb430b4cd9670f6c5d7e0c884fd1570e52937dec560"
+        },
+        {
+            "type": "file",
+            "name": "assets/arrow-up.281b0d67.svg",
+            "size": 786,
+            "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
         },
         {
             "type": "file",

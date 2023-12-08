@@ -1,5 +1,5 @@
 import styles, { layout } from "../../../style";
-import { discount } from "../assets";
+import { discount, hero } from "../assets";
 import GetStarted from "./GetStarted";
 // import { Canvas, useFrame } from '@react-three/fiber';
 // import { OrbitControls, PerspectiveCamera, useGLTF } from '@react-three/drei'
@@ -60,6 +60,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+        <img src={hero} alt="" className="w-[89%] h-[89%] " />
         {/* <Canvas>
           <Suspense fallback={null}>
             <ambientLight/>

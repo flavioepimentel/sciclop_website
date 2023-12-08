@@ -6,6 +6,7 @@ import shield from "./Shield.svg";
 import star from "./Star.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
+import hero from "./hero.svg";
 
 export {
   bill,
@@ -16,4 +17,5 @@ export {
   star,
   arrowUp,
   discount,
+  hero
 };

@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1701870089184,
+    "generatedTime": 1702005797796,
     "data": [
         {
             "type": "folder",
@@ -9,21 +9,33 @@
         },
         {
             "type": "file",
-            "name": "index.html",
-            "size": 1318,
-            "hash": "8d4b38627a16333b1b72d727f40d1748af9995c566878d13102c9bbee4504e0a"
+            "name": "favicon.ico",
+            "size": 32286,
+            "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
         },
         {
             "type": "file",
-            "name": "assets/1.8809ed31.png",
-            "size": 76464,
-            "hash": "8809ed31c62303a0c5f06f878a99e6b1cb76a5e813fb4ee312ec12c39bba9ac1"
+            "name": "index.html",
+            "size": 1314,
+            "hash": "bd550745994f4b4e1018b602422d25a3c5fcc1d9774998a015a8ab8eb86932c2"
+        },
+        {
+            "type": "file",
+            "name": "assets/1.d38785f0.svg",
+            "size": 5490412,
+            "hash": "d38785f0cdea5d4588afdaac199359ca51962a93a5ce42d792b5ecfabe4ed135"
         },
         {
             "type": "file",
             "name": "assets/Discount.b926deb8.svg",
             "size": 2549,
             "hash": "b926deb8413d3c255ad877de83425f068679955fcefc30ec09e48819032ae5e4"
+        },
+        {
+            "type": "file",
+            "name": "assets/Poppins-Regular.707fdc5c.ttf",
+            "size": 158240,
+            "hash": "707fdc5c8bab57a90061c6a8ed7b70d5ffb82fc810e994e79f90bace890c255a"
         },
         {
             "type": "file",
@@ -45,33 +57,21 @@
         },
         {
             "type": "file",
-            "name": "assets/abastecimento.6f85b22f.png",
-            "size": 331594,
-            "hash": "6f85b22fda139025651e522baed4f166b0d3599abe809aa5b34b5c7cbc45222b"
+            "name": "assets/abastecimento.74d05801.svg",
+            "size": 8278987,
+            "hash": "74d058019cc5d27b401b5237ac224b78dbe89f1423cfb2344675c25831de05cd"
         },
         {
             "type": "file",
-            "name": "assets/adm.4c11307b.png",
-            "size": 137833,
-            "hash": "4c11307b5a1f36602285214556c6b2b22bdad920643e5f642eea1c319c75368c"
+            "name": "assets/adm.5ea735f3.svg",
+            "size": 493338,
+            "hash": "5ea735f3f322b8348125cb0976c0952cb1a2ae9a9563e76b066e7737f1644f32"
         },
         {
             "type": "file",
-            "name": "assets/airbnb.ac0ba47e.png",
-            "size": 7264,
-            "hash": "ac0ba47e9bc58e4f8b1ffbd1bc36c504c63450d55a7d222cdbd9de90c2b07e3a"
-        },
-        {
-            "type": "file",
-            "name": "assets/almoxarifado.c201b4b8.png",
-            "size": 176335,
-            "hash": "c201b4b81502bc282901b21ee88fad04f52b48201252ff8991c6109df48ce4cc"
-        },
-        {
-            "type": "file",
-            "name": "assets/apple.994d47a8.svg",
-            "size": 15652,
-            "hash": "994d47a85588d80e9d7bd5cdaaaf8f98d31082a7d255eb5f2e115e8a5b6dab16"
+            "name": "assets/almoxarifado.d42b8f04.svg",
+            "size": 3831164,
+            "hash": "d42b8f04da5b646587b2dfefbcf7a5d33818c3ba901dbb88c707a2e0b3b78484"
         },
         {
             "type": "file",
@@ -81,15 +81,9 @@
         },
         {
             "type": "file",
-            "name": "assets/bill.e64331b5.png",
-            "size": 201800,
-            "hash": "e64331b52151dd44d7edee0a1dac82717de81fd1e34fbe6ca345bff623587f0d"
-        },
-        {
-            "type": "file",
-            "name": "assets/binance.ef218256.png",
-            "size": 4371,
-            "hash": "ef218256775bf5515e03fbfd4b6504679152b00f114d421acf73e7d61cb85455"
+            "name": "assets/bill.0663d5f1.svg",
+            "size": 702010,
+            "hash": "0663d5f12572e60bd8ef1bb430b4cd9670f6c5d7e0c884fd1570e52937dec560"
         },
         {
             "type": "file",
@@ -99,15 +93,9 @@
         },
         {
             "type": "file",
-            "name": "assets/coinbase.fd06c89f.png",
-            "size": 6164,
-            "hash": "fd06c89fcea0f7f4599640a82c834a65ddf086b6c52b490e375307eebcec0150"
-        },
-        {
-            "type": "file",
-            "name": "assets/compras.185f081e.png",
-            "size": 314331,
-            "hash": "185f081e02a3d04bc61a8f5d8bcab3cc492be8d0f51b3a8988422a265cf7a0a3"
+            "name": "assets/compras.cf091303.svg",
+            "size": 1513419,
+            "hash": "cf091303c35c7be20a2229d66fe041f57abc0282c8a23d05b4702ebae4fa7218"
         },
         {
             "type": "file",
@@ -117,21 +105,15 @@
         },
         {
             "type": "file",
-            "name": "assets/controle.e75671bf.png",
-            "size": 195681,
-            "hash": "e75671bf123fec375493816cc72e96a3c8232edf1e7384e7229a72153e169b86"
+            "name": "assets/controle.795fbaa6.svg",
+            "size": 4892658,
+            "hash": "795fbaa621b272b3d1eea488bb79c815df7fed1be4578bf4205d456e06c22829"
         },
         {
             "type": "file",
-            "name": "assets/custos.b90e0ea0.png",
-            "size": 131620,
-            "hash": "b90e0ea01efcb656a7e87fc7bba66f2f2bfe724d046f1cdf8fc4b27f13907bba"
-        },
-        {
-            "type": "file",
-            "name": "assets/dropbox.fb49a0e9.png",
-            "size": 6116,
-            "hash": "fb49a0e92886a55299b6bfba5ae6c913e80ba1c8d11df9e3341987a0f8666049"
+            "name": "assets/custos.384c1cee.svg",
+            "size": 221797,
+            "hash": "384c1ceee2922f464f916d26f6071a56f4a1a4d89368d4c66296c4f895959d92"
         },
         {
             "type": "file",
@@ -147,21 +129,15 @@
         },
         {
             "type": "file",
-            "name": "assets/google.3035153f.svg",
-            "size": 16339,
-            "hash": "3035153f0b2eb64176899d23af136f988bb9901a33151f8a9a221b8e71ffebbf"
+            "name": "assets/index.b7cbfd45.css",
+            "size": 243685,
+            "hash": "b7cbfd4524bc38c6487fe462ead4b9af4359230403c6b64107149aa92f25c206"
         },
         {
             "type": "file",
-            "name": "assets/index.8dcdeab9.js",
-            "size": 232340,
-            "hash": "bb86c41d1c71c3882149632f4fc35a711863980cbec61361d92b2d04cd5a522b"
-        },
-        {
-            "type": "file",
-            "name": "assets/index.c87cacc1.css",
-            "size": 243518,
-            "hash": "c87cacc105642b55e0cf5f3f4987a605b905d078fb334a328ae0f11f92ad94a2"
+            "name": "assets/index.f1893c64.js",
+            "size": 233414,
+            "hash": "812ff5435ee5840379bd3770fb62ed7b92ad9bed124a024c7276a5993e5ce972"
         },
         {
             "type": "file",
@@ -183,21 +159,21 @@
         },
         {
             "type": "file",
-            "name": "assets/lub.34fc167d.png",
-            "size": 146989,
-            "hash": "34fc167d905b55da9dcad5ee34202c399c1e1c48972c174a92aef8336a47f0f0"
+            "name": "assets/lub.eb294ce3.svg",
+            "size": 5861999,
+            "hash": "eb294ce34df841a460a226c4661e9de251576447193c3ab09acd64dbb77e193c"
         },
         {
             "type": "file",
-            "name": "assets/lubrifica.fe317788.png",
-            "size": 94171,
-            "hash": "fe317788be38d108bcd71bd596da69528513602d4183c548133ee83e0353395f"
+            "name": "assets/lubrifica.0a8c92c5.svg",
+            "size": 564268,
+            "hash": "0a8c92c5f70308db73e92f5e5697eecaa00e059015fcd070a46ee2830587deb2"
         },
         {
             "type": "file",
-            "name": "assets/mecanica.2318964b.png",
-            "size": 185348,
-            "hash": "2318964ba6e013d1cb707e7f029bf02b514329b60bb8787f0e57593feb92e2fc"
+            "name": "assets/mecanica.a4f3aa3e.svg",
+            "size": 676938,
+            "hash": "a4f3aa3e5fabf24dab47758b25210f8d5193f674f02dd82c175499904cc7d178"
         },
         {
             "type": "file",
@@ -207,15 +183,9 @@
         },
         {
             "type": "file",
-            "name": "assets/notebook_mocukp.7b104016.png",
-            "size": 102483,
-            "hash": "7b1040164e91413704a44f338612ea596191b7af04eddaa9b5ea274cdabb9cfa"
-        },
-        {
-            "type": "file",
-            "name": "assets/oficina.9b211aaa.png",
-            "size": 207983,
-            "hash": "9b211aaada5a327c46507a2ff674097fcd6779e41fb9971fac554a69721e32c0"
+            "name": "assets/oficina.d6373cb7.svg",
+            "size": 3445043,
+            "hash": "d6373cb7c1637120377bd36332e837250e3d3cc1696cfc60b7a0a59ce3b638da"
         },
         {
             "type": "file",
@@ -225,33 +195,15 @@
         },
         {
             "type": "file",
-            "name": "assets/people01.a772086b.png",
-            "size": 18507,
-            "hash": "a772086b08342d502299731738e57ec61970a55355161fbccd5902abcad9247b"
+            "name": "assets/pneu.dc53dead.svg",
+            "size": 10171975,
+            "hash": "dc53dead7839f48340a8a814972e53ed9d4402598cf60e314e6be35d7f66e3e3"
         },
         {
             "type": "file",
-            "name": "assets/people02.ee8ce82b.png",
-            "size": 13233,
-            "hash": "ee8ce82b0a1df11a819d70e6c732a14fce288c1d2da2e7701779a33b5a99356a"
-        },
-        {
-            "type": "file",
-            "name": "assets/people03.d9f4f98a.png",
-            "size": 9894,
-            "hash": "d9f4f98a2c06f08990473bc2dbd3e32ed3f3a3e6e875cf0f3c6fd44c85e277cc"
-        },
-        {
-            "type": "file",
-            "name": "assets/pneu.84d5f639.png",
-            "size": 170159,
-            "hash": "84d5f639fa86b3ca0dde7175dac1ee71140c7e2b38d5da14ac19fdb3c01dd568"
-        },
-        {
-            "type": "file",
-            "name": "assets/postos.8cc5970f.png",
-            "size": 302074,
-            "hash": "8cc5970f42588cff14ba17afb3c99763e09b9b7d5ed116fadde96b67825ff184"
+            "name": "assets/postos.80d0a6be.svg",
+            "size": 3202285,
+            "hash": "80d0a6be1bd51256cc392d0c4ccb5222d8232df3907e2b575868b4b98836e7e0"
         },
         {
             "type": "file",
@@ -261,15 +213,21 @@
         },
         {
             "type": "file",
-            "name": "assets/rodante.296d0ad8.png",
-            "size": 150506,
-            "hash": "296d0ad8c03b61c31d063147e5eb35c96c688e30018d2f52687b6256924500d9"
+            "name": "assets/rodante.127d23ca.svg",
+            "size": 541338,
+            "hash": "127d23ca22fa5881653a1c521772dc74c7712a9569a94269d9f38f14ac0c0413"
         },
         {
             "type": "file",
-            "name": "assets/siclope_logo.52119268.png",
-            "size": 22202,
-            "hash": "52119268bfa914519dbb957811fb97256cf268f0bf1b976f413fd16bdc425d02"
+            "name": "assets/siclope_logo.c6563a91.svg",
+            "size": 222984,
+            "hash": "c6563a91e9a5b89b1b17d92044d85b9e699262b65212d5b02a0cb71dca78db26"
+        },
+        {
+            "type": "file",
+            "name": "assets/siclope_logo_black2.d7a4bb12.svg",
+            "size": 39092,
+            "hash": "d7a4bb120d862f252ace9fd3a52be3c9980340e4d330f4350f9e632f1d511592"
         },
         {
             "type": "file",
@@ -279,15 +237,9 @@
         },
         {
             "type": "file",
-            "name": "assets/siclope_logo_black2.29afb14e.png",
-            "size": 5070,
-            "hash": "29afb14e36f34fd24fdda0ba9ae60e9ff97d5d763b3b1d1a024c5998f05c3c24"
-        },
-        {
-            "type": "file",
-            "name": "assets/veiculos.eb91941f.png",
-            "size": 110868,
-            "hash": "eb91941f8be6b21e1ed0a96b2e8eaa9d54c59e9b41562491110fa4c3fe11586e"
+            "name": "assets/veiculos.a220f8ba.svg",
+            "size": 1114820,
+            "hash": "a220f8bab3ce37128b4d8e0181948a4a1e2c40e7454696d228f12f51cbd040ea"
         }
     ]
 }

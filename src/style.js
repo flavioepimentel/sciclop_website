@@ -22,10 +22,12 @@ export const layout = {
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-  paddingText: `ml-10`,
-
   hiddenImageOnSmall: `md:block hidden`,
   hiddenImageOnBig: `sm:hidden block`,
+  
+  widthImage:`max-w-`,
+
+  paddingText: `ml-10`,
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
 

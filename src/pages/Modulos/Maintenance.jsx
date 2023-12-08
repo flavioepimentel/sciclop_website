@@ -7,16 +7,16 @@ import  Button  from "../../Layout/components/Button"
 const Maintenance = () => {
   return (
   <> 
-   <section className={layout.sectionReverse}>
+   <section className={`${layout.especialSectionReverse}`}>
     <div className={layout.sectionImgReverse}>
-      <img src={pneu} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={pneu} alt="billing" className={`${styles.boxWidthImage} ${layout.hiddenImageOnSmall}`} />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfoCTA}`}>
     <h2 className={styles.heading2}>
       Pneus
       </h2>
@@ -28,7 +28,7 @@ const Maintenance = () => {
     <Button />
     </div>
   </section>
-  <section className={layout.sectionReverse}>
+  <section className={`flex md:flex-row flex-col-reverse sm:py-16 py-0`}>
     <div className={layout.sectionInfo}>
     <div className={`${layout.sectionImg} flex-col`}>
     <h2 className={styles.heading2}>
@@ -49,7 +49,7 @@ const Maintenance = () => {
       {/* gradient end */}
     </div>
   </section>
-   <section className={layout.sectionReverse}>
+   <section className={`${layout.especialSectionReverse}`}>
     <div className={layout.sectionImgReverse}>
       <img src={rodante} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 

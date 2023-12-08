@@ -8,7 +8,7 @@ import { features } from "./constants";
 const Fleet = () => {
   return (
   <> 
-  <section className={layout.sectionReverse}>
+  <section className={`${layout.especialSectionReverse}`}>
     <div className={` ${layout.sectionImgReverse} `}>
       <img src={veiculos} alt="billing" className=" w-[100%] h-[100%] relative z-[5]" />
       {/* gradient start */}
@@ -16,7 +16,7 @@ const Fleet = () => {
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfoCTA}`}>
     <h2 className={styles.heading2}>
       Veículos</h2>
       <p className="font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] ">
@@ -112,7 +112,7 @@ const Fleet = () => {
       {/* gradient end */}
     </div>
   </section>
-  <section className={layout.sectionReverse}>
+  <section className={`${layout.especialSectionReverse}`}>
     <div className={layout.sectionImgReverse}>
       <img src={oficina} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 

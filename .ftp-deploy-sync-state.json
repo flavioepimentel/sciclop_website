@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702006108312,
+    "generatedTime": 1702008003247,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1314,
-            "hash": "bd550745994f4b4e1018b602422d25a3c5fcc1d9774998a015a8ab8eb86932c2"
+            "hash": "96d89e4859df805e2883f1843d9bf90a6343050dd67e7e08f329a3a671b5b4d5"
         },
         {
             "type": "file",
@@ -45,15 +45,15 @@
         },
         {
             "type": "file",
-            "name": "assets/Star.6d99c69e.svg",
-            "size": 1191,
-            "hash": "6d99c69eb1711336ab1c314d04b6f2833a562664141c34246bc2f387fa6bc67d"
-        },
-        {
-            "type": "file",
             "name": "assets/Shield.70b447f9.svg",
             "size": 1081,
             "hash": "70b447f99e1af583c9d8ae5c8cd245befc9dcd1bef9f24ecfdc5bc64b1074868"
+        },
+        {
+            "type": "file",
+            "name": "assets/Star.6d99c69e.svg",
+            "size": 1191,
+            "hash": "6d99c69eb1711336ab1c314d04b6f2833a562664141c34246bc2f387fa6bc67d"
         },
         {
             "type": "file",
@@ -75,15 +75,15 @@
         },
         {
             "type": "file",
-            "name": "assets/bill.0663d5f1.svg",
-            "size": 702010,
-            "hash": "0663d5f12572e60bd8ef1bb430b4cd9670f6c5d7e0c884fd1570e52937dec560"
-        },
-        {
-            "type": "file",
             "name": "assets/arrow-up.281b0d67.svg",
             "size": 786,
             "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
+        },
+        {
+            "type": "file",
+            "name": "assets/bill.0663d5f1.svg",
+            "size": 702010,
+            "hash": "0663d5f12572e60bd8ef1bb430b4cd9670f6c5d7e0c884fd1570e52937dec560"
         },
         {
             "type": "file",
@@ -129,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.b7cbfd45.css",
-            "size": 243685,
-            "hash": "b7cbfd4524bc38c6487fe462ead4b9af4359230403c6b64107149aa92f25c206"
+            "name": "assets/index.dabf0bf7.css",
+            "size": 243929,
+            "hash": "dabf0bf7817d9bebcd707d0ba99fc58aa3d6b4c4ea8607027fe9584f439bf215"
         },
         {
             "type": "file",
-            "name": "assets/index.f1893c64.js",
-            "size": 233414,
-            "hash": "812ff5435ee5840379bd3770fb62ed7b92ad9bed124a024c7276a5993e5ce972"
+            "name": "assets/index.defe114f.js",
+            "size": 233397,
+            "hash": "0e190a652e81ae2f02f32145dad8f9f64f17c5954369ec99bf5c3e12e3f7ac9f"
         },
         {
             "type": "file",

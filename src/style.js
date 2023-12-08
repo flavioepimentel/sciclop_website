@@ -1,7 +1,7 @@
 const styles = {
     
   boxWidth: "w-full",
-  boxWidthImage:'w-[86%] h-[86%]',
+  boxWidthImage:'w-[86%] h-[86%] relative z-[5]',
 
   heading2: "font-poppins font-semibold xs:text-[3rem] text-[2.5rem] text-black xs:leading-[4.8rem] leading-[4.175rem] w-full",
   paragraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]",
@@ -27,7 +27,9 @@ export const layout = {
   hiddenImageOnSmall: `md:block hidden`,
   hiddenImageOnBig: `md:hidden block`,
   paddingText: `ml-10`,
+
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionInfoCTA:`flex-1 flex space-y-16 items-start flex-col`,
 };
 
 export default styles;

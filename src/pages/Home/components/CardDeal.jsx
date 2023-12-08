@@ -3,7 +3,7 @@ import styles, { layout } from "../../../style";
 import Button from "../../../Layout/components/Button";
 
 const CardDeal = () => (
-  <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-10 px-6 ${layout.section}`}>
+  <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-10 px-6 ${layout.sectionHome}`}>
     <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
         Avalie as melhores marcas e fornecedores<br className="sm:block hidden" /> em alguns

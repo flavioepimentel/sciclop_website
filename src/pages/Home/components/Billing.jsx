@@ -2,7 +2,7 @@ import { bill } from "../assets";
 import styles, { layout } from "../../../style";
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="product" className={layout.sectionReverseHome}>
     <div className={layout.sectionImgReverse}>
       <img src={bill} alt="billing" className={`${styles.boxWidthImage}`} />
 

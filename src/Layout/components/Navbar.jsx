@@ -5,18 +5,7 @@ import { navLinks } from "../constants";
 import  DropdownComponent  from './DropdownComponent';
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
-
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
-
-  const handleMouseEnter = () => {
-    setDropdownVisible(true);
-  };
-
-  const handleMouseLeave = () => {
-    setDropdownVisible(false);
-  };
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente ">

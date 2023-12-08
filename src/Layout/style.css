@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: font-poppins;
+    src: url(../src/Layout/assets/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
 .dropdown-toggle {
     border: none !important
 }
@@ -5,4 +16,10 @@
 .li__navbar {
     color: white !important;
     text-decoration: none !important;
+    font-family: font-poppins !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    text-decoration-line: none !important;
+    font-size: 1rem !important;
+    -moz-text-decoration-line: none !important;
 }

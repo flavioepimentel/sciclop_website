@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702008300640,
+    "generatedTime": 1702008511930,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1314,
-            "hash": "c80f898e89fe133b9cf943158d0cd03e349aa91ef9b4c72c43017c315752f4be"
+            "hash": "f481984de22113305cc47d05dae2377c84b945c8ea2dcd2f1fbf9d0517eb8824"
         },
         {
             "type": "file",
@@ -117,27 +117,27 @@
         },
         {
             "type": "file",
-            "name": "assets/facebook.f67832a4.svg",
-            "size": 528,
-            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
-        },
-        {
-            "type": "file",
             "name": "assets/favicon.62810e50.ico",
             "size": 32286,
             "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
         },
         {
             "type": "file",
-            "name": "assets/index.4bd6d135.css",
-            "size": 243946,
-            "hash": "4bd6d1352bcb2411d50ddb60327d02e3e433396042c1aeb04df12debf15dfe05"
+            "name": "assets/facebook.f67832a4.svg",
+            "size": 528,
+            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
         },
         {
             "type": "file",
-            "name": "assets/index.3311acac.js",
-            "size": 233348,
-            "hash": "3afa0350a18f1a3c44b01e8480af2eb86af598c59dc4d846b30c384df5cd520d"
+            "name": "assets/index.11518cfd.css",
+            "size": 243650,
+            "hash": "11518cfd7107f8f0b97908b9e11812b3d92eb5eafa23142a5c5d019cfd85026b"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.f35e6c5e.js",
+            "size": 233325,
+            "hash": "c5d120b6ec033d85af7afd97712662eae8e9dd818920151de4709073897f8b0b"
         },
         {
             "type": "file",

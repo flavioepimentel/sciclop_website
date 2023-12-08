@@ -3,7 +3,7 @@ import styles, { layout } from "../../../style";
 import Button from "../../../Layout/components/Button";
 
 const CardDeal = () => (
-  <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6 ${layout.section}`}>
+  <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-10 px-6 ${layout.section}`}>
     <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
         Avalie as melhores marcas e fornecedores<br className="sm:block hidden" /> em alguns
@@ -18,7 +18,7 @@ const CardDeal = () => (
     </div>
 
     <div className={`${layout.sectionImg} sm:block hidden`}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={card} alt="card" className={`${styles.boxWidthImage}`} />
     </div>
   </section>
 );

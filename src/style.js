@@ -2,12 +2,14 @@ const styles = {
     
   boxWidth: "w-full",
   boxWidthImage:'w-[86%] h-[86%] relative z-[5]',
+  boxWidthImageLarge:'w-[93%] h-[93%] relative z-[5]',
 
   heading2: "font-poppins font-semibold xs:text-[3rem] text-[2.5rem] text-black xs:leading-[4.8rem] leading-[4.175rem] w-full",
   paragraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-between items-start",
+  flexStartSpace: "flex space-y-16 items-start",
 
   paddingX: "sm:px-0 px-0",
   paddingY: "sm:py-16 py-0",

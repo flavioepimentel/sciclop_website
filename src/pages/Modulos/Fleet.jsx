@@ -10,7 +10,7 @@ const Fleet = () => {
   <> 
   <section className={`${layout.especialSectionReverse}`}>
     <div className={` ${layout.sectionImgReverse} `}>
-      <img src={veiculos} alt="billing" className=" w-[100%] h-[100%] relative z-[5]" />
+      <img src={veiculos} alt="billing" className={`${styles.boxWidthImage} `} />
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
@@ -41,7 +41,7 @@ const Fleet = () => {
       </div>
     </div>
     <div className={`${layout.sectionImgReverse} ${layout.hiddenImageOnSmall}`}>
-      <img src={postos} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={postos} alt="billing" className={`${styles.boxWidthImage} `} />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -64,7 +64,7 @@ const Fleet = () => {
     </div>
   </div>
   <div className={layout.sectionImgReverse}>
-      <img src={abastecimento} alt="abastecimento" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={abastecimento} alt="abastecimento" className={`${styles.boxWidthImage} `} />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -90,7 +90,7 @@ const Fleet = () => {
     </div>
     </div>
   </section>
-  <section className={layout.sectionReverse}>
+  <section id="laboratorio" className={layout.sectionReverse}>
     <div className={layout.sectionInfo}>
     <div className={`${layout.sectionImg} flex-col`}>
 
@@ -104,7 +104,7 @@ const Fleet = () => {
     </div>
     </div>
     <div className={layout.sectionImgReverse}>
-      <img src={lubrifica} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={lubrifica} alt="billing" className={`${styles.boxWidthImage}`} />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -114,12 +114,12 @@ const Fleet = () => {
   </section>
   <section className={`${layout.especialSectionReverse}`}>
     <div className={layout.sectionImgReverse}>
-      <img src={oficina} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
-
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
+      <img src={oficina} alt="billing" className={`${styles.boxWidthImageSmall} `} />
+
     </div>
     <div className={layout.sectionInfo}>
     <div className={`${layout.sectionImg} flex-col`}>

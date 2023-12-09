@@ -24,6 +24,7 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
+        <div>
         <h1 className="flex-1 font-poppins font-semibold ss:text-[4.1rem] text-[3.25rem] text-gray">
           Racionalmente.
         </h1>
@@ -31,6 +32,7 @@ const Hero = () => {
           Otimize seus planos de manutenção, gerêncie recursos vitais e reduza os
           custos da sua frota com Siclope ERP
         </p>
+      </div>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={hero} alt="" className="w-[89%] h-[89%] relative z-[5]" />

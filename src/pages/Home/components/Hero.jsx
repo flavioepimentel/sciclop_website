@@ -53,8 +53,8 @@ const Hero = () => {
           Racionalmente.
         </h1>
         <p className={`${styles.paragraph} max-w-[29.375rem] `}>
-          Nosso time de especialistas na manutenção e administração de frotas e 
-          está pronto para te oferecer suporte.
+          Otimize seus planos de manutenção, gerêncie recursos vitais e reduza os
+          custos da sua frota com Siclope ERP
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

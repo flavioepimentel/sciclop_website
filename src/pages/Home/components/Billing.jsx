@@ -4,7 +4,7 @@ import styles, { layout } from "../../../style";
 const Billing = () => (
   <section id="product" className={layout.sectionReverseHome}>
     <div className={layout.sectionImgReverse}>
-      <img src={bill} alt="billing" className={`${styles.boxWidthImage}`} />
+      <img src={bill} alt="billing" className={`${styles.boxWidthImageLarge}`} />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -12,7 +12,7 @@ const Billing = () => (
       {/* gradient end */}
     </div>
 
-    <div className={layout.sectionInfo}>
+    <div className={layout.sectionInfoCTA}>
       <h2 className={styles.heading2}>
         Controle facilmente <br className="sm:block hidden" /> finanças e operação
       </h2>

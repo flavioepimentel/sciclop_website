@@ -18,7 +18,7 @@ const CardDeal = () => (
     </div>
 
     <div className={`${layout.sectionImg} sm:block hidden`}>
-      <img src={card} alt="card" className={`${styles.boxWidthImage}`} />
+      <img src={card} alt="card" className={`${styles.boxWidthImageLarge} ${layout.hiddenImageOnSmall}`} />
     </div>
   </section>
 );

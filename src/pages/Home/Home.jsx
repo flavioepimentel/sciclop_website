@@ -1,6 +1,6 @@
 import styles from "../../style";
 import { CTA } from "../../Layout/components";
-import { Billing, Business, CardDeal, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Hero, Testimonials } from "./components";
 
 const Home = () => (
   <div className="w-full overflow-hidden">

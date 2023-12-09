@@ -1,6 +1,7 @@
 const styles = {
     
   boxWidth: "w-full",
+  boxWidthImageSmall:'w-[76%] h-[76%] relative z-[5]',
   boxWidthImage:'w-[86%] h-[86%] relative z-[5]',
   boxWidthImageLarge:'w-[93%] h-[93%] relative z-[5]',
 

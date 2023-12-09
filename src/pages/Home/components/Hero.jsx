@@ -31,8 +31,8 @@ function Model({...props}) {
 const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingYHome}`}>
-      <div className={`${layout.paddingText} flex-1 ${styles.flexStart} ${styles.paddingX} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className={`flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}>          
+      <div className={`${layout.paddingText} flex-1 ${styles.flexStartSpace} ${styles.paddingXHome} flex-col xl:px-0 sm:px-16 px-6`}>
+        <div className={`flex flex-row items-center px-4 bg-discount-gradient rounded-[10px]`}>          
         <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`font-poppins font-normal text-white text-[18px] leading-[30.8px] ml-2`}>
             <span className="text-white">20%</span> Desconto no{" "}
@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-gray ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[4.5rem] text-[3.25rem] text-gray">
            Reduza<br className="sm:block hidden" />{" "}
             <span className="text-gradient">Custos</span>{" "}
           </h1>
@@ -49,18 +49,16 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
-
-        <h1 className="font-poppins font-semibold ss:text-[46px] text-[30px] text-black ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[4.1rem] text-[3.25rem] text-gray">
           Racionalmente.
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Nosso time de especialistas possui larga experiência na manutenção e administração de frotas.
-          Está pronto para te oferecer suporte em terraplanagem, agrícola, construção civil, tranportes, 
-          logística, locação de veículos, alimentícia, industrial além de informática e análise de sistemas.
+        <p className={`${styles.paragraph} max-w-[29.375rem] `}>
+          Nosso time de especialistas na manutenção e administração de frotas e 
+          está pronto para te oferecer suporte.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={hero} alt="" className="w-[89%] h-[89%] " />
+        <img src={hero} alt="" className="w-[89%] h-[89%] relative z-[5]" />
         {/* <Canvas>
           <Suspense fallback={null}>
             <ambientLight/>
@@ -71,9 +69,9 @@ const Hero = () => {
         </Canvas> */}
 
         {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+        <div className="absolute z-[0] w-[30%] h-[35%] top-0 pink__gradient" />
+        <div className="absolute z-[1] w-[70%] h-[70%] rounded-full white__gradient bottom-40" />
+        <div className="absolute z-[0] w-[40%] h-[10%] right-15 bottom-15 blue__gradient" />
         {/* gradient end */}
       </div>
 

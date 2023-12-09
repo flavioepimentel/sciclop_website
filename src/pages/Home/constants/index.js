@@ -37,7 +37,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-    "Análise de lubrificantes? Nunca havia ouvido falar, agora sei que isso foi criado há muito tempo. É o exame de sangue do equipamento, previnindo as doenças do desgaste, trazendo redução no custo operacional.",
+    "Análise de lubrificantes é o exame de sangue do equipamento, previnindo as doenças do desgaste, trazendo redução no custo operacional, por isso fizemos questão de dedicar um módulo para gestão desse recurso",
     name: "Steve Mark",
     title: "Coord. Financeiro",
     img: 'people02',

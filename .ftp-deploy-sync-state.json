@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702008511930,
+    "generatedTime": 1702157980304,
     "data": [
         {
             "type": "folder",
@@ -17,13 +17,13 @@
             "type": "file",
             "name": "index.html",
             "size": 1314,
-            "hash": "f481984de22113305cc47d05dae2377c84b945c8ea2dcd2f1fbf9d0517eb8824"
+            "hash": "5bfad7878873e773ba74b926270b69103e6f38d4739f88a5edd8b46fbf40c259"
         },
         {
             "type": "file",
-            "name": "assets/1.d38785f0.svg",
-            "size": 5490412,
-            "hash": "d38785f0cdea5d4588afdaac199359ca51962a93a5ce42d792b5ecfabe4ed135"
+            "name": "assets/1.df17a6b3.svg",
+            "size": 4270220,
+            "hash": "df17a6b36d74706fd5988b0dd968f3f10afbc58a0bf094bd2347504aae4c243d"
         },
         {
             "type": "file",
@@ -57,9 +57,9 @@
         },
         {
             "type": "file",
-            "name": "assets/abastecimento.74d05801.svg",
-            "size": 8278987,
-            "hash": "74d058019cc5d27b401b5237ac224b78dbe89f1423cfb2344675c25831de05cd"
+            "name": "assets/abastecimento.e9521203.svg",
+            "size": 3821744,
+            "hash": "e9521203eb1c7cd00c59732badc15407d4c7b08353710be5d132f80838f95242"
         },
         {
             "type": "file",
@@ -81,9 +81,9 @@
         },
         {
             "type": "file",
-            "name": "assets/bill.0663d5f1.svg",
-            "size": 702010,
-            "hash": "0663d5f12572e60bd8ef1bb430b4cd9670f6c5d7e0c884fd1570e52937dec560"
+            "name": "assets/bill.1ef34bce.svg",
+            "size": 643489,
+            "hash": "1ef34bcea71dfdae98b5dea7120ecf04be261d03145a879080f851ac88dc3e78"
         },
         {
             "type": "file",
@@ -117,27 +117,33 @@
         },
         {
             "type": "file",
-            "name": "assets/favicon.62810e50.ico",
-            "size": 32286,
-            "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
-        },
-        {
-            "type": "file",
             "name": "assets/facebook.f67832a4.svg",
             "size": 528,
             "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
         },
         {
             "type": "file",
-            "name": "assets/index.11518cfd.css",
-            "size": 243650,
-            "hash": "11518cfd7107f8f0b97908b9e11812b3d92eb5eafa23142a5c5d019cfd85026b"
+            "name": "assets/favicon.62810e50.ico",
+            "size": 32286,
+            "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
         },
         {
             "type": "file",
-            "name": "assets/index.f35e6c5e.js",
-            "size": 233325,
-            "hash": "c5d120b6ec033d85af7afd97712662eae8e9dd818920151de4709073897f8b0b"
+            "name": "assets/hero.f2f7ec7c.svg",
+            "size": 7714015,
+            "hash": "f2f7ec7c4ac77f3b33efc7c4644af70924da90dcf24702b797a91667cbeec050"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.95dc70d5.css",
+            "size": 244380,
+            "hash": "95dc70d5b49d6cdb04b442c6aab85e6986d8d19b6e6e321d1da69baf9d5c89bb"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.f8013e65.js",
+            "size": 233598,
+            "hash": "05faa6891aa4e781b8e41ee07246a24703cc17e2ac2b456290b8761dfef14031"
         },
         {
             "type": "file",

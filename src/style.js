@@ -6,7 +6,7 @@ const styles = {
   boxWidthImageLarge:'w-[93%] h-[93%] relative z-[5]',
 
   heading2: "font-poppins font-semibold xs:text-[3rem] text-[2.5rem] text-black xs:leading-[4.8rem] leading-[4.175rem] w-full",
-  paragraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]",
+  paragraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]  max-w-[480px] mt-5",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-between items-start",
@@ -18,7 +18,7 @@ const styles = {
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",
-  marginY: "sm:my-16 my-6",
+  marginY: "sm:my-16 my-3",
 };
 
 export const layout = {

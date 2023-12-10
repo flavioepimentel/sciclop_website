@@ -19,7 +19,8 @@ jobs:
       - name: 🔨 Build Project
         run: |
           npm install
-          npm run build
+          npm install --save-dev rollup-plugin-commonjs rollup-plugin-replace rollup-plugin-terser
+          npm run build --
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3

@@ -16,8 +16,8 @@ const styles = {
   flexStartSpace2: "flex space-y-6 items-start",
 
   paddingX: "sm:px-0 px-0",
-  paddingY: "sm:py-16 py-0",
-  paddingYHome: "sm:py-16 py-16",
+  paddingY: "sm:py-3 py-0",
+  paddingYHome: "sm:py-4 py-16",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",

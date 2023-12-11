@@ -14,8 +14,7 @@ const Navbar = () => {
       </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, index) => (
-          <>
+        {navLinks.map((nav) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-8`}
@@ -23,14 +22,13 @@ const Navbar = () => {
           >
             <a href={`${nav.id}`}>{nav.title}</a>
           </li>
-        </>
         ))}
-            <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-8`}>
+            <li key={'dropdown'} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-8`}>
 
             <DropdownComponent />
             </li>
 
-          <li className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-6`}>
+          <li key={'login'} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-6`}>
           <a href="https://frotas-erp.bubbleapps.io/version-test/" >Login</a>
         </li>
       </ul>
@@ -59,12 +57,12 @@ const Navbar = () => {
                 <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+            <li key={'dropdown'} className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}>
 
             <DropdownComponent />
             </li>
     
-            <li className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+            <li key={'login'} className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}>
           <a href="https://frotas-erp.bubbleapps.io/version-test/" >Login</a>
         </li>
           </ul>

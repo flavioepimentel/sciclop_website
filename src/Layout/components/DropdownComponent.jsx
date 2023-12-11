@@ -5,7 +5,7 @@ import {dropdownLinks} from '../constants/index'
 
 const DropdownComponent= () => {
   return (
-      <DropdownButton variant="secondary" title="Módulos">
+      <DropdownButton key={"dropdownButton"} variant="secondary" title="Módulos">
       { dropdownLinks.map((item) => {
       const { id, title } = item;
       return (

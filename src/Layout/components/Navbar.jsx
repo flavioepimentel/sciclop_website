@@ -25,7 +25,7 @@ const Navbar = () => {
         ))}
             <li key={'dropdown'} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-8`}>
 
-            <DropdownComponent />
+            {/* <DropdownComponent /> */}
             </li>
 
           <li key={'login'} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-6`}>
@@ -59,7 +59,7 @@ const Navbar = () => {
             ))}
             <li key={'dropdown'} className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}>
 
-            <DropdownComponent />
+            {/* <DropdownComponent /> */}
             </li>
     
             <li key={'login'} className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}>

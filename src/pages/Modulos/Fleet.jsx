@@ -16,10 +16,10 @@ const Fleet = () => {
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={`${layout.sectionInfoCTA}`}>
+    <div className={`${layout.sectionInfoCenter} md:ml-10`}>
     <h2 className={styles.heading2}>
       Veículos</h2>
-      <p className={`${styles.paragraph}`}>
+      <p className={`${styles.paragraph} mb-5`}>
         Contém todas as informações cadastrais da frota sob controle do sistema. Armazena também os dados básicos de operação de grande parte dos módulos operantes.
       </p>
       <Button />
@@ -27,9 +27,7 @@ const Fleet = () => {
 
   </section>
       <section id="postos" className={layout.sectionReverse}>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
-
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>
       Postos
       </h2>
@@ -38,7 +36,6 @@ const Fleet = () => {
         física de estoque, aferição de bombas de abastecimento, acompanha qualidade do material que chega dos 
         distribuidores, avisando previamente em caso de irregularidades.
       </p>
-      </div>
     </div>
     <div className={`${layout.sectionImgReverse} ${layout.hiddenImageOnSmall}`}>
       {/* gradient start */}
@@ -50,8 +47,7 @@ const Fleet = () => {
     </div>
   </section>
     <section id='abastecimento' className={layout.sectionReverse}>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 
     <h2 className={styles.heading2}>
       Abastecimentos
@@ -62,7 +58,6 @@ const Fleet = () => {
       indicadores chaves. Além de fornecer informações sobre ocorrência de excessos que permitem ações corretivas na mecânica ou no operacional.
     </p>
     </div>
-  </div>
   <div className={layout.sectionImgReverse}>
       <img src={abastecimento} alt="abastecimento" className={`${styles.boxWidthImageLarge} `} />
 
@@ -81,18 +76,15 @@ const Fleet = () => {
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>Lubrificação</h2>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>
-    </div>
   </section>
   <section id="laboratorio" className={layout.sectionReverse}>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 
     <h2 className={styles.heading2}>
       Laboratório
@@ -101,7 +93,6 @@ const Fleet = () => {
       A análise de óleo lubrificante fornece informações preventivas importantíssimas. Permite acompanhar ocorrências que podem reduzir significativamente 
       a vida do compartimento.
     </p>
-    </div>
     </div>
     <div className={layout.sectionImgReverse}>
       <img src={lubrifica} alt="billing" className={`${styles.boxWidthImageSmall}`} />
@@ -121,8 +112,7 @@ const Fleet = () => {
       <img src={oficina} alt="billing" className={`${styles.boxWidthImage} `} />
 
     </div>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>
       Oficina
       </h2>
@@ -132,7 +122,6 @@ const Fleet = () => {
       O módulo prevê a criação de planos de manutençao preventiva e gera um processo de aperfeiçoamento, 
       com o objetivo de reduzir as corretivas e socorros em campo.
     </p>
-    </div>
     </div>
   </section>
   <CTA />

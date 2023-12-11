@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar bg-black-gradiente ">
+    <nav className="w-full flex py-3 justify-between items-center navbar bg-black-gradiente ">
       <a href='/Home'>
       <img src={logo} alt="Sciclope" className="w-40 h-10 ml-[2.1rem]" />
       </a>

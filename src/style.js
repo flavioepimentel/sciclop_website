@@ -6,7 +6,9 @@ const styles = {
   boxWidthImageLarge:'w-[93%] h-[93%] relative z-[5]',
 
   heading2: "font-poppins font-semibold xs:text-[3rem] text-[2.5rem] text-black xs:leading-[4.8rem] leading-[4.175rem] w-full",
-  paragraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]  max-w-[480px] mt-5",
+  paragraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]  max-w-[78%] mt-3",
+  especialParagraph: "font-poppins font-normal text-black text-[1.125rem] leading-[1.925rem]  max-w-[480px] mt-3",
+  iconeListStyle: "w-[50%] h-[50%] object-contain",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-between items-start",

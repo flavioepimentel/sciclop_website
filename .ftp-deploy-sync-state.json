@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702282362807,
+    "generatedTime": 1702322298829,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 713,
-            "hash": "bd7e51105dd45e995f74275dbf620acfcb03d5a53c1c130f002f9d00930ae4b2"
+            "hash": "0742565acc9b936c82e8e89daeb3024865645dfe43cd47998aea1d906d1176a6"
         },
         {
             "type": "file",
@@ -135,15 +135,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.12072499.css",
-            "size": 15087,
-            "hash": "12072499eb6e9dbca6b66b3441ccb6179e0058922790d916d84fba695212daae"
+            "name": "assets/index.436d2e4b.js",
+            "size": 195566,
+            "hash": "f163c9931c66d6aa4aa03a1e04e581f6582afd339fcc751b7cca4bb21d8b3e86"
         },
         {
             "type": "file",
-            "name": "assets/index.664936f1.js",
-            "size": 195565,
-            "hash": "868cc45fda41971cc6ddfde9c2fc223e579a7ecf2f490583f23968b872c21c65"
+            "name": "assets/index.8266cb28.css",
+            "size": 15115,
+            "hash": "8266cb28e29b38eff64bc293eaab2830b38322a1d45c27022d9395348849532f"
         },
         {
             "type": "file",
@@ -177,15 +177,15 @@
         },
         {
             "type": "file",
-            "name": "assets/mecanica.a4f3aa3e.svg",
-            "size": 676938,
-            "hash": "a4f3aa3e5fabf24dab47758b25210f8d5193f674f02dd82c175499904cc7d178"
-        },
-        {
-            "type": "file",
             "name": "assets/menu.e0613cf3.svg",
             "size": 1088,
             "hash": "e0613cf3937a320c26e43134046bdaec7a18a3b442c8fe561995cc1df465b375"
+        },
+        {
+            "type": "file",
+            "name": "assets/mecanica.a4f3aa3e.svg",
+            "size": 676938,
+            "hash": "a4f3aa3e5fabf24dab47758b25210f8d5193f674f02dd82c175499904cc7d178"
         },
         {
             "type": "file",

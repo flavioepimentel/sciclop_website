@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702157980304,
+    "generatedTime": 1702280862577,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1314,
-            "hash": "5bfad7878873e773ba74b926270b69103e6f38d4739f88a5edd8b46fbf40c259"
+            "size": 713,
+            "hash": "b099558a96d9f0ed580cc1734f8cbc9dd3a0c5085a250e5bae91696e9bcfe8b7"
         },
         {
             "type": "file",
@@ -135,15 +135,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.95dc70d5.css",
-            "size": 244380,
-            "hash": "95dc70d5b49d6cdb04b442c6aab85e6986d8d19b6e6e321d1da69baf9d5c89bb"
+            "name": "assets/index.44dc0af3.js",
+            "size": 195535,
+            "hash": "631bf7c9e1d321fb636ce69b405164170f34f233f9f0716d7b2707820e892750"
         },
         {
             "type": "file",
-            "name": "assets/index.f8013e65.js",
-            "size": 233598,
-            "hash": "05faa6891aa4e781b8e41ee07246a24703cc17e2ac2b456290b8761dfef14031"
+            "name": "assets/index.d923093e.css",
+            "size": 14929,
+            "hash": "d923093ecbce8a6acf3b20f46adf4f54f439c546bb4a181a6b6fee91678832c6"
         },
         {
             "type": "file",

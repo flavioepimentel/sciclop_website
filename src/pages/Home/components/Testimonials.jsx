@@ -11,7 +11,7 @@ const Testimonials = () => (
         Opinião de<br className="sm:block hidden" /> especialistas.
       </h2>
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+        <p className={`${styles.especialParagraph} text-left`}>
           Administrar a frota sem fonte confiável de dados é como andar às cegas em um campo minado
         </p>
       </div>

@@ -16,11 +16,11 @@ const Financial = () => {
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={`${layout.sectionInfoCTA}`}>
+    <div className={`${layout.sectionInfoCenter}`}>
     <h2 className={`${styles.heading2} `}>
       Administração
       </h2>
-    <p className={`${styles.paragraph}`}>
+    <p className={`${styles.paragraph} mb-5`}>
       Administre e controle a manutenção da sua frota com informações de ocorrências relevantes, 
       expeça ordens de intervenção para perfeita operação dos equipamentos.
       
@@ -33,8 +33,7 @@ const Financial = () => {
     </div>
   </section>
   <section className={layout.sectionReverse}>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>
       Almoxarifado
       </h2>
@@ -44,7 +43,6 @@ const Financial = () => {
        Acompanhe o consumo, obsolescência de materias e custo com a curva ABC. Matém inventário rotativo baseado na curva de valores (ABC).
        Escolha a movimentação que melhor se adequa ao seu preocesso, PEPS, UEPS ou preço médio.
     </p>
-    </div>
     </div>
     <div className={layout.sectionImgReverse}>
       <img src={almoxarifado} alt="billing" className={`${styles.boxWidthImage} ${layout.hiddenImageOnSmall}`} />
@@ -65,8 +63,7 @@ const Financial = () => {
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>
       Compras
       </h2>
@@ -78,11 +75,9 @@ const Financial = () => {
       Realize análises de desempenho do processo utilizando o histórico de aquisições como base.
     </p>
     </div>
-    </div>
   </section>
   <section className={layout.section} >
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>
       Custos
       </h2>
@@ -92,7 +87,6 @@ const Financial = () => {
       Use o módulo de Custos para acessar o seu custo operacional e tomar decisões táticas mais acertivas.
       Integre ao sistemas de contabilidade para mais confiabilidade nos dados dos custos.
     </p> 
-    </div> 
     </div>
     <div className={`${layout.sectionImg} flex-col`}>
       <img src={custos} alt="billing" className={`${styles.boxWidthImage}`} />
@@ -112,8 +106,7 @@ const Financial = () => {
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-    <div className={layout.sectionInfo}>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
     <h2 className={styles.heading2}>
       Controle
       </h2>
@@ -127,7 +120,6 @@ const Financial = () => {
       Acompanhamento de serviços externos (recuperações e socorros etc.)
       
     </p>
-    </div>
     </div>
   </section>
     <CTA />

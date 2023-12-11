@@ -12,11 +12,11 @@ const Billing = () => (
       {/* gradient end */}
     </div>
 
-    <div className={layout.sectionInfoCTA}>
-      <h2 className={styles.heading2}>
+    <div className={layout.sectionInfo}>
+      <h2 className={`${styles.heading2} mt-5 pt-5`}>
         Controle facilmente <br className="sm:block hidden" /> finanças e operação
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} pb-10`}>
         Permite a segregação de informações estratégicas para decisões 
         em sinergia com o objetivo de produção de testes específicos voltados 
         à mudança de processos avaliando resultados operacionais.

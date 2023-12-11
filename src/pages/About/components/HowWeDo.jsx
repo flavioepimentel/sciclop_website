@@ -4,9 +4,9 @@ import styles, { layout } from "../../../style";
 const HowWeDo = () => {
     return (
         <section id="howwedo" className={layout.section}>
-            <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
+            <div className={`${layout.paddingText} ${layout.sectionInfoCenter} `}>
                 <h1 className={styles.heading2}>O que fazemos</h1>
-                <p className={`${styles.paragraph}`}>
+                <p className={`${styles.paragraph}  mt-3`}>
                     Iniciamos com uma análise abrangente das condições operacionais do cliente, considerando o 
                     tipo de operação, variados equipamentos, serviços oferecidos, e a presença de recursos 
                     como abastecimento próprio, oficina interna, centros de concentração de frotas, 
@@ -18,18 +18,8 @@ const HowWeDo = () => {
                     a operação.
 
                     O prazo de implantação é estabelecido após a definição das condições iniciais e a 
-                    determinação dos módulos a serem implantados. Quanto ao pagamento, oferecemos dois 
-                    tipos de contrato:
-
-                    Contrato de Uso Mensal:
-
-                        Baseado no tamanho da frota.
-                        Número de colaboradores envolvidos e treinados.
-                        Quantidade de módulos desejados.
-                        Contrato de Metas de Redução de Custos Operacionais:
-
-                        Comprometido com o alcance de metas de redução de custos.
-                        Estabelecido durante a fase de implantação do sistema.
+                    determinação dos módulos a serem implantados. Oferecemos dois 
+                    tipos de contrato, <strong> baseado na demanda </strong> ou baseado na <strong> meta de redução de custos</strong>.
                 </p>
             </div>
             <div className={layout.sectionImgReverse}>

@@ -3,7 +3,7 @@ import { bill } from '../assets/'
 
 const Public = () => {
     return (
-        <section id='public' className={layout.sectionReverse}>
+        <section id='public' className={layout.especialSectionReverse}>
             <div className={layout.sectionImgReverse}>
               <img src={bill} alt="billing" className={`${styles.boxWidthImageLarge}`} />
 
@@ -12,7 +12,7 @@ const Public = () => {
               <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
               {/* gradient end */}
             </div>
-            <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
+            <div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
                 <h1 className={styles.heading2}>A quem serve</h1>
                 <p className={`${styles.paragraph}`}>
                     O Siclope atende a qualquer empresa com uma frota de equipamentos em sua operação. 

@@ -6,7 +6,6 @@ import Fleet from "./pages/Modulos/Fleet";
 import Maintenance from "./pages/Modulos/Maintenance";
 import About from "./pages/About/About";
 import NoPage from "./pages/NoPage/NoPage";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 

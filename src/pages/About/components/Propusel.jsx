@@ -5,12 +5,12 @@ const Propusel = () => {
     return (
         <section id="proposel" className={`flex md:flex-row flex-col ${styles.paddingYHome}`}>
             <div className={`${layout.sectionInfoCenter} ${layout.paddingText}`}>
-                <h1 className={`${styles.heading2}`}>Proposta</h1>
+                <h1 className={`${styles.heading2}`}>Nossa Proposta</h1>
                 <p className={`${styles.paragraph}`}>
-                    Nossa proposta pode ser resumida em uma única frase: Redução racional de custos operacionais pela utilização de tecnologia da informação 
-                    e pelo treinamento de pessoal. Acreditamos que o conhecimento aprofundado sobre o que impacta o custo de uma frota, permite o 
-                    gerenciamento instantâneo das causas de sua variação e com o treinamento no uso de tais informações, atingir o equilíbrio entre máxima 
-                    produtividade e mínimo custo
+                    A inteligência de negócios possibilita uma redução racional de custos operacionais. 
+                    O acesso a informações precisas e em tempo real oferece um entendimento profundo dos fatores 
+                    que impactam os custos da frota, permitindo um gerenciamento instantâneo das causas de variação. 
+                    Com treinamento no uso dessas informações, é possível alcançar o equilíbrio ideal entre máxima produtividade e custos mínimos.
                 </p>
             </div>
             <div className={layout.sectionImgReverse}>

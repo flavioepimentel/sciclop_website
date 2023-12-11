@@ -38,6 +38,7 @@ export const layout = {
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   sectionInfoCTA:`flex-1 flex space-y-16 items-start flex-col`,
+  sectionInfoCenter:`flex-1 flex justify-center items-start flex-col`,
 };
 
 export default styles;

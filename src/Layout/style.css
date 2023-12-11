@@ -7,10 +7,66 @@
     src: url(../src/Layout/assets/Poppins/Poppins-Regular.ttf) format("truetype");
 }
 
-.dropdown-toggle {
-    border: none !important
+/* The navigation menu */
+.navbar {
+    overflow: hidden;
 }
 
-/* nav {
-    position: fixed !important
-} */
+/* Navigation links */
+.navbar a {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+    float: right;
+    overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: #9c9c9c50;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: linear-gradient(144.39deg,
+            #ffffff -278.56%,
+            #6d6d6d -78.47%,
+            #11101d 91.61%);
+    width: 100%;
+    z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+    float: right;
+    text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+    background-color: #9c9c9c50;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+    display: block;
+}

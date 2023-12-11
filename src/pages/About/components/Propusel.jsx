@@ -3,9 +3,9 @@ import { bill } from '../assets/'
 
 const Propusel = () => {
     return (
-        <section id="proposel" className={layout.section}>
-            <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
-                <h1 className={styles.heading2}>Proposta</h1>
+        <section id="proposel" className={`flex md:flex-row flex-col ${styles.paddingYHome}`}>
+            <div className={`${layout.sectionInfoCenter} ${layout.paddingText}`}>
+                <h1 className={`${styles.heading2}`}>Proposta</h1>
                 <p className={`${styles.paragraph}`}>
                     Nossa proposta pode ser resumida em uma única frase: Redução racional de custos operacionais pela utilização de tecnologia da informação 
                     e pelo treinamento de pessoal. Acreditamos que o conhecimento aprofundado sobre o que impacta o custo de uma frota, permite o 

@@ -4,7 +4,7 @@ import {dropdownLinks} from '../constants/index'
 const DropdownComponent= () => {
   return (
     <div className="subnav bg-black-gradiente">
-      <button className="subnavbtn bg-black-gradiente">Services </button>
+      <button className="subnavbtn bg-black-gradiente">Módulos</button>
       <div className="subnav-content bg-black-gradiente">
         {dropdownLinks.map((item) => {
         const { id, title } = item;

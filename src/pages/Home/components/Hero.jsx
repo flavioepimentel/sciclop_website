@@ -5,7 +5,7 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingYHome}`}>
+    <section id="home" className={`flex md:flex-row flex-col sm:pt-8 pt-8 pb-2 mt-3`}>
       <div className={`${layout.paddingText} flex-1 ${styles.flexStartSpace2} ${styles.paddingXHome} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className={`flex flex-row items-center px-4 bg-discount-gradient rounded-[0.625rem]`}>          
         <img src={discount} alt="discount" className="w-[2rem] h-[2rem]" />
@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full">
+        <div className={`sm:pt-8 pt-8 pb-2 mt-3 flex flex-row justify-between items-center w-full`} >
           <h1 className="flex-1 font-poppins font-semibold ss:text-[4.5rem] text-[3.25rem] text-gray">
            Reduza<br className="sm:block hidden" />{" "}
             <span className="text-gradient">Custos</span>{" "}
@@ -24,7 +24,7 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
-        <div>
+        <div >
           <h1 className="flex-1 font-poppins font-semibold ss:text-[4.1rem] text-[3.25rem] text-gray">
             Racionalmente.
           </h1>

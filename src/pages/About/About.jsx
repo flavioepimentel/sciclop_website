@@ -1,6 +1,11 @@
-import { HowWeDo, WeAre, Public, Propusel } from './components/'
 import styles from "../../style";
 import  CTA  from "../../Layout/components/CTA"
+
+const HowWeDo = `${import.meta.env.VITE_APP_STATIC}/HowWeDo.svg`
+const WeAre = `${import.meta.env.VITE_APP_STATIC}/WeAre.svg`
+const Public = `${import.meta.env.VITE_APP_STATIC}/Public.svg`
+const Propusel = `${import.meta.env.VITE_APP_STATIC}/Propusel.svg`
+
 
 const About = () => {
   return ( 

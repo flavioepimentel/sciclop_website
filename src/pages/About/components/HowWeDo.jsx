@@ -1,5 +1,7 @@
-import { bill } from '../assets/'
 import styles, { layout } from "../../../style";
+
+const bill = `${import.meta.env.VITE_APP_STATIC}/bill.svg`
+
 
 const HowWeDo = () => {
     return (

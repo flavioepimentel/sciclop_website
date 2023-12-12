@@ -1,5 +1,8 @@
 import styles from "../../../style";
-import { arrowUp } from "../../../../public/static/assets";
+
+const link = import.meta.env.VITE_APP_STATIC
+const arrowUp = `${link}/arrow-up.svg`;
+
 
 const GetStarted = () => (
   <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>

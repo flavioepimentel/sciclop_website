@@ -1,7 +1,16 @@
 import styles, { layout } from "../../style";
-import { adm, almoxarifado, compras, custos, controle } from "./assets";
+
 import  CTA  from "../../Layout/components/CTA"
 import  Button  from "../../Layout/components/Button"
+
+const link = import.meta.env.VITE_APP_STATIC;
+
+const adm = `${link}/adm.svg` 
+const almoxarifado = `${link}/almoxarifado.svg` 
+const compras = `${link}/compras.svg` 
+const custos = `${link}/custos.svg` 
+const controle = `${link}/controle.svg` 
+
 
 const Financial = () => {
   return (

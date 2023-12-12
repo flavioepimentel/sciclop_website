@@ -1,6 +1,8 @@
-import { card } from "../assets";
 import styles, { layout } from "../../../style";
 import Button from "../../../Layout/components/Button";
+
+const card = `${import.meta.env.VITE_APP_STATIC}/1.svg`
+
 
 const CardDeal = () => (
   <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-6 px-6 ${layout.sectionHome}`}>

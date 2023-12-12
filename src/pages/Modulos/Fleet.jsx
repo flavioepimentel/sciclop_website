@@ -1,9 +1,19 @@
 import styles, { layout } from "../../style";
-import { postos, abastecimento, veiculos, lub, oficina, lubrifica } from "./assets";
 import  CTA  from "../../Layout/components/CTA"
 import  Button  from "../../Layout/components/Button"
 import { FeatureCard } from "./components/FetureCard";
 import { features } from "./constants";
+
+const link = import.meta.env.VITE_APP_STATIC;
+
+
+const postos = `${link}/postos.svg`
+const abastecimento = `${link}/abastecimento.svg`
+const veiculos = `${link}/veiculos.svg`
+const lub = `${link}/lub.svg`
+const oficina = `${link}/oficina.svg`
+const lubrifica = `${link}/lubrifica.svg`
+
 
 const Fleet = () => {
   return (

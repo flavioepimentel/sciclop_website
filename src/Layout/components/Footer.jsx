@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import styles from "../../style";
-import { logo_black } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
+
+const logo_black = `${import.meta.env.VITE_APP_STATIC}/logo_black.svg`
 
 const Footer = () => (
   <Fragment className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>

@@ -1,8 +1,12 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import  DropdownComponent  from './DropdownComponent';
+
+const close = `${import.meta.env.VITE_APP_STATIC}/close.svg`
+const logo = `${import.meta.env.VITE_APP_STATIC}/siclope_logo.svg`
+const menu = `${import.meta.env.VITE_APP_STATIC}/menu.svg`
+
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);

@@ -1,8 +1,12 @@
 import styles, { layout } from "../../style";
-import { pneu, mecanica, rodante } from "./assets";
 import  CTA  from "../../Layout/components/CTA"
 import  Button  from "../../Layout/components/Button"
 
+const link = import.meta.env.VITE_APP_STATIC;
+
+const pneu = `${link}/pneu.svg`
+const mecanica = `${link}/mecanica.svg`
+const rodante = `${link}/rodante.svg`
 
 const Maintenance = () => {
   return (

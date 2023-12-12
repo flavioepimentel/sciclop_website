@@ -35,7 +35,7 @@ export const layout = {
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
   hiddenImageOnSmall: `md:block hidden`,
   hiddenImageOnBig: `md:hidden block`,
-  paddingText: `ml-10`,
+  paddingText: `sm:ml-5 ml-6`,
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   sectionInfoCTA:`flex-1 flex space-y-16 items-start flex-col`,

@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702344196737,
+    "generatedTime": 1702407027218,
     "data": [
         {
             "type": "folder",
@@ -16,128 +16,18 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 758,
-            "hash": "c37ed83d59f65f11067f6ce41de7d23badd71dc98bb5805ddd10e36704e36037"
+            "size": 911,
+            "hash": "47d9a519a3c6e0bd07531b7a433d2f9af5a02064689597647604f8fd4d19bc5d"
+        },
+        {
+            "type": "folder",
+            "name": "static"
         },
         {
             "type": "file",
-            "name": "assets/1.a1ffe1c2.svg",
-            "size": 2135318,
-            "hash": "a1ffe1c2606c246d1fe8053447050338752b40015f8ac2b7ba124e8151ebd981"
-        },
-        {
-            "type": "file",
-            "name": "assets/Discount.b926deb8.svg",
-            "size": 2549,
-            "hash": "b926deb8413d3c255ad877de83425f068679955fcefc30ec09e48819032ae5e4"
-        },
-        {
-            "type": "file",
-            "name": "assets/Poppins-Regular.707fdc5c.ttf",
-            "size": 158240,
-            "hash": "707fdc5c8bab57a90061c6a8ed7b70d5ffb82fc810e994e79f90bace890c255a"
-        },
-        {
-            "type": "file",
-            "name": "assets/Send.a0c9ca6a.svg",
-            "size": 752,
-            "hash": "a0c9ca6a9c28b5f6aee3dbe5c15b93084050255e6d91b38a853200dadf2d816d"
-        },
-        {
-            "type": "file",
-            "name": "assets/Shield.70b447f9.svg",
-            "size": 1081,
-            "hash": "70b447f99e1af583c9d8ae5c8cd245befc9dcd1bef9f24ecfdc5bc64b1074868"
-        },
-        {
-            "type": "file",
-            "name": "assets/Star.6d99c69e.svg",
-            "size": 1191,
-            "hash": "6d99c69eb1711336ab1c314d04b6f2833a562664141c34246bc2f387fa6bc67d"
-        },
-        {
-            "type": "file",
-            "name": "assets/abastecimento.b4bcd0b5.svg",
-            "size": 1900714,
-            "hash": "b4bcd0b5f747c50feb4855abf49ad444e1d10554bb273bd7e588fb77949ba484"
-        },
-        {
-            "type": "file",
-            "name": "assets/adm.cb6f6e7b.svg",
-            "size": 246828,
-            "hash": "cb6f6e7b7f07dc7d6bc1df972de203f94b861963cdd69cb5435d22b48674e51b"
-        },
-        {
-            "type": "file",
-            "name": "assets/almoxarifado.de91471e.svg",
-            "size": 1915749,
-            "hash": "de91471e816ba3d643d68c6243acfe17dc42ea655d8fe983a926a6bc4ab039fa"
-        },
-        {
-            "type": "file",
-            "name": "assets/arrow-up.281b0d67.svg",
-            "size": 786,
-            "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
-        },
-        {
-            "type": "file",
-            "name": "assets/close.945782e8.svg",
-            "size": 1340,
-            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
-        },
-        {
-            "type": "file",
-            "name": "assets/bill.1ef34bce.svg",
-            "size": 643489,
-            "hash": "1ef34bcea71dfdae98b5dea7120ecf04be261d03145a879080f851ac88dc3e78"
-        },
-        {
-            "type": "file",
-            "name": "assets/compras.841881cc.svg",
-            "size": 756875,
-            "hash": "841881cc783d348ca2861cff7e995e7ddfd72a5dbd720fde5a1bd56fa317c0c7"
-        },
-        {
-            "type": "file",
-            "name": "assets/control.bc8492be.svg",
-            "size": 3164,
-            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
-        },
-        {
-            "type": "file",
-            "name": "assets/controle.1d6e91f4.svg",
-            "size": 2413904,
-            "hash": "1d6e91f48c15d5583aee2594a7d21daa86f7de98d582b7789b89e37e1f606866"
-        },
-        {
-            "type": "file",
-            "name": "assets/custos.290bdc17.svg",
-            "size": 94533,
-            "hash": "290bdc17fa44301b0a363c5184019ca356ad4e414d43821cdc23f09531432319"
-        },
-        {
-            "type": "file",
-            "name": "assets/facebook.f67832a4.svg",
-            "size": 528,
-            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
-        },
-        {
-            "type": "file",
-            "name": "assets/favicon.62810e50.ico",
-            "size": 32286,
-            "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
-        },
-        {
-            "type": "file",
-            "name": "assets/hero.637a4982.svg",
-            "size": 3696344,
-            "hash": "637a4982c536016be50dc49fc52110daf296f7504bc31830743f3a5987542c93"
-        },
-        {
-            "type": "file",
-            "name": "assets/index.d2991b60.js",
-            "size": 195742,
-            "hash": "a5319e30836ab8b375eb1c96cafab9d510f8a1e932ce227655e0d1cba1cd8f86"
+            "name": "assets/index.4f01d03b.js",
+            "size": 190488,
+            "hash": "b29089417daeeec681e39f260d5dc2efb8dde4cd98265f143dba87d3d619c9bc"
         },
         {
             "type": "file",
@@ -146,106 +36,342 @@
             "hash": "dd8b02bd76f88c35269e6ebdc46caff284923df1764b28413c91d904c3dd5be2"
         },
         {
+            "type": "folder",
+            "name": "static/assets"
+        },
+        {
             "type": "file",
-            "name": "assets/instagram.ee63de84.svg",
+            "name": "static/assets/1.svg",
+            "size": 2135318,
+            "hash": "a1ffe1c2606c246d1fe8053447050338752b40015f8ac2b7ba124e8151ebd981"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Discount.svg",
+            "size": 2549,
+            "hash": "b926deb8413d3c255ad877de83425f068679955fcefc30ec09e48819032ae5e4"
+        },
+        {
+            "type": "folder",
+            "name": "static/assets/Poppins"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Send.svg",
+            "size": 752,
+            "hash": "a0c9ca6a9c28b5f6aee3dbe5c15b93084050255e6d91b38a853200dadf2d816d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Shield.svg",
+            "size": 1081,
+            "hash": "70b447f99e1af583c9d8ae5c8cd245befc9dcd1bef9f24ecfdc5bc64b1074868"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Star.svg",
+            "size": 1191,
+            "hash": "6d99c69eb1711336ab1c314d04b6f2833a562664141c34246bc2f387fa6bc67d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/abastecimento.svg",
+            "size": 1900714,
+            "hash": "b4bcd0b5f747c50feb4855abf49ad444e1d10554bb273bd7e588fb77949ba484"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/adm.svg",
+            "size": 246828,
+            "hash": "cb6f6e7b7f07dc7d6bc1df972de203f94b861963cdd69cb5435d22b48674e51b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/almoxarifado.svg",
+            "size": 1915749,
+            "hash": "de91471e816ba3d643d68c6243acfe17dc42ea655d8fe983a926a6bc4ab039fa"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/arrow-up.svg",
+            "size": 786,
+            "hash": "281b0d677b99f2643b23e0afeab73be3376c478349ed6ec82f2ccc76fce59384"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/bill.svg",
+            "size": 643489,
+            "hash": "1ef34bcea71dfdae98b5dea7120ecf04be261d03145a879080f851ac88dc3e78"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/close.svg",
+            "size": 1340,
+            "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/compras.svg",
+            "size": 756875,
+            "hash": "841881cc783d348ca2861cff7e995e7ddfd72a5dbd720fde5a1bd56fa317c0c7"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/control.svg",
+            "size": 3164,
+            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/controle.svg",
+            "size": 2413904,
+            "hash": "1d6e91f48c15d5583aee2594a7d21daa86f7de98d582b7789b89e37e1f606866"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/custos.svg",
+            "size": 94533,
+            "hash": "290bdc17fa44301b0a363c5184019ca356ad4e414d43821cdc23f09531432319"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/facebook.svg",
+            "size": 528,
+            "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/favicon.ico",
+            "size": 32286,
+            "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/hero.svg",
+            "size": 3696344,
+            "hash": "637a4982c536016be50dc49fc52110daf296f7504bc31830743f3a5987542c93"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/instagram.svg",
             "size": 2808,
             "hash": "ee63de84c7ee3d1493a71a1b20395f3e82314dae509c30d51b8aae2f59bde605"
         },
         {
             "type": "file",
-            "name": "assets/integration.381b5231.svg",
+            "name": "static/assets/integration.svg",
             "size": 22584,
             "hash": "381b5231cabf6e1a9f64854c678e3fd6e418d24b8d40f8845c2ecad757be51ca"
         },
         {
             "type": "file",
-            "name": "assets/linkedin.553c430f.svg",
+            "name": "static/assets/linkedin.svg",
             "size": 914,
             "hash": "553c430f69a6270f635a95245e7022dfaa1f7b499fcdb89428edd60b09e9eb6e"
         },
         {
             "type": "file",
-            "name": "assets/lub.0c7a171e.svg",
+            "name": "static/assets/lub.svg",
             "size": 2931167,
             "hash": "0c7a171e918cd57d1ebc75c72d604fa08fb91b07f34e04c382814a8830d1e0a5"
         },
         {
             "type": "file",
-            "name": "assets/lubrifica.1dfeca32.svg",
+            "name": "static/assets/lubrifica.svg",
             "size": 228711,
             "hash": "1dfeca32d7631360578fd3276c76bed1fb1f2d3908114d1838ca5ff0a0b44998"
         },
         {
             "type": "file",
-            "name": "assets/mecanica.17857dfa.svg",
+            "name": "static/assets/mecanica.svg",
             "size": 338729,
             "hash": "17857dfaa5600c2e64b193a6759f06dac612f57bb47e8bcf1817c9324c28e255"
         },
         {
             "type": "file",
-            "name": "assets/menu.e0613cf3.svg",
+            "name": "static/assets/menu.svg",
             "size": 1088,
             "hash": "e0613cf3937a320c26e43134046bdaec7a18a3b442c8fe561995cc1df465b375"
         },
         {
             "type": "file",
-            "name": "assets/oficina.21b8c926.svg",
+            "name": "static/assets/oficina.svg",
             "size": 1722685,
             "hash": "21b8c9263fa0347b4139aef5e9e88c0ffbcbfca8479c62c957f120857d56d9f8"
         },
         {
             "type": "file",
-            "name": "assets/optimization.ae4bb49c.svg",
+            "name": "static/assets/optimization.svg",
             "size": 5586,
             "hash": "ae4bb49c2e6c14952b2bff350ae27303414af21fe494388aaefb15cacf7ef5e2"
         },
         {
             "type": "file",
-            "name": "assets/pneu.a0508b4b.svg",
+            "name": "static/assets/pneu.svg",
             "size": 5086145,
             "hash": "a0508b4bee37c5579f6e84a401758e2af3d8afcbd62ecefd22acff5f7f829093"
         },
         {
             "type": "file",
-            "name": "assets/postos.84d440b7.svg",
+            "name": "static/assets/postos.svg",
             "size": 1601313,
             "hash": "84d440b76860228fb98ae6afaf32b168b7f1389e3f10c96b9b5dcfc902e288cd"
         },
         {
             "type": "file",
-            "name": "assets/quotes.64e29e7f.svg",
+            "name": "static/assets/quotes.svg",
             "size": 688,
             "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
         },
         {
             "type": "file",
-            "name": "assets/rodante.6eb4b196.svg",
+            "name": "static/assets/rodante.svg",
             "size": 270828,
             "hash": "6eb4b1965c2ef63c4cb45742743d5ddf689c6fd6712c4097060bf5ac8fa7eb3e"
         },
         {
             "type": "file",
-            "name": "assets/siclope_logo.c6563a91.svg",
+            "name": "static/assets/siclope_logo-min.svg",
+            "size": 111313,
+            "hash": "4284d53b1f681bcbcdab09f6cc04aedac8f96743f73f3c595276dadf8f2f3a4d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/siclope_logo.svg",
             "size": 222984,
             "hash": "c6563a91e9a5b89b1b17d92044d85b9e699262b65212d5b02a0cb71dca78db26"
         },
         {
             "type": "file",
-            "name": "assets/siclope_logo_black2.d7a4bb12.svg",
+            "name": "static/assets/siclope_logo_black2.svg",
             "size": 39092,
             "hash": "d7a4bb120d862f252ace9fd3a52be3c9980340e4d330f4350f9e632f1d511592"
         },
         {
             "type": "file",
-            "name": "assets/twitter.11270ad2.svg",
+            "name": "static/assets/twitter.svg",
             "size": 1085,
             "hash": "11270ad2feaaa526d7850730755a3c8ec11a89fce065e0452b25f9e7d774d782"
         },
         {
             "type": "file",
-            "name": "assets/veiculos.219b959c.svg",
+            "name": "static/assets/veiculos.svg",
             "size": 557289,
             "hash": "219b959cb2090f11733ddc55b7296d7898d8f4536b417f5a7319c14890c16b54"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/OFL.txt",
+            "size": 4385,
+            "hash": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Black.ttf",
+            "size": 151396,
+            "hash": "291e4388a436cf0c0d532ce4735a4ca36bd2286912b051ea423d5c383be06cd7"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-BlackItalic.ttf",
+            "size": 171604,
+            "hash": "a5e3e31e9dc6878269fdda8a968f8c0212beef9f7ef6028b6d1e02293316db7d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Bold.ttf",
+            "size": 153944,
+            "hash": "7219547ee25334cbac0fe4b3acf0bf631e48ebb622c71af038edaaa652c60875"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-BoldItalic.ttf",
+            "size": 176588,
+            "hash": "9d4d9f3c2c289eaec403660ec215bdc45e62b49f978807714bfc31ca7916c8fe"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-ExtraBold.ttf",
+            "size": 152764,
+            "hash": "94a215f88fbde9099cb3bd1431b8142aba26af36f8771effec56a94bc3aad1fd"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-ExtraBoldItalic.ttf",
+            "size": 173916,
+            "hash": "bba986e116690660f70d3ebb18a74d8d2c8eafcda6c28c8ffc4306aa1e2b91e4"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-ExtraLight.ttf",
+            "size": 161456,
+            "hash": "60c4bb1b8f272f0ac4702b962cc46e58e885a65624479be1c0646c9e37d9ce62"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-ExtraLightItalic.ttf",
+            "size": 186168,
+            "hash": "05418f4d333f25ddaf359adaf39b2777e64dad0f83c3fa4502d193d0ad19a9b7"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Italic.ttf",
+            "size": 182012,
+            "hash": "3225cec6a018310497ea9ee116aa43b2a833464fed6156dceb9a3a4424bb8613"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Light.ttf",
+            "size": 159892,
+            "hash": "647f014d36822ef7e0413ffbb65598ae0cb57fb798e635c63912c93d94eb356a"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-LightItalic.ttf",
+            "size": 184460,
+            "hash": "6d00aa5531c8b8ba0934de7925985c6636c99fbc89b4c9f79629fb4a9067654f"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Medium.ttf",
+            "size": 156520,
+            "hash": "8d909883de81344e0fbcfef30e931872e92d9aeecdf85b6dcf6e0b28c078e98e"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-MediumItalic.ttf",
+            "size": 180444,
+            "hash": "449f6bd907fe29dbdfd5ef0990bdbb7fd800efa748a83f7b7529dcb94f79955b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Regular.ttf",
+            "size": 158240,
+            "hash": "707fdc5c8bab57a90061c6a8ed7b70d5ffb82fc810e994e79f90bace890c255a"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-SemiBold.ttf",
+            "size": 155232,
+            "hash": "248c0244b350ec68880996aa6be6d7796274b49992d5fcbbefe251906aa4ea36"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-SemiBoldItalic.ttf",
+            "size": 178584,
+            "hash": "74b31cbc29dc90c2d630e77673e7b6f714ff9bb01e5d424670bc61ca85b6093a"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Thin.ttf",
+            "size": 161652,
+            "hash": "95875f9ef0d12d5cbdd64852933a578021c810cec247f7564207e046cf6c7289"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-ThinItalic.ttf",
+            "size": 187044,
+            "hash": "043226b0e187263ab54de3e971b663a77e52c3857cbb235c8410388db6d28de8"
         }
     ]
 }

@@ -1,5 +1,5 @@
 import styles, { layout } from "../../../style";
-import { discount, hero } from "../assets";
+import { discount, hero } from "../../../../public/static/assets";
 import GetStarted from "./GetStarted";
 
 
@@ -9,7 +9,7 @@ const Hero = () => {
     <section id="home" className={`flex md:flex-row flex-col sm:pt-8 pt-8 pb-2 mt-3`}>
       <div className={`${layout.paddingText} flex-1 ${styles.flexStartSpace2} ${styles.paddingXHome} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className={`flex flex-row items-center px-4 bg-discount-gradient rounded-[0.625rem]`}>          
-        <img src={discount} alt="discount" className="w-[2rem] h-[2rem]" />
+        <img fetchpriority="high" src={discount} alt="discount" className="w-[2rem] h-[2rem]" />
           <p className={`font-poppins font-normal text-white text-[1.125rem] leading-[1.925rem] ml-2`}>
             <span className="text-white">20%</span> Desconto no{" "}
             <span className="text-white">1 Mês</span> de Contratação

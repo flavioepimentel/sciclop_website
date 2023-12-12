@@ -1,4 +1,8 @@
-import { send, shield, star  } from "../../../../public/static/assets";
+const link = import.meta.env.VITE_APP_STATIC;
+
+const send = `${link}/Send.svg`
+const shield = `${link}/Shield.svg`
+const star = `${link}/Star.svg`
 
 
 export const features = [

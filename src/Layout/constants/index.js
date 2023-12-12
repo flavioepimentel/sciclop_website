@@ -1,4 +1,7 @@
-import { facebook, instagram, linkedin, twitter } from "../assets";
+const facebook = `${import.meta.env.VITE_APP_STATIC}/facebook.svg` 
+const instagram = `${import.meta.env.VITE_APP_STATIC}/instagram.svg` 
+const linkedin = `${import.meta.env.VITE_APP_STATIC}/linkedin.svg` 
+const twitter = `${import.meta.env.VITE_APP_STATIC}/twitter.svg` 
 
 export const navLinks = [
   { //	O que é o Siclope, contato, Descrição da dor.

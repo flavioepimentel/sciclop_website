@@ -1,4 +1,8 @@
-import { integration, optimization, control  } from "../assets";
+const link = import.meta.env.VITE_APP_STATIC;
+const integration = `${link}/integration.svg`
+const optimization = `${link}/optimization.svg`
+const control = `${link}/control.svg`
+
 
 export const features = [
   {

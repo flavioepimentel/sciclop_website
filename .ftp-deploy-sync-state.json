@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702407715638,
+    "generatedTime": 1702415496684,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 914,
-            "hash": "3468e90c24b81a6a2df09399f8689ad375010f67c5bfe1b8cbfa87fab63f0bca"
+            "hash": "98f5594c4bcb7be54ecdce6a420555346d6e66addd5b3ebc4a05773361fb41e7"
         },
         {
             "type": "folder",
@@ -25,15 +25,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.aff86276.js",
-            "size": 190497,
-            "hash": "0e47bee5be190b41dfc15ab916ad430cc6281e63688c7ab6a63ca5fdc8867083"
+            "name": "assets/index.0cc8994a.css",
+            "size": 15249,
+            "hash": "0cc8994a60aeca43e87a767763881432fac75dc573457cac21d622527dbdc4c6"
         },
         {
             "type": "file",
-            "name": "assets/index.dd8b02bd.css",
-            "size": 15383,
-            "hash": "dd8b02bd76f88c35269e6ebdc46caff284923df1764b28413c91d904c3dd5be2"
+            "name": "assets/index.92952591.js",
+            "size": 190440,
+            "hash": "7be848f33109f740ac607df56df2fb5cc3b9edb24ff280538309b2c091f0e785"
         },
         {
             "type": "folder",
@@ -117,15 +117,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/control.svg",
-            "size": 3164,
-            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
-        },
-        {
-            "type": "file",
             "name": "static/assets/controle.svg",
             "size": 2413904,
             "hash": "1d6e91f48c15d5583aee2594a7d21daa86f7de98d582b7789b89e37e1f606866"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/control.svg",
+            "size": 3164,
+            "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
         },
         {
             "type": "file",

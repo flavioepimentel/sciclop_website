@@ -1,4 +1,4 @@
-import { send, shield, star  } from "../assets";
+import { send, shield, star  } from "../../../../public/static/assets";
 
 
 export const features = [

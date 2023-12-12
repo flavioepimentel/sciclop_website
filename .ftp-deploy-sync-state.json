@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702332184604,
+    "generatedTime": 1702344196737,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 713,
-            "hash": "394a12fff17e33e1f9a4e4241a6e65b45a4170347c3b015ec8afa06c095676c3"
+            "size": 758,
+            "hash": "c37ed83d59f65f11067f6ce41de7d23badd71dc98bb5805ddd10e36704e36037"
         },
         {
             "type": "file",
@@ -81,15 +81,15 @@
         },
         {
             "type": "file",
-            "name": "assets/bill.1ef34bce.svg",
-            "size": 643489,
-            "hash": "1ef34bcea71dfdae98b5dea7120ecf04be261d03145a879080f851ac88dc3e78"
-        },
-        {
-            "type": "file",
             "name": "assets/close.945782e8.svg",
             "size": 1340,
             "hash": "945782e80757f4aa9deba5cae71012a3b71013cfbfb05ee1f7ad922576418ac4"
+        },
+        {
+            "type": "file",
+            "name": "assets/bill.1ef34bce.svg",
+            "size": 643489,
+            "hash": "1ef34bcea71dfdae98b5dea7120ecf04be261d03145a879080f851ac88dc3e78"
         },
         {
             "type": "file",
@@ -135,15 +135,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.1140e7e1.js",
-            "size": 195602,
-            "hash": "9903db6f0b2238f2eb1399a415de8362441d59040160d6e4ae7e0f69e411c2b5"
+            "name": "assets/index.d2991b60.js",
+            "size": 195742,
+            "hash": "a5319e30836ab8b375eb1c96cafab9d510f8a1e932ce227655e0d1cba1cd8f86"
         },
         {
             "type": "file",
-            "name": "assets/index.4781eee9.css",
-            "size": 15313,
-            "hash": "4781eee93440a3ca352e3818c2bf87aa66dacb3eb603d628741278cbf39b4ae1"
+            "name": "assets/index.dd8b02bd.css",
+            "size": 15383,
+            "hash": "dd8b02bd76f88c35269e6ebdc46caff284923df1764b28413c91d904c3dd5be2"
         },
         {
             "type": "file",
@@ -171,15 +171,15 @@
         },
         {
             "type": "file",
-            "name": "assets/mecanica.17857dfa.svg",
-            "size": 338729,
-            "hash": "17857dfaa5600c2e64b193a6759f06dac612f57bb47e8bcf1817c9324c28e255"
-        },
-        {
-            "type": "file",
             "name": "assets/lubrifica.1dfeca32.svg",
             "size": 228711,
             "hash": "1dfeca32d7631360578fd3276c76bed1fb1f2d3908114d1838ca5ff0a0b44998"
+        },
+        {
+            "type": "file",
+            "name": "assets/mecanica.17857dfa.svg",
+            "size": 338729,
+            "hash": "17857dfaa5600c2e64b193a6759f06dac612f57bb47e8bcf1817c9324c28e255"
         },
         {
             "type": "file",

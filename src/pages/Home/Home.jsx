@@ -10,12 +10,10 @@ const Home = () => (
         <Hero />
       </div>
     </div>
-        {/* <Stats /> */}
         <Business />
         <Billing />
         <CardDeal />
         <Testimonials />
-        {/* <Clients /> */}
         <CTA />
   </div>
   </>

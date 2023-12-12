@@ -29,13 +29,13 @@ export const layout = {
   sectionHome: `flex md:flex-row flex-col ${styles.paddingYHome}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
   sectionReverseHome: `flex md:flex-row flex-col-reverse ${styles.paddingYHome}`,
-  especialSectionReverse: `flex md:flex-row flex-col-reverse sm:py-16 pt-8 pb-0`,
+  especialSectionReverse: `flex pl-6 md:flex-row md:pl-0 flex-col-reverse sm:py-16 pt-8 pb-0`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-  hiddenImageOnSmall: `md:block hidden`,
+  hiddenImageOnSmall: `md:flex hidden`,
   hiddenImageOnBig: `md:hidden block`,
-  paddingText: `sm:ml-5 ml-6`,
+  paddingText: `ml-6 sm:ml-5`,
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   sectionInfoCTA:`flex-1 flex space-y-16 items-start flex-col`,

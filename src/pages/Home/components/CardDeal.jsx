@@ -5,7 +5,7 @@ const card = `${import.meta.env.VITE_APP_STATIC}/1.svg`
 
 
 const CardDeal = () => (
-  <section className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-6 px-6 ${layout.sectionHome}`}>
+  <section id="carddeal" className={`flex-1 flex justify-center items-start flex-col px-6 ${layout.sectionHome}`}>
     <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
         Avalie as melhores marcas e fornecedores<br className="sm:block hidden" /> em alguns

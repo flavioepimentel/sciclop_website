@@ -10,7 +10,7 @@ export const navLinks = [
   },
   { // Quem somos, A quem serve, como funcioa
     id: "About",
-    title: "Quem Somos",
+    title: "Quem somos",
   }
 ];
 

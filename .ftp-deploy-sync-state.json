@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702415496684,
+    "generatedTime": 1702416980994,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 914,
-            "hash": "98f5594c4bcb7be54ecdce6a420555346d6e66addd5b3ebc4a05773361fb41e7"
+            "size": 1471,
+            "hash": "995fb4bd2bc27fe31745d14d3d8ebb7f6387fec724d9c9e83242823db9f8775a"
         },
         {
             "type": "folder",
@@ -117,15 +117,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/controle.svg",
-            "size": 2413904,
-            "hash": "1d6e91f48c15d5583aee2594a7d21daa86f7de98d582b7789b89e37e1f606866"
-        },
-        {
-            "type": "file",
             "name": "static/assets/control.svg",
             "size": 3164,
             "hash": "bc8492be293be80d6f88b3dd1a229fc7625829a0ecb23584756e9203664c8b2b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/controle.svg",
+            "size": 2413904,
+            "hash": "1d6e91f48c15d5583aee2594a7d21daa86f7de98d582b7789b89e37e1f606866"
         },
         {
             "type": "file",

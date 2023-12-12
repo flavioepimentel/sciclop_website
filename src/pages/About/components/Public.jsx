@@ -3,6 +3,7 @@ import { bill } from '../assets/'
 
 const Public = () => {
     return (
+        <>
         <section id='public' className={layout.especialSectionReverse}>
             <div className={layout.sectionImgReverse}>
               <img src={bill} alt="billing" className={`${styles.boxWidthImageLarge}`} />
@@ -27,6 +28,7 @@ const Public = () => {
                 </p>
             </div>
         </section>
+        </>
     )
 }
 

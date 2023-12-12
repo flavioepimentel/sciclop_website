@@ -3,6 +3,7 @@ import { bill } from '../assets/'
 
 const WeAre = () => {
     return (
+        <>
         <section id="weare" className={layout.especialSectionReverse}>
         <div className={layout.sectionImgReverse}>
         
@@ -34,6 +35,7 @@ const WeAre = () => {
                 </p>
             </div>
         </section>
+        </>
     )
 }
 

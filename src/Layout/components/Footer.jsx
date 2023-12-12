@@ -1,9 +1,10 @@
+import { Fragment } from "react";
 import styles from "../../style";
 import { logo_black } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <Fragment className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full ml-4`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
@@ -58,7 +59,7 @@ const Footer = () => (
         ))}
       </div>
     </div>
-  </section>
+  </Fragment>
 );
 
 export default Footer;

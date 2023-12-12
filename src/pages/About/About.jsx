@@ -4,6 +4,7 @@ import  CTA  from "../../Layout/components/CTA"
 
 const About = () => {
   return ( 
+    <>
     <div className="w-full overflow-hidden">
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
@@ -15,6 +16,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   )
 };
 

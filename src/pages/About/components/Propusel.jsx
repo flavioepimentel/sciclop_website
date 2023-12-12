@@ -3,6 +3,7 @@ import { bill } from '../assets/'
 
 const Propusel = () => {
     return (
+        <>
         <section id="proposel" className={`flex md:flex-row flex-col ${styles.paddingYHome}`}>
             <div className={`${layout.sectionInfoCenter} ${layout.paddingText}`}>
                 <h1 className={`${styles.heading2}`}>Nossa Proposta</h1>
@@ -22,6 +23,7 @@ const Propusel = () => {
               {/* gradient end */}
             </div>
         </section>
+        </>
     )
 }
 

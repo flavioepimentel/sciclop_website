@@ -3,6 +3,7 @@ import styles, { layout } from "../../../style";
 
 const HowWeDo = () => {
     return (
+        <>
         <section id="howwedo" className={layout.section}>
             <div className={`${layout.paddingText} ${layout.sectionInfoCenter} `}>
                 <h1 className={styles.heading2}>O que fazemos</h1>
@@ -31,6 +32,7 @@ const HowWeDo = () => {
               {/* gradient end */}
             </div>
         </section>
+        </>
     )
 }
 

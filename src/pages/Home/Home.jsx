@@ -3,6 +3,7 @@ import { CTA } from "../../Layout/components";
 import { Billing, Business, CardDeal, Hero, Testimonials } from "./components";
 
 const Home = () => (
+  <>
   <div className="w-full overflow-hidden">
     <div className={` ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
@@ -17,6 +18,7 @@ const Home = () => (
         {/* <Clients /> */}
         <CTA />
   </div>
+  </>
 );
 
 export default Home;

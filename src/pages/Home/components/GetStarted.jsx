@@ -1,7 +1,7 @@
 import styles from "../../../style";
 
 const link = import.meta.env.VITE_APP_STATIC
-const arrowUp = `${link}/arrow-up.svg`;
+const arrowUp = `${link}/arrow-up.webp`;
 
 
 const GetStarted = () => (

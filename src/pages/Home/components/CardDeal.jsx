@@ -1,7 +1,7 @@
 import styles, { layout } from "../../../style";
 import Button from "../../../Layout/components/Button";
 
-const card = `${import.meta.env.VITE_APP_STATIC}/1.svg`
+const card = `${import.meta.env.VITE_APP_STATIC}/1.webp`
 
 
 const CardDeal = () => (

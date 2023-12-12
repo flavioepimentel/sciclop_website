@@ -2,8 +2,8 @@ import styles, { layout } from "../../../style";
 import GetStarted from "./GetStarted";
 
 const link = import.meta.env.VITE_APP_STATIC
-const discount = `${link}/Discount.svg`
-const hero = `${link}/hero.svg`
+const discount = `${link}/Discount.webp`
+const hero = `${link}/hero.webp`
 
 
 const Hero = () => {

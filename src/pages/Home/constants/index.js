@@ -1,7 +1,7 @@
 const link = import.meta.env.VITE_APP_STATIC;
 
-const send = `${link}/Send.svg`
-const shield = `${link}/Shield.svg`
+const send = `${link}/Send.webp`
+const shield = `${link}/Shield.webp`
 const star = `${link}/Star.svg`
 
 

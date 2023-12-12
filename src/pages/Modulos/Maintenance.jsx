@@ -4,9 +4,9 @@ import  Button  from "../../Layout/components/Button"
 
 const link = import.meta.env.VITE_APP_STATIC;
 
-const pneu = `${link}/pneu.svg`
-const mecanica = `${link}/mecanica.svg`
-const rodante = `${link}/rodante.svg`
+const pneu = `${link}/pneu.webp`
+const mecanica = `${link}/mecanica.webp`
+const rodante = `${link}/rodante.webp`
 
 const Maintenance = () => {
   return (

@@ -3,9 +3,9 @@ import { useState } from "react";
 import { navLinks } from "../constants";
 import  DropdownComponent  from './DropdownComponent';
 
-const close = `${import.meta.env.VITE_APP_STATIC}/close.svg`
+const close = `${import.meta.env.VITE_APP_STATIC}/close.webp`
 const logo = `${import.meta.env.VITE_APP_STATIC}/siclope_logo.svg`
-const menu = `${import.meta.env.VITE_APP_STATIC}/menu.svg`
+const menu = `${import.meta.env.VITE_APP_STATIC}/menu.webp`
 
 
 const Navbar = () => {

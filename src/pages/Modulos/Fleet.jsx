@@ -7,12 +7,12 @@ import { features } from "./constants";
 const link = import.meta.env.VITE_APP_STATIC;
 
 
-const postos = `${link}/postos.svg`
-const abastecimento = `${link}/abastecimento.svg`
-const veiculos = `${link}/veiculos.svg`
-const lub = `${link}/lub.svg`
-const oficina = `${link}/oficina.svg`
-const lubrifica = `${link}/lubrifica.svg`
+const postos = `${link}/postos.webp`
+const abastecimento = `${link}/abastecimento.webp`
+const veiculos = `${link}/veiculos.webp`
+const lub = `${link}/lub.webp`
+const oficina = `${link}/oficina.webp`
+const lubrifica = `${link}/lubrifica.webp`
 
 
 const Fleet = () => {

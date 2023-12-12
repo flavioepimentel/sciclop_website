@@ -1,7 +1,7 @@
 const link = import.meta.env.VITE_APP_STATIC;
-const integration = `${link}/integration.svg`
-const optimization = `${link}/optimization.svg`
-const control = `${link}/control.svg`
+const integration = `${link}/integration.webp`
+const optimization = `${link}/optimization.webp`
+const control = `${link}/control.webp`
 
 
 export const features = [

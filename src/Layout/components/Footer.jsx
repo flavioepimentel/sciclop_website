@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import styles from "../../style";
 import { footerLinks, socialMedia } from "../constants";
 
-const logo_black = `${import.meta.env.VITE_APP_STATIC}/siclope_logo_black2.svg`
+const logo_black = `${import.meta.env.VITE_APP_STATIC}/siclope_logo_black2.webp`
 
 const Footer = () => (
   <Fragment className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>

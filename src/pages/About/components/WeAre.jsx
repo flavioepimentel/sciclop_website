@@ -1,7 +1,7 @@
 import styles, { layout } from "../../../style";
 
 
-const bill = `${import.meta.env.VITE_APP_STATIC}/bill.svg`
+const bill = `${import.meta.env.VITE_APP_STATIC}/bill.webp`
 
 const WeAre = () => {
     return (

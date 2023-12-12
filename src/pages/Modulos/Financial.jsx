@@ -5,11 +5,11 @@ import  Button  from "../../Layout/components/Button"
 
 const link = import.meta.env.VITE_APP_STATIC;
 
-const adm = `${link}/adm.svg` 
-const almoxarifado = `${link}/almoxarifado.svg` 
-const compras = `${link}/compras.svg` 
-const custos = `${link}/custos.svg` 
-const controle = `${link}/controle.svg` 
+const adm = `${link}/adm.webp` 
+const almoxarifado = `${link}/almoxarifado.webp` 
+const compras = `${link}/compras.webp` 
+const custos = `${link}/custos.webp` 
+const controle = `${link}/controle.webp` 
 
 
 const Financial = () => {

@@ -5,6 +5,7 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
+    <>
     <section id="home" className={`flex md:flex-row flex-col sm:pt-8 pt-8 pb-2 mt-3`}>
       <div className={`${layout.paddingText} flex-1 ${styles.flexStartSpace2} ${styles.paddingXHome} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className={`flex flex-row items-center px-4 bg-discount-gradient rounded-[0.625rem]`}>          
@@ -25,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         <div >
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[4.1rem] text-[3.25rem] text-gray">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[4.1rem] text-[2.25rem] text-gray">
             Racionalmente.
           </h1>
           <p className={`${styles.paragraph} max-w-[29.375rem] `}>
@@ -49,6 +50,7 @@ const Hero = () => {
         <GetStarted />
       </div>
     </section>
+    </>
   );
 };
 

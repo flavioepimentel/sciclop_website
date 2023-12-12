@@ -15,7 +15,7 @@ const Hero = () => {
         <img fetchpriority="high" src={discount} alt="discount" className="w-[2rem] h-[2rem]" />
           <p className={`font-poppins font-normal text-white text-[1.125rem] leading-[1.925rem] ml-2`}>
             <span className="text-white">20%</span> Desconto no{" "}
-            <span className="text-white">1 Mês</span> de Contratação
+            <span className="text-white">1 mês</span> de contratação.
           </p>
         </div>
 

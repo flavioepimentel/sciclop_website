@@ -13,7 +13,7 @@ const Billing = () => (
       {/* gradient end */}
     </div>
 
-    <div className={`${layout.sectionInfo} pl-6 md:pl-0`}>
+    <div className={`${layout.sectionInfo} pl-8 md:pl-0`}>
       <h2 className={`${styles.heading2} mt-5 pt-5`}>
         Controle facilmente <br className="sm:block hidden" /> finanças e operação
       </h2>

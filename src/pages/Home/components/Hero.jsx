@@ -11,15 +11,7 @@ const Hero = () => {
     <>
     <section id="home" className={`flex md:flex-row flex-col px-6 sm:pt-8 pt-8 pb-2`}>
       <div className={`flex-1 ${styles.flexStartSpace2} ${styles.paddingXHome} flex-col px-6`}>
-        <div className={`flex flex-row items-center px-6 bg-discount-gradient rounded-[0.625rem]`}>          
-        <img fetchpriority="low" src={discount} alt="discount" className="w-[2rem] h-[2rem]" />
-          <p className={`font-poppins font-normal text-white text-[1.125rem] leading-[1.925rem] ml-2`}>
-            <span className="text-white">20%</span> Desconto no{" "}
-            <span className="text-white">1 mês</span> de contratação.
-          </p>
-        </div>
-
-        <div className={`sm:pt-8 pt-8 pb-2 mt-3 flex flex-row justify-between items-center w-full`} >
+        <div className={`sm:mt-16 mt-16 sm:pt-16 pt-16 pb-2 mt-3 flex flex-row justify-between items-center w-full`} >
           <h1 className="flex-1 font-poppins font-semibold ss:text-[4.5rem] text-[3.25rem] text-gray">
            Reduza<br className="sm:block hidden" />{" "}
             <span className="text-gradient">Custos</span>{" "}

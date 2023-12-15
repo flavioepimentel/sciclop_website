@@ -39,11 +39,7 @@ export const footerLinks = [
       },
       {
         name: "Como Funciona",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Termos & Serviços",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.siclope.com/About/",
       },
     ],
   },
@@ -65,7 +61,7 @@ export const footerLinks = [
     links: [
       {
         name: "Login",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://frotas-erp.bubbleapps.io/version-test/",
       },
     ],
   },

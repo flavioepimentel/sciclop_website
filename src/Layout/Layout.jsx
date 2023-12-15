@@ -6,7 +6,7 @@ const Layout = () => (
   <>
   <div className=" w-full overflow-hidden">
     <div className={`bg-black-gradient  ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.boxWidth} absolute`}>
         <Navbar />
       </div>
     </div>

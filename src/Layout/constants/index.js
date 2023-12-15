@@ -16,16 +16,74 @@ export const navLinks = [
 
 export const dropdownLinks = [
   {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "Fleet",
-    title: "Frotas",
+    id: "veículos",
+    categoria: "Fleet",
+    title: "Veículos",
+  },
+  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+    id: "posto",
+    categoria: "Fleet",
+    title: "Posto",
+  },
+  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+    id: "abastecimento",
+    categoria: "Fleet",
+    title: "Abastecimento",
+  },
+  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+    id: "lubrificacao",
+    categoria: "Fleet",
+    title: "Lubrificação",
+  },
+  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+    id: "laboratorio",
+    categoria: "Fleet",
+    title: "Laboratório",
+  },
+  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+    id: "oficina",
+    categoria: "Fleet",
+    title: "Oficina",
+  },
+   { // Pneus, mecânica e material rodante
+    id: "pneus",
+    categoria: "Maintenance",
+    title: "Pneus",
   },
   { // Pneus, mecânica e material rodante
-    id: "Maintenance",
-    title: "Manutenção",
+    id: "mecanica",
+    categoria: "Maintenance",
+    title: "Mecânica",
+  },
+  { // Pneus, mecânica e material rodante
+    id:  "rodante" ,
+    categoria: "Maintenance",
+    title: "Material Rodante",
+  },
+   { // Administração, compras, almoxarifado, Custos operacionais e controles
+    id: "administrativo",
+    categoria: "Financial",
+    title: "Administrativo",
   },
   { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id: "Financial",
-    title: "Administrativo",
+    id: "compras",
+    categoria: "Financial",
+    title: "Compras",
+  },
+  { // Administração, compras, almoxarifado, Custos operacionais e controles
+    id: "almoxarifado",
+    categoria: "Financial",
+    title: "Almoxarifado",
+  },
+  { // Administração, compras, almoxarifado, Custos operacionais e controles
+    id:  "custos" ,
+    categoria: "Financial",
+    title: "Custos Operacionais",
+  },
+  { // Administração, compras, almoxarifado, Custos operacionais e controles
+    id: "controles",
+    categoria: "Financial",
+    title: "Controles",
   }
 ]
 

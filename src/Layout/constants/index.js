@@ -15,76 +15,81 @@ export const navLinks = [
 ];
 
 export const dropdownLinks = [
-  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "veículos",
-    categoria: "Fleet",
-    title: "Veículos",
+  {
+    id:"fleet",
+    categoria: "Frotas",
+    item:[
+      {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+        id: "veículos", 
+        title: "Veículos",
+      },
+      {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+        id: "posto",
+        title: "Posto",
+      },
+      {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+        id: "abastecimento",
+        title: "Abastecimento",
+      },
+      {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+         id: "lubrificacao",
+         title: "Lubrificação",
+      },
+      {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+        id: "laboratorio",
+        title: "Laboratório",
+      },
+      {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
+        id: "oficina",
+        title: "Oficina",
+      },
+    ]
   },
-  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "posto",
-    categoria: "Fleet",
-    title: "Posto",
-  },
-  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "abastecimento",
-    categoria: "Fleet",
-    title: "Abastecimento",
-  },
-  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "lubrificacao",
-    categoria: "Fleet",
-    title: "Lubrificação",
-  },
-  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "laboratorio",
-    categoria: "Fleet",
-    title: "Laboratório",
-  },
-  {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-    id: "oficina",
-    categoria: "Fleet",
-    title: "Oficina",
-  },
+  
    { // Pneus, mecânica e material rodante
-    id: "pneus",
-    categoria: "Maintenance",
-    title: "Pneus",
-  },
-  { // Pneus, mecânica e material rodante
-    id: "mecanica",
-    categoria: "Maintenance",
-    title: "Mecânica",
-  },
-  { // Pneus, mecânica e material rodante
-    id:  "rodante" ,
-    categoria: "Maintenance",
-    title: "Material Rodante",
+    id:"maintenace",
+    categoria: "Manutenção",
+    item:[
+      {
+        id: "pneus",
+        title: "Pneus",
+      },
+      { // Pneus, mecânica e material rodante
+        id: "mecanica",
+        title: "Mecânica",
+      },
+      { // Pneus, mecânica e material rodante
+        id:  "rodante" ,
+        title: "Material Rodante",
+      },
+    ]
   },
    { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id: "administrativo",
-    categoria: "Financial",
-    title: "Administrativo",
+    id: "financial",
+    categoria: "Administrativo",
+    item:[
+     { // Pneus, mecânica e material rodante
+        id:  "administrativo" ,
+        title: "Administrativo",
+      },
+      { // Administração, compras, almoxarifado, Custos operacionais e controles
+        id: "compras",
+        title: "Compras",
+      },
+      { // Administração, compras, almoxarifado, Custos operacionais e controles
+        id: "almoxarifado",
+        title: "Almoxarifado",
+      },
+      { // Administração, compras, almoxarifado, Custos operacionais e controles
+        id:  "custos" ,
+        title: "Custos Operacionais",
+      },
+      { // Administração, compras, almoxarifado, Custos operacionais e controles
+        id: "controles",
+        title: "Controles",
+      }
+    ]
   },
-  { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id: "compras",
-    categoria: "Financial",
-    title: "Compras",
-  },
-  { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id: "almoxarifado",
-    categoria: "Financial",
-    title: "Almoxarifado",
-  },
-  { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id:  "custos" ,
-    categoria: "Financial",
-    title: "Custos Operacionais",
-  },
-  { // Administração, compras, almoxarifado, Custos operacionais e controles
-    id: "controles",
-    categoria: "Financial",
-    title: "Controles",
-  }
 ]
 
 export const dropdownLinksMobile = [

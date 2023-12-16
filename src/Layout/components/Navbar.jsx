@@ -14,14 +14,14 @@ const Navbar = () => {
 	return (
 		<nav className="w-full flex py-3 justify-between items-center navbar bg-black-gradiente ">
 			<a href="/Home">
-				<img src={logo} alt="Sciclope" className="w-40 h-10" />
+				<img src={logo} alt="Sciclope" className="w-40 h-10 ml-6" />
 			</a>
 
 			<ul className="list-none sm:flex hidden justify-end items-center flex-1">
 				{navLinks.map((nav) => (
 					<li
 						key={nav.id}
-						className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-8`}
+						className={`font-poppins font-normal cursor-pointer text-[1rem] text-white mx-8`}
 						onClick={() => setActive(nav.title)}
 					>
 						<a href={`${nav.id}`}>{nav.title}</a>
@@ -29,37 +29,37 @@ const Navbar = () => {
 				))}
 				<li
 					key={"dropdown"}
-					className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-8`}
+					className={`font-poppins font-normal cursor-pointer text-[1rem] text-white mx-8`}
 				>
 					<DropdownComponent />
 				</li>
-
-				<li
+				<a href="https://frotas-erp.bubbleapps.io/version-test/">
+				<button
 					key={"login"}
-					className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-6`}
+					className={`font-poppins font-normal cursor-pointer text-[0.9rem] text-white mx-6 login type1`}
 				>
-					<a href="https://frotas-erp.bubbleapps.io/version-test/">Login</a>
-				</li>
+				</button>
+				</a>
 			</ul>
 
 			<div className="sm:hidden flex flex-1 justify-end items-center mr-6">
 				<img
 					src={toggle ? close : menu}
 					alt="menu"
-					className="w-[28px] h-[28px] object-contain"
+					className="w-[28px] h-[28px] ml-6 object-contain"
 					onClick={() => setToggle(!toggle)}
 				/>
 
 				<div
 					className={`${
 						!toggle ? "hidden" : "flex"
-					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar absolute z-1001`}
 				>
-					<ul className="list-none flex justify-end items-start flex-1 flex-col">
+					<ul className="list-none flex justify-end items-start flex-1 flex-col absolute z-1001">
 						{navLinks.map((nav, index) => (
 							<li
 								key={nav.id}
-								className={`font-poppins font-medium cursor-pointer text-[16px] text-white
+								className={`font-poppins font-medium cursor-pointer text-[1rem] text-white absolute z-1001
                 ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
 								onClick={() => setActive(nav.title)}
 							>
@@ -68,16 +68,16 @@ const Navbar = () => {
 						))}
 						<li
 							key={"dropdown"}
-							className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}
+							className={` font-poppins font-normal cursor-pointer text-[1rem] text-white`}
 						>
 							<DropdownComponent />
 						</li>
 
 						<li
 							key={"login"}
-							className={` font-poppins font-normal cursor-pointer text-[16px] text-white`}
+							className={` font-poppins font-normal cursor-pointer text-[1rem] text-white `}
 						>
-							<a href="https://frotas-erp.bubbleapps.io/version-test/">Login</a>
+							<a href="https://frotas-erp.bubbleapps.io/version-test/">Experimente Grátis</a>
 						</li>
 					</ul>
 				</div>

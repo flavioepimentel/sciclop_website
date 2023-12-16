@@ -87,6 +87,21 @@ export const dropdownLinks = [
   }
 ]
 
+export const dropdownLinksMobile = [
+  {
+    id: "fleet",
+    title: "Frotas",
+  },
+  {
+    id: "financial",
+    title: "Administrativo",
+  },
+  {
+    id: "maintenance",
+    title: "Manutenção",
+  },
+]
+
 export const footerLinks = [
   {
     title: "Informação",

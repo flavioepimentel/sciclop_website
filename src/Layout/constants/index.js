@@ -20,7 +20,7 @@ export const dropdownLinks = [
     categoria: "Frotas",
     item:[
       {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
-        _id: "veículos", 
+        _id: "veiculos", 
         title: "Veículos",
       },
       {// Veículos, posto, abastecimento, Lubrificação, laboratório, ofcina
@@ -47,11 +47,11 @@ export const dropdownLinks = [
   },
   
    { // Pneus, mecânica e material rodante
-    id:"maintenace",
+    id:"maintenance",
     categoria: "Manutenção",
     item:[
       {
-        _id: "pneus",
+        _id: "pneu",
         title: "Pneus",
       },
       { // Pneus, mecânica e material rodante
@@ -73,19 +73,19 @@ export const dropdownLinks = [
         title: "Administrativo",
       },
       { // Administração, compras, almoxarifado, Custos operacionais e controles
-        _id: "compras",
-        title: "Compras",
-      },
-      { // Administração, compras, almoxarifado, Custos operacionais e controles
         _id: "almoxarifado",
         title: "Almoxarifado",
+      },
+      { // Administração, compras, almoxarifado, Custos operacionais e controles
+        _id: "compras",
+        title: "Compras",
       },
       { // Administração, compras, almoxarifado, Custos operacionais e controles
         _id:  "custos" ,
         title: "Custos Operacionais",
       },
       { // Administração, compras, almoxarifado, Custos operacionais e controles
-        _id: "controles",
+        _id: "controle",
         title: "Controles",
       }
     ]

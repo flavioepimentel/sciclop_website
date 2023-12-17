@@ -14,7 +14,7 @@ const controle = `${link}/controle.webp`
 const Financial = () => {
 	return (
 		<>
-			<section id="adm" className={layout.especialSectionReverse}>
+			<section id="administrativo" className={layout.especialSectionReverse}>
 				{/*    ---  Imagem Desktop   ---   */}
 				<div className={`${layout.sectionImgReverse} hidden md:flex `}>
 					<img src={adm} alt="billing" className={`${styles.boxWidthImage}`} />
@@ -34,7 +34,7 @@ const Financial = () => {
 					<Button />
 				</div>
 			</section>
-			<section className={layout.sectionReverse}>
+			<section id="almoxarifado" className={layout.sectionReverse}>
 				<div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Almoxarifado</h2>
 					<p className={`${styles.paragraph}`}>
@@ -59,7 +59,7 @@ const Financial = () => {
 					{/* gradient end */}
 				</div>
 			</section>
-			<section className={layout.sectionReverse}>
+			<section id="compras" className={layout.sectionReverse}>
 				<div className={layout.sectionImgReverse}>
 					<img
 						src={compras}
@@ -85,7 +85,7 @@ const Financial = () => {
 					</p>
 				</div>
 			</section>
-			<section className={layout.section}>
+			<section id="custos" className={layout.section}>
 				<div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Custos</h2>
 					<p className={`${styles.paragraph}`}>
@@ -111,7 +111,7 @@ const Financial = () => {
 					{/* gradient end */}
 				</div>
 			</section>
-			<section className={layout.especialSectionReverse}>
+			<section id="controle" className={layout.especialSectionReverse}>
 				<div className={layout.sectionImgReverse}>
 					<img
 						src={controle}

@@ -11,7 +11,7 @@ const rodante = `${link}/rodante.webp`
 const Maintenance = () => {
 	return (
 		<>
-			<section className={`${layout.especialSectionReverse}`}>
+			<section id="pneu" className={`${layout.especialSectionReverse}`}>
 				<div className={layout.sectionImgReverse}>
 					<img
 						src={pneu}
@@ -36,7 +36,7 @@ const Maintenance = () => {
 					<Button />
 				</div>
 			</section>
-			<section className={`flex md:flex-row flex-col-reverse sm:py-16 py-0`}>
+			<section id="mecanica" className={`flex md:flex-row flex-col-reverse sm:py-16 py-0`}>
 				<div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Mecânica</h2>
 					<p className={`${styles.paragraph}`}>
@@ -60,7 +60,7 @@ const Maintenance = () => {
 					{/* gradient end */}
 				</div>
 			</section>
-			<section className={layout.especialSectionReverse}>
+			<section id="rodante" className={layout.especialSectionReverse}>
 				<div className={layout.sectionImgReverse}>
 					<img
 						src={rodante}

@@ -1,7 +1,9 @@
 import { useState } from "react";
 
 import { navLinks } from "../constants";
-import DropdownComponent from "./DropdownComponent";
+import MegaMenu from "./MegaMenu";
+import LoginButton from "./LoginButton";
+import NavButtons from "./NavButtons";
 
 const close = `${import.meta.env.VITE_APP_STATIC}/close.webp`
 const logo = `${import.meta.env.VITE_APP_STATIC}/siclope_logo.svg`
@@ -18,28 +20,9 @@ const Navbar = () => {
 			</a>
 
 			<ul className="list-none sm:flex hidden justify-end items-center flex-1">
-				{navLinks.map((nav) => (
-					<li
-						key={nav.id}
-						className={`font-poppins font-normal cursor-pointer text-[1rem] text-white mx-8`}
-						onClick={() => setActive(nav.title)}
-					>
-						<a href={`${nav.id}`}>{nav.title}</a>
-					</li>
-				))}
-				<li
-					key={"dropdown"}
-					className={`font-poppins font-normal cursor-pointer text-[1rem] text-white mx-8`}
-				>
-					<DropdownComponent />
-				</li>
-				<a href="https://frotas-erp.bubbleapps.io/version-test/">
-				<button
-					key={"login"}
-					className={`font-poppins font-normal cursor-pointer text-[0.9rem] text-white mx-6 login type1`}
-				>
-				</button>
-				</a>
+				<NavButtons />
+				<MegaMenu />
+				<LoginButton />
 			</ul>
 
 			<div className="sm:hidden flex flex-1 justify-end items-center mr-6">
@@ -70,7 +53,7 @@ const Navbar = () => {
 							key={"dropdown"}
 							className={` font-poppins font-normal cursor-pointer text-[1rem] text-white`}
 						>
-							<DropdownComponent />
+							{/* <MegaMenu /> */}
 						</li>
 
 						<li

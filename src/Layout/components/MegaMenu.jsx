@@ -10,14 +10,14 @@ const DropdownComponent= () => {
 			className={`font-poppins font-normal cursor-pointer text-[1rem] text-white mx-8`}
 		>
     <div className={`dropdown bg-black-gradiente`}>
-      <button className={`dropbtn bg-black-gradiente`}>
+      <button className={`dropbtn bg-black-gradiente text-[1rem]`}>
         Módulos
         </button>
-          <div className="dropdown-content fixed z-100000">
-            <div className="header">
-              <h2>Módulos</h2>
+          <div className="dropdown-content bg-black-gradiente fixed z-100000">
+            <div className="bg-black-gradiente  header">
+              <h2 className="text-[1.65rem] ml-2 tracking-wide"> <strong>Módulos</strong></h2>
             </div>
-            <div className="row fixed">
+            <div className="bg-black-gradiente row  z-100000">
 
             {/* Inicio das Categorias */}
 
@@ -26,9 +26,9 @@ const DropdownComponent= () => {
                 console.log(object)
                 return (
                   <Fragment key={id}>
-                    <div className="column fixed">
-                      <a   className="fixed" href={`/${id}`}>
-                        <h3 >{categoria}</h3>
+                    <div className="column bg-black-gradiente  z-100000">
+                      <a   className="bg-black-gradiente z-100000" href={`/${id}`}>
+                        <h3 className="text-[1.2rem]" ><strong>{categoria}</strong></h3>
                       </a>
 
                       {/* Inicio dos Módulos */}
@@ -37,17 +37,16 @@ const DropdownComponent= () => {
                         const { _id, title } = value
                         console.log(value)
                         return(
-                            <Fragment key={`${_id}`}>
                               <a 
                               className={
                               `font-poppins font-normal 
                               cursor-pointer text-[16px] 
                               text-white bg-black-gradiente
-                              fixed`} 
-                              href={`/${categoria}/#${_id}`}>
+                               z-100000`} 
+                              href={`/${id}/#${_id}`}
+                              key={`${_id}`}>
                               {title}
                               </a>
-                            </Fragment>
                         )})}
 
                       {/* Fim dos Módulos */}

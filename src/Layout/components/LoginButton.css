@@ -1,0 +1,60 @@
+.login {
+    height: 3rem;
+    width: 12rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.login:hover {
+    box-shadow: .5px .5px 150px #252525;
+}
+
+.type1::after {
+    content: "Login";
+    height: 3rem;
+    width: 12rem;
+    background-color: #11101d;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.type1::before {
+    content: "Experimente Grátis";
+    height: 3rem;
+    width: 12rem;
+    background-color: #fff;
+    color: #11101d;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateY(0px) scale(1.2);
+    -moz-transform: translateY(0px) scale(1.2);
+    -ms-transform: translateY(0px) scale(1.2);
+    -o-transform: translateY(0px) scale(1.2);
+}
+
+.type1:hover::after {
+    transform: translateY(0) scale(1.2);
+}
+
+.type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+}

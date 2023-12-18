@@ -1,3 +1,4 @@
+import "./MegaMenu.css"
 import "../style.css"
 import {dropdownLinks} from '../constants/index'
 import { Fragment } from "react"
@@ -23,7 +24,6 @@ const DropdownComponent= () => {
 
               {dropdownLinks.map((object) => {
                 const { id, categoria, item } = object;
-                console.log(object)
                 return (
                   <Fragment key={id}>
                     <div className="column bg-black-gradiente  z-100000">
@@ -35,7 +35,6 @@ const DropdownComponent= () => {
 
                       {item.map((value) => {
                         const { _id, title } = value
-                        console.log(value)
                         return(
                               <a 
                               className={

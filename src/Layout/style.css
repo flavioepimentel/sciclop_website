@@ -26,3 +26,10 @@
     padding: 0.9rem 1rem;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+
+    .navbar li:hover {
+        background-color: #11101d;
+    }
+}

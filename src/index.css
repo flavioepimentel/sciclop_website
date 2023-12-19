@@ -53,6 +53,11 @@
       #11101d 91.61%);
 }
 
+.bg-black-navbar {
+  background-color: #11101d;
+}
+
+
 .bg-black-gradient-2 {
   background: linear-gradient(-168.39deg,
       #7d7d85 -278.56%,

@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1702425817756,
+    "generatedTime": 1703002686233,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1471,
-            "hash": "da4c1b3d3322e2ba306101e955d68e9b95c4e633e71b8746613aa361ba2e3f8b"
+            "hash": "553a3263c491712a533153f42df5f0e57671d82c9fc9360714e7a13eeedd7fc9"
         },
         {
             "type": "folder",
@@ -25,15 +25,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.82b2968a.css",
-            "size": 15281,
-            "hash": "82b2968a168d27b7bb8f8f344e68b178f4dde684bf25f582859fa0aa18b16469"
+            "name": "assets/index.130bdc59.js",
+            "size": 197712,
+            "hash": "fb027fab816b23bf245ab00bf7e7d0c1ba9f62fb5e10855c45935acd195bc05b"
         },
         {
             "type": "file",
-            "name": "assets/index.cf540773.js",
-            "size": 196222,
-            "hash": "a5b00a001d57443bbd0a02f7af1a375a61db77d661af4d5744ff921e2d8af4e1"
+            "name": "assets/index.21eea10a.css",
+            "size": 17577,
+            "hash": "21eea10a1c6dac2258b68d5b3001ba45d2a08ca9b101de94f8394a5cf112922a"
         },
         {
             "type": "folder",
@@ -129,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/almoxarifado.svg",
-            "size": 1915749,
-            "hash": "de91471e816ba3d643d68c6243acfe17dc42ea655d8fe983a926a6bc4ab039fa"
-        },
-        {
-            "type": "file",
             "name": "static/assets/almoxarifado.webp",
             "size": 567590,
             "hash": "e2361fcba8dfde08cf1c2e9bb5956d2cc99c43083c6422460f21e9d4cd086534"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/almoxarifado.svg",
+            "size": 1915749,
+            "hash": "de91471e816ba3d643d68c6243acfe17dc42ea655d8fe983a926a6bc4ab039fa"
         },
         {
             "type": "file",
@@ -213,15 +213,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/custos.webp",
-            "size": 33234,
-            "hash": "3ac7234b137e2d10178faa62b9b44b2828c1e6b447e23a9aa0b6e9a46b8726be"
-        },
-        {
-            "type": "file",
             "name": "static/assets/custos.svg",
             "size": 94533,
             "hash": "290bdc17fa44301b0a363c5184019ca356ad4e414d43821cdc23f09531432319"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/custos.webp",
+            "size": 33234,
+            "hash": "3ac7234b137e2d10178faa62b9b44b2828c1e6b447e23a9aa0b6e9a46b8726be"
         },
         {
             "type": "file",
@@ -339,15 +339,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/oficina.webp",
-            "size": 24450,
-            "hash": "ffc0f815699ee7213dbe077bc26c86d4d4d6a0e79e4eb3f78f678930ade93ac6"
-        },
-        {
-            "type": "file",
             "name": "static/assets/oficina.svg",
             "size": 1722685,
             "hash": "21b8c9263fa0347b4139aef5e9e88c0ffbcbfca8479c62c957f120857d56d9f8"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/oficina.webp",
+            "size": 24450,
+            "hash": "ffc0f815699ee7213dbe077bc26c86d4d4d6a0e79e4eb3f78f678930ade93ac6"
         },
         {
             "type": "file",
@@ -357,15 +357,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/pneu.svg",
-            "size": 5086145,
-            "hash": "a0508b4bee37c5579f6e84a401758e2af3d8afcbd62ecefd22acff5f7f829093"
-        },
-        {
-            "type": "file",
             "name": "static/assets/optimization.webp",
             "size": 21986,
             "hash": "7ce5f7b1e6af1a437a94e0487496122edd3d5ae3e3c521457650b268fe2da95b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/pneu.svg",
+            "size": 5086145,
+            "hash": "a0508b4bee37c5579f6e84a401758e2af3d8afcbd62ecefd22acff5f7f829093"
         },
         {
             "type": "file",

@@ -18,9 +18,6 @@
     /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
-
-
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -34,9 +31,9 @@
 
 /* Mega Menu header, if needed */
 .dropdown-content .header {
-    background: #11101d;
+    background: #fff;
     padding: 1rem;
-    color: white;
+    color: #11101d;
 }
 
 /* Show the dropdown menu on hover */
@@ -50,7 +47,7 @@
     width: 33.33%;
     padding: 0.8rem;
     background-color: #11101d;
-    height: 25rem;
+    height: 35rem;
 }
 
 /* Style links inside the columns */
@@ -63,10 +60,12 @@
     text-align: left;
 }
 
-/* Add a background color on hover */
-.column li:hover {
-    background-color: #9c9c9c50;
+.column a:hover {
+    background-color: #fff;
+    color: #11101d;
 }
+
+/* Add a background color on hover */
 
 .navbar li:hover {
     background-color: #9c9c9c50;

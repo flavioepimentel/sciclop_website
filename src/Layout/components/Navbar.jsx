@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 import MegaMenu from "./MegaMenu";
 import LoginButton from "./LoginButton";
 import NavButtons from "./NavButtons";
+import DropdownMobile from "./DropdownMobile";
 
 const close = `${import.meta.env.VITE_APP_STATIC}/close.webp`
 const logo = `${import.meta.env.VITE_APP_STATIC}/siclope_logo.svg`
@@ -14,7 +15,7 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<nav className="w-full flex py-3 justify-between items-center navbar bg-black-gradiente ">
+		<nav className="w-full flex py-3 justify-between items-center navbar bg-black-navbar ">
 			<a href="/Home">
 				<img src={logo} alt="Sciclope" className="w-40 h-10 ml-6" />
 			</a>
@@ -36,31 +37,15 @@ const Navbar = () => {
 				<div
 					className={`${
 						!toggle ? "hidden" : "flex"
-					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar absolute z-1001`}
+					} p-6 bg-black-navbar  top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar fixed dropdown_mobile z-1001`}
 				>
-					<ul className="list-none flex justify-end items-start flex-1 flex-col absolute z-1001">
-						{navLinks.map((nav, index) => (
-							<li
-								key={nav.id}
-								className={`font-poppins font-medium cursor-pointer text-[1rem] text-white absolute z-1001
-                ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-								onClick={() => setActive(nav.title)}
-							>
-								<a href={`${nav.id}`}>{nav.title}</a>
-							</li>
-						))}
-						<li
-							key={"dropdown"}
-							className={` font-poppins font-normal cursor-pointer text-[1rem] text-white`}
-						>
-							{/* <MegaMenu /> */}
-						</li>
-
+					<ul className="list-none flex justify-end items-start flex-1 flex-col  z-1001">
+						<NavButtons />
+						<DropdownMobile />
 						<li
 							key={"login"}
-							className={` font-poppins font-normal cursor-pointer text-[1rem] text-white `}
-						>
-							<a href="https://frotas-erp.bubbleapps.io/version-test/">Experimente Grátis</a>
+							className={`font-poppins font-normal cursor-pointer text-[1rem] text-white mx-6 `}>
+							<a href="https://frotas-erp.bubbleapps.io/version-test/"> Login </a>
 						</li>
 					</ul>
 				</div>

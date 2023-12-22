@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1703002686233,
+    "generatedTime": 1703271113983,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1471,
-            "hash": "553a3263c491712a533153f42df5f0e57671d82c9fc9360714e7a13eeedd7fc9"
+            "size": 1470,
+            "hash": "309ae74c0d09f0b3fd4c39f97864bf5f102952ee4540743d28c960c6435e8897"
         },
         {
             "type": "folder",
@@ -25,15 +25,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.130bdc59.js",
-            "size": 197712,
-            "hash": "fb027fab816b23bf245ab00bf7e7d0c1ba9f62fb5e10855c45935acd195bc05b"
+            "name": "assets/index.16a95599.css",
+            "size": 17613,
+            "hash": "16a9559969eaf2a95d4644fbf819333eccf65bd1fb126a006d3d665197994388"
         },
         {
             "type": "file",
-            "name": "assets/index.21eea10a.css",
-            "size": 17577,
-            "hash": "21eea10a1c6dac2258b68d5b3001ba45d2a08ca9b101de94f8394a5cf112922a"
+            "name": "assets/index.65b4e747.js",
+            "size": 197761,
+            "hash": "542283a3fcb3368bde48d69835f74830aad709ff662ffbdb5ffd4ec717fdcaef"
         },
         {
             "type": "folder",
@@ -129,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/almoxarifado.webp",
-            "size": 567590,
-            "hash": "e2361fcba8dfde08cf1c2e9bb5956d2cc99c43083c6422460f21e9d4cd086534"
-        },
-        {
-            "type": "file",
             "name": "static/assets/almoxarifado.svg",
             "size": 1915749,
             "hash": "de91471e816ba3d643d68c6243acfe17dc42ea655d8fe983a926a6bc4ab039fa"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/almoxarifado.webp",
+            "size": 567590,
+            "hash": "e2361fcba8dfde08cf1c2e9bb5956d2cc99c43083c6422460f21e9d4cd086534"
         },
         {
             "type": "file",
@@ -225,6 +225,12 @@
         },
         {
             "type": "file",
+            "name": "static/assets/eye.png",
+            "size": 143405,
+            "hash": "30b1725b039f8bee4c41875a22655281ef628b32b7f4abaea481228118c0ffb6"
+        },
+        {
+            "type": "file",
             "name": "static/assets/facebook.svg",
             "size": 528,
             "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
@@ -240,6 +246,12 @@
             "name": "static/assets/favicon.ico",
             "size": 32286,
             "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/forwho.png",
+            "size": 202315,
+            "hash": "6bd4cfe3c7f0e4b222dae8fdc4e21ca09735b8dedec9b7ed49c00f4670993c95"
         },
         {
             "type": "file",
@@ -387,6 +399,12 @@
         },
         {
             "type": "file",
+            "name": "static/assets/proposel.png",
+            "size": 59115,
+            "hash": "c69d64896db467129bf69b4f0cb2d08b06c38b00a42410e1d4e0365af7b004a5"
+        },
+        {
+            "type": "file",
             "name": "static/assets/quotes.svg",
             "size": 688,
             "hash": "64e29e7f7b0144c871d38e5da0e558c12bfec94da43350548cf5a33e30c0ad3d"
@@ -444,6 +462,12 @@
             "name": "static/assets/siclope_logo_black2.webp",
             "size": 19718,
             "hash": "3f46c60a60774055c25140c9e086da8b9adc3afb9e7900cf8a4fc1e8f1d92fc7"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/team.png",
+            "size": 268166,
+            "hash": "daabc185d4e639401be1c5e1994b64159412cbac9b22f6dd902f34fbf2f1f300"
         },
         {
             "type": "file",

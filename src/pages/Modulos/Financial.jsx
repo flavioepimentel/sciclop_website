@@ -14,7 +14,9 @@ const controle = `${link}/controle.webp`
 const Financial = () => {
 	return (
 		<>
-			<section id="administrativo" className={layout.especialSectionReverse}>
+		{/* pt-16 sm:pt-0
+sm:pt-0 pt-16 */}
+			<section id="administrativo" className={`pt-16 sm:pt-0 ${layout.especialSectionReverse}`}>
 				{/*    ---  Imagem Desktop   ---   */}
 				<div className={`${layout.sectionImgReverse} hidden md:flex `}>
 					<img src={adm} alt="billing" className={`${styles.boxWidthImage}`} />
@@ -23,7 +25,7 @@ const Financial = () => {
 					<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
 					{/* gradient end */}
 				</div>
-				<div className={`${layout.sectionInfoCenter} md:ml-10`}>
+				<div className={`sm:pt-0 pt-16 ${layout.sectionInfoCenter}  md:ml-10`}>
 					<h2 className={styles.heading2}>Administração</h2>
 					<p className={`${styles.paragraph} mb-5`}>
 						Administre e controle a manutenção da sua frota com informações de
@@ -34,7 +36,7 @@ const Financial = () => {
 					<Button />
 				</div>
 			</section>
-			<section id="almoxarifado" className={layout.sectionReverse}>
+			<section id="almoxarifado" className={`${layout.sectionReverse}`}>
 				<div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Almoxarifado</h2>
 					<p className={`${styles.paragraph}`}>

@@ -16,7 +16,7 @@ const lubrifica = `${link}/lubrifica.webp`;
 const Fleet = () => {
 	return (
 		<>
-			<section id="veiculos" className={`${layout.especialSectionReverse}`}>
+			<section id="veiculos" className={`pt-16 sm:pt-0 ${layout.especialSectionReverse}`}>
 				<div className={` ${layout.sectionImgReverse} `}>
 					<img
 						src={veiculos}
@@ -28,7 +28,7 @@ const Fleet = () => {
 					<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
 					{/* gradient end */}
 				</div>
-				<div className={`${layout.sectionInfoCenter} md:ml-10`}>
+				<div className={`sm:pt-0 pt-16 ${layout.sectionInfoCenter} md:ml-10`}>
 					<h2 className={styles.heading2}>Veículos</h2>
 					<p className={`${styles.paragraph} mb-5`}>
 						Contém todas as informações cadastrais da frota sob controle do

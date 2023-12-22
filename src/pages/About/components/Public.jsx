@@ -1,16 +1,18 @@
 import styles, { layout } from "../../../style";
 
-const bill = `${import.meta.env.VITE_APP_STATIC}/bill.webp`
+const clienteImage = `${import.meta.env.VITE_APP_STATIC}/crazy-upset-stressed-young-african-american-call-center-consultant-with-headset-white-studio.jpg`
 
 const Public = () => {
 	return (
 		<section id="public" className={layout.especialSectionReverse}>
 			<div className={layout.sectionImgReverse}>
-				<img
-					src={bill}
+				{/* <img
+					src={clienteImage}
 					alt="billing"
 					className={`${styles.boxWidthImageLarge}`}
-				/>
+				/> */}
+              <img src="/public/static/assets/crazy-upset-stressed-young-african-american-call-center-consultant-with-headset-white-studio.jpg" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+
 
 				{/* gradient start */}
 				<div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

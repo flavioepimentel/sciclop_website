@@ -1,6 +1,6 @@
 import styles, { layout } from "../../../style";
 
-const bill = `${import.meta.env.VITE_APP_STATIC}/bill.webp`
+const woman_pointing = `${import.meta.env.VITE_APP_STATIC}/happy-business-woman-pointing-copyspace.jpg`
 
 const Propusel = () => {
     return (
@@ -16,7 +16,9 @@ const Propusel = () => {
                 </p>
             </div>
             <div className={layout.sectionImgReverse}>
-              <img src={bill} alt="billing" className={`${styles.boxWidthImageLarge}`} />
+              {/* <img src={woman_pointing} alt="billing" className={`${styles.boxWidthImageLarge}`} /> */}
+              <img src="/public/static/assets/happy-business-woman-pointing-copyspace.jpg" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+              
 
               {/* gradient start */}
               <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

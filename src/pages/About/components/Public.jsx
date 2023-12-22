@@ -11,7 +11,7 @@ const Public = () => {
 					alt="billing"
 					className={`${styles.boxWidthImageLarge}`}
 				/> */}
-              <img src="/public/static/assets/crazy-upset-stressed-young-african-american-call-center-consultant-with-headset-white-studio.jpg" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+              <img src="/public/static/assets/forwho.png" alt="billing" className={`${styles.boxWidthImageSmall}`} />
 
 
 				{/* gradient start */}

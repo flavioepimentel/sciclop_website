@@ -1,6 +1,6 @@
 import styles, { layout } from "../../../style";
 
-const analisys = `${import.meta.env.VITE_APP_STATIC}/analisys.png`
+const eye = `${import.meta.env.VITE_APP_STATIC}/eye.png`
 
 
 const HowWeDo = () => {
@@ -26,8 +26,7 @@ const HowWeDo = () => {
                 </p>
             </div>
             <div className={layout.sectionImgReverse}>
-              {/* <img src={analisys} alt="billing" className={`${styles.boxWidthImageLarge}`} /> */}
-              <img src="/public/static/assets/eye.png" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+              <img src={eye} alt="billing" className={`${styles.boxWidthImageSmall}`} />
 
               {/* gradient start */}
               <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

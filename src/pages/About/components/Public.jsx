@@ -1,17 +1,16 @@
 import styles, { layout } from "../../../style";
 
-const clienteImage = `${import.meta.env.VITE_APP_STATIC}/crazy-upset-stressed-young-african-american-call-center-consultant-with-headset-white-studio.jpg`
+const forwho = `${import.meta.env.VITE_APP_STATIC}/forwho.png`
 
 const Public = () => {
 	return (
 		<section id="public" className={layout.especialSectionReverse}>
 			<div className={layout.sectionImgReverse}>
-				{/* <img
-					src={clienteImage}
+				<img
+					src={forwho}
 					alt="billing"
-					className={`${styles.boxWidthImageLarge}`}
-				/> */}
-              <img src="/public/static/assets/forwho.png" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+					className={`${styles.boxWidthImageSmall}`}
+				/>
 
 
 				{/* gradient start */}

@@ -1,15 +1,14 @@
 import styles, { layout } from "../../../style";
 
 
-const hands= `${import.meta.env.VITE_APP_STATIC}/8588517.png`
+const team= `${import.meta.env.VITE_APP_STATIC}/team.png`
 
 const WeAre = () => {
     return (
         <>
         <section id="weare" className={layout.especialSectionReverse}>
         <div className={layout.sectionImgReverse}>
-            {/* <img src={hands} alt="billing" className={`${styles.boxWidthImageLarge}`} /> */}
-              <img src="/public/static/assets/team.png" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+            <img src={team} alt="billing" className={`${styles.boxWidthImageSmall}`} />
 
         
           {/* gradient start */}

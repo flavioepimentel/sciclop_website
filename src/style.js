@@ -17,7 +17,7 @@ const styles = {
 
   paddingX: "sm:px-0 px-0",
   paddingY: "sm:py-3 py-0",
-  paddingYHome: "sm:py-4 py-16",
+  paddingYHome: "sm:py-6 py-16",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",
@@ -36,6 +36,7 @@ export const layout = {
   hiddenImageOnSmall: `md:flex hidden`,
   hiddenImageOnBig: `md:hidden block`,
   paddingText: `ml-6 sm:ml-5`,
+  paddingTextReverse: `ml-0 sm:ml-5`,
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   sectionInfoCTA:`flex-1 flex space-y-16 items-start flex-col`,

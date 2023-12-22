@@ -5,8 +5,8 @@ const proposel = `${import.meta.env.VITE_APP_STATIC}/proposel.png`
 const Propusel = () => {
     return (
         <>
-        <section id="proposel" className={`flex md:flex-row flex-col ${styles.paddingYHome}`}>
-            <div className={`${layout.sectionInfoCenter} ${layout.paddingText}`}>
+        <section id="proposel" className={`flex md:flex-row flex-col pt-16 sm:pt-0 `}>
+            <div className={`${layout.sectionInfoCenter} sm:pt-0 pt-16  ${layout.paddingText}`}>
                 <h1 className={`${styles.heading2}`}>Nossa Proposta</h1>
                 <p className={`${styles.paragraph}`}>
                     A inteligência de negócios possibilita uma redução racional de custos operacionais. 

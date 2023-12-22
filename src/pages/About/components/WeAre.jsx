@@ -9,7 +9,7 @@ const WeAre = () => {
         <section id="weare" className={layout.especialSectionReverse}>
         <div className={layout.sectionImgReverse}>
             {/* <img src={hands} alt="billing" className={`${styles.boxWidthImageLarge}`} /> */}
-              <img src="/public/static/assets/8588517.png" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+              <img src="/public/static/assets/team.png" alt="billing" className={`${styles.boxWidthImageSmall}`} />
 
         
           {/* gradient start */}

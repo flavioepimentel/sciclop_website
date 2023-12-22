@@ -17,7 +17,7 @@ const Propusel = () => {
             </div>
             <div className={layout.sectionImgReverse}>
               {/* <img src={woman_pointing} alt="billing" className={`${styles.boxWidthImageLarge}`} /> */}
-              <img src="/public/static/assets/happy-business-woman-pointing-copyspace.jpg" alt="billing" className={`${styles.boxWidthImageSmall}`} />
+              <img src="/public/static/assets/proposel.png" alt="billing" className={`${styles.boxWidthImageLarge}`} />
               
 
               {/* gradient start */}

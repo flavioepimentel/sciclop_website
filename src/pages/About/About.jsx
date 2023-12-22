@@ -1,5 +1,6 @@
 import { HowWeDo, WeAre, Public, Propusel } from './components/'
 import styles from "../../style";
+import "./style.css";
 import  CTA  from "../../Layout/components/CTA"
 
 

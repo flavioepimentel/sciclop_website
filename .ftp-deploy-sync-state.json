@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1703272338432,
+    "generatedTime": 1703292526294,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1470,
-            "hash": "0ada8ba9b4fb8f5d561f6d40f3a6ca25b448c0e760cef4293967f2c87ba70dd1"
+            "hash": "6d678fe218b027199e5533feb3f6b7cb3cacd1ce5e72d4a78bf87b684db9a532"
         },
         {
             "type": "folder",
@@ -25,15 +25,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.16a95599.css",
-            "size": 17613,
-            "hash": "16a9559969eaf2a95d4644fbf819333eccf65bd1fb126a006d3d665197994388"
+            "name": "assets/index.41bfff16.js",
+            "size": 198020,
+            "hash": "e5198d0f8a50ab59cf0ec6d028c8bba3b27f33143934740f760b617a303b32d7"
         },
         {
             "type": "file",
-            "name": "assets/index.d7c96bf5.js",
-            "size": 197837,
-            "hash": "59e7125c0a0511084f9cfd0bd5c7d1765f1a8e47fce4a2271139c2d34e1473e4"
+            "name": "assets/index.ee4f9d45.css",
+            "size": 17695,
+            "hash": "ee4f9d457dfc2f64ab9153ec4739a6afa41b4551ca0765307ae24dfe032c92fe"
         },
         {
             "type": "folder",
@@ -279,15 +279,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/integration.webp",
-            "size": 9204,
-            "hash": "537cfe242c756f3897d180b0e59ed0195f964f7bcf1dbe42be84e285b7a2b282"
-        },
-        {
-            "type": "file",
             "name": "static/assets/integration.svg",
             "size": 22584,
             "hash": "381b5231cabf6e1a9f64854c678e3fd6e418d24b8d40f8845c2ecad757be51ca"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/integration.webp",
+            "size": 9204,
+            "hash": "537cfe242c756f3897d180b0e59ed0195f964f7bcf1dbe42be84e285b7a2b282"
         },
         {
             "type": "file",
@@ -507,15 +507,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/Poppins/Poppins-Bold.ttf",
-            "size": 153944,
-            "hash": "7219547ee25334cbac0fe4b3acf0bf631e48ebb622c71af038edaaa652c60875"
-        },
-        {
-            "type": "file",
             "name": "static/assets/Poppins/Poppins-BlackItalic.ttf",
             "size": 171604,
             "hash": "a5e3e31e9dc6878269fdda8a968f8c0212beef9f7ef6028b6d1e02293316db7d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/Poppins/Poppins-Bold.ttf",
+            "size": 153944,
+            "hash": "7219547ee25334cbac0fe4b3acf0bf631e48ebb622c71af038edaaa652c60875"
         },
         {
             "type": "file",

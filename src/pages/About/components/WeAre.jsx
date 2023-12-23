@@ -8,7 +8,7 @@ const WeAre = () => {
         <>
         <section id="weare" className={layout.especialSectionReverse}>
         <div className={layout.sectionImgReverse}>
-            <img src={team} alt="billing" className={`${styles.boxWidthImageSmall}`} />
+            <img src={team} alt="billing" className={`pb-16 sm:pb-0 ${styles.boxWidthImageSmall}`} />
 
         
           {/* gradient start */}
@@ -16,7 +16,7 @@ const WeAre = () => {
           <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
           {/* gradient end */}
         </div>
-        <div className={`${layout.paddingText} ${layout.sectionInfo}`}>
+        <div className={`${layout.paddingTextReverse} ${layout.sectionInfo}`}>
             <h1 className={styles.heading2}>Quem somos</h1>
                 <p className={`${styles.paragraph}`}>
                     O Siclope é um sistema tipo ERP projetado para fornecer informações táticas e estratégicas, 

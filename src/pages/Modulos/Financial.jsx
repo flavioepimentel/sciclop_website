@@ -14,9 +14,8 @@ const controle = `${link}/controle.webp`
 const Financial = () => {
 	return (
 		<>
-		{/* pt-16 sm:pt-0
-sm:pt-0 pt-16 */}
-			<section id="administrativo" className={`pt-16 sm:pt-0 ${layout.especialSectionReverse}`}>
+	
+			<section id="administrativo" className={`pt-16 sm:pt-20 ${layout.especialSectionReverse}`}>
 				{/*    ---  Imagem Desktop   ---   */}
 				<div className={`${layout.sectionImgReverse} hidden md:flex `}>
 					<img src={adm} alt="billing" className={`${styles.boxWidthImage}`} />
@@ -40,10 +39,10 @@ sm:pt-0 pt-16 */}
 				<div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Almoxarifado</h2>
 					<p className={`${styles.paragraph}`}>
-						Controle todos os itens em estoque, utilize a identificação de ruas
+						Controle todos os itens, utilize a identificação de ruas
 						e preteleiras para posicionar cada item em estoque. Aprove a saída
-						de cada unidade de consumo. Acompanhe o consumo, obsolescência de
-						materias e custo com a curva ABC. Matém inventário rotativo baseado
+						de cada unidade armazenada. Acompanhe o consumo, obsolescência de
+						materias e custo com a curva ABC. Matenha inventário rotativo baseado
 						na curva de valores (ABC). Escolha a movimentação que melhor se
 						adequa ao seu preocesso, PEPS, UEPS ou preço médio.
 					</p>

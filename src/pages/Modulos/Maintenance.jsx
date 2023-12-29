@@ -11,7 +11,7 @@ const rodante = `${link}/rodante.webp`
 const Maintenance = () => {
 	return (
 		<>
-			<section id="pneu" className={`pt-16 sm:pt-0 ${layout.especialSectionReverse}`}>
+			<section id="pneu" className={`pt-16 sm:pt-20 ${layout.especialSectionReverse}`}>
 				<div className={layout.sectionImgReverse}>
 					<img
 						src={pneu}
@@ -27,16 +27,17 @@ const Maintenance = () => {
 				<div className={`sm:pt-0 pt-16 ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Pneus</h2>
 					<p className={`${styles.paragraph} mb-5`}>
-						Um componente significativo no custo operacional, agora podem ser
-						gerenciados de maneira inteligente. Nosso módulo exclusivo não
+						Um componente significativo no custo operacional, agora pode ser 
+						gerenciado de maneira inteligente. Nosso módulo exclusivo não
 						apenas controla o desempenho dos pneus, mas também fornece dados
 						cruciais para escolher o item ideal para cada aplicação, visando
 						sempre o menor custo operacional padrão.
+						Acompanha e avalia o desempenho dos serviços das empresas de ressolagem.
 					</p>
 					<Button />
 				</div>
 			</section>
-			<section id="mecanica" className={`flex md:flex-row flex-col-reverse sm:py-16 py-0`}>
+			<section id="mecanica" className={`flex md:flex-row flex-col-reverse sm:py-5 py-0`}>
 				<div className={`${layout.paddingText} ${layout.sectionInfoCenter}`}>
 					<h2 className={styles.heading2}>Mecânica</h2>
 					<p className={`${styles.paragraph}`}>
@@ -76,9 +77,11 @@ const Maintenance = () => {
 				<div className={layout.sectionInfoCenter}>
 					<h2 className={styles.heading2}>Material rodante</h2>
 					<p className={`${styles.paragraph}`}>
-						Registre medições e acompanhe os desgastes, previna-se de problemas,
-						nosso módulo auxiliarão o atingimento de um maior do número de horas
-						trabalhadas sem paradas desnecessárias.
+						Como pneus, as esteiras são responsáveis por grande parte do custo 
+						operacional dos tratores desse tipo. Registre medições e acompanhe 
+						os desgastes, previna-se de problemas, nosso módulo auxiliará o 
+						atingimento de um maior do número de horas trabalhadas sem paradas 
+						desnecessárias.
 					</p>
 				</div>
 			</section>

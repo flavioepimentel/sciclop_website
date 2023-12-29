@@ -15,12 +15,12 @@ const Billing = () => (
 
     <div className={`${layout.sectionInfo} pl-8 md:pl-0`}>
       <h2 className={`${styles.heading2} mt-5 pt-5`}>
-        Controle facilmente <br className="sm:block hidden" /> finanças e operação
+        Controle facilmente <br className="sm:block hidden" /> finanças e manutenção
       </h2>
       <p className={`${styles.paragraph} pb-10`}>
-        Permite a segregação de informações estratégicas para decisões 
-        em sinergia com o objetivo de produção de testes específicos voltados 
-        à mudança de processos avaliando resultados operacionais.
+        Compartimenta informações estratégicas que impactam na tomada de decisões 
+        para que entre em sinergia com os objetivos da produção maximizando a
+         disponibilidade minimizando custos.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

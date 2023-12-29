@@ -25,7 +25,7 @@ const Hero = () => {
             Racionalmente.
           </h1>
           <p className={`${styles.paragraph} max-w-[29.375rem] `}>
-            Otimize seus planos de manutenção, gerêncie recursos vitais e reduza os
+            Otimize seus planos de manutenção, gerencie recursos vitais e reduza os
             custos da sua frota com Siclope ERP
           </p>
       </div>

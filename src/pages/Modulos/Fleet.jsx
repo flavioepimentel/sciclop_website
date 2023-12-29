@@ -44,7 +44,7 @@ const Fleet = () => {
 					<p className={`${styles.paragraph}`}>
 						O módulo acompanha os estoques em cada tanque da empresa, planeja e
 						avisa sobre eventos como conferência física de estoque, aferição de
-						bombas de abastecimento, acompanha qualidade do material que chega
+						bombas de abastecimento, acompanha qualidade do combustível que chega
 						dos distribuidores, avisando previamente em caso de irregularidades.
 					</p>
 				</div>

@@ -113,11 +113,11 @@ export const footerLinks = [
     links: [
       {
         name: "Orçamento",
-        link: "https://www.hoobank.com/content/",
+        link: "mailto:edufari1@gmail.com",
       },
       {
         name: "Como Funciona",
-        link: "https://www.siclope.com/About/",
+        link: "/about",
       },
     ],
   },
@@ -125,12 +125,8 @@ export const footerLinks = [
     title: "Comunicação",
     links: [
       {
-        name: "Suporte",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
         name: "Contato",
-        link: "https://www.hoobank.com/help-center/",
+        link: "mailto:edufari1@gmail.com",
       },
     ],
   },

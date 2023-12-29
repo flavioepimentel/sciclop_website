@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1703292526294,
+    "generatedTime": 1703812227513,
     "data": [
         {
             "type": "folder",
@@ -16,8 +16,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 1470,
-            "hash": "6d678fe218b027199e5533feb3f6b7cb3cacd1ce5e72d4a78bf87b684db9a532"
+            "size": 1540,
+            "hash": "3a2993bf19250e6e82cca7a90b3501b5c3ebe1b015e91d5d791cf9577739c920"
         },
         {
             "type": "folder",
@@ -25,15 +25,15 @@
         },
         {
             "type": "file",
-            "name": "assets/index.41bfff16.js",
-            "size": 198020,
-            "hash": "e5198d0f8a50ab59cf0ec6d028c8bba3b27f33143934740f760b617a303b32d7"
+            "name": "assets/index.1fccc600.css",
+            "size": 17949,
+            "hash": "1fccc600cf9ec1f48e0c6b1a4d320ed45d2f3e180649b1409e25db008dc149d5"
         },
         {
             "type": "file",
-            "name": "assets/index.ee4f9d45.css",
-            "size": 17695,
-            "hash": "ee4f9d457dfc2f64ab9153ec4739a6afa41b4551ca0765307ae24dfe032c92fe"
+            "name": "assets/index.a3b6c931.js",
+            "size": 219338,
+            "hash": "f2e0d42d2f4ef23d563260e70228bde01f9fa99c35d47ab9b8df7d6464275e01"
         },
         {
             "type": "folder",
@@ -387,15 +387,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/postos.svg",
-            "size": 1601313,
-            "hash": "84d440b76860228fb98ae6afaf32b168b7f1389e3f10c96b9b5dcfc902e288cd"
-        },
-        {
-            "type": "file",
             "name": "static/assets/postos.webp",
             "size": 29820,
             "hash": "f9cc553ebadd5f8984084510099bade37a9c6bbca614fb3dd6d000a4f2d7a796"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/postos.svg",
+            "size": 1601313,
+            "hash": "84d440b76860228fb98ae6afaf32b168b7f1389e3f10c96b9b5dcfc902e288cd"
         },
         {
             "type": "file",

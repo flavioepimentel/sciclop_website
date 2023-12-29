@@ -21,14 +21,14 @@ const WeAre = () => {
                 <p className={`${styles.paragraph}`}>
                     O Siclope é um sistema tipo ERP projetado para fornecer informações táticas e estratégicas, 
                     integrando módulos para administrar eficientemente a frota em tempo real. Desenvolvido por 
-                    nossa equipe, o sistema prioriza a produção de informações precisas, eliminando praticamente 
+                    nossa equipe, o sistema prioriza a produção de dados precisos, eliminando praticamente 
                     o uso de papel.
                 </p>
                 <p className={`${styles.paragraph}`}>
-                    Em um nível mais elevado, o Siclope fornece informações estratégicas,
+                    Em um nível mais elevado, o Siclope fornece dados estratégicos,
                     isso inclui a seleção de marcas com melhor desempenho e a escolha de 
                     prestadores de serviços que atendam aos padrões ideais de qualidade. 
-                    Com as informações geradas as decisões diárias são embasadas em fatos. 
+                    Com os relatórios gerados as decisões diárias são embasadas em fatos. 
                     O sistema atua na identificação e intervenção nas causas antes que 
                     produzam efeitos negativos.
                 </p>

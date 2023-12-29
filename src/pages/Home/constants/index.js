@@ -11,7 +11,7 @@ export const features = [
     icon: star,
     title: "Benefícios",
     content:
-      "Atingir o equilíbrio entre máxima produtividade e o custo mínimo, com gerenciamento instantâneo de variações em sua frota e suas causas.",
+      "Atingir o equilíbrio entre máxima produtividade e o custo mínimo, com gerenciamento instantâneo de variações em suas causas.",
   },
   {
     id: "feature-2",
@@ -25,7 +25,7 @@ export const features = [
     icon: send,
     title: "Informação em Tempo Real",
     content:
-      "Acesse dados para decisões do dia a dia baseada em fatos para intervenções acertivas antes que produzam efeitos negativos, garantindo o melhor resultado.",
+      "Acesse dados para decisões do dia a dia baseadas em fatos para intervenções acertivas antes que produzam efeitos negativos, garantindo o melhor resultado.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import styles, { layout } from "../../../style";
 
-const forwho = `${import.meta.env.VITE_APP_STATIC}/forwho.png`
+const forwho = `${import.meta.env.VITE_APP_STATIC}/forwho.webp`
 
 const Public = () => {
 	return (

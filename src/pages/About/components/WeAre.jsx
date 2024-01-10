@@ -1,7 +1,7 @@
 import styles, { layout } from "../../../style";
 
 
-const team= `${import.meta.env.VITE_APP_STATIC}/team.png`
+const team= `${import.meta.env.VITE_APP_STATIC}/team.webp`
 
 const WeAre = () => {
     return (

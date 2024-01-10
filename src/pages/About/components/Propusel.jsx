@@ -1,11 +1,11 @@
 import styles, { layout } from "../../../style";
 
-const proposel = `${import.meta.env.VITE_APP_STATIC}/proposel.png`
+const proposal = `${import.meta.env.VITE_APP_STATIC}/proposal.webp`
 
 const Propusel = () => {
     return (
         <>
-        <section id="proposel" className={`flex md:flex-row flex-col pt-16 sm:pt-20 `}>
+        <section id="proposal" className={`flex md:flex-row flex-col pt-16 sm:pt-20 `}>
             <div className={`${layout.sectionInfoCenter} sm:pt-0 pt-16  ${layout.paddingText}`}>
                 <h1 className={`${styles.heading2}`}>Nossa Proposta</h1>
                 <p className={`${styles.paragraph}`}>

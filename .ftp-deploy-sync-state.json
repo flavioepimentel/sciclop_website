@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1703812227513,
+    "generatedTime": 1704922826608,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1540,
-            "hash": "3a2993bf19250e6e82cca7a90b3501b5c3ebe1b015e91d5d791cf9577739c920"
+            "hash": "b80ded575c856c69b375bd8a8648ef49356f7160f53bfdd7d27bf0984e5eea2c"
         },
         {
             "type": "folder",
@@ -31,9 +31,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index.a3b6c931.js",
-            "size": 219338,
-            "hash": "f2e0d42d2f4ef23d563260e70228bde01f9fa99c35d47ab9b8df7d6464275e01"
+            "name": "assets/index.ff90c78d.js",
+            "size": 219295,
+            "hash": "12f1de475326cc99ea6652da83d84eed9455deaf58d371067d16cd94474eef88"
         },
         {
             "type": "folder",
@@ -42,14 +42,8 @@
         {
             "type": "file",
             "name": "static/assets/1.svg",
-            "size": 2135318,
-            "hash": "a1ffe1c2606c246d1fe8053447050338752b40015f8ac2b7ba124e8151ebd981"
-        },
-        {
-            "type": "file",
-            "name": "static/assets/1.webp",
-            "size": 453438,
-            "hash": "8e331caab514dbd03f5b8fb58f4c72ab0754cdd749e8ad1d7c6d03208de33f37"
+            "size": 6489607,
+            "hash": "5cc14e464a729b83a9b45307b9eb1f9f6051b6fefb31682add111f64e77db677"
         },
         {
             "type": "file",
@@ -130,14 +124,14 @@
         {
             "type": "file",
             "name": "static/assets/almoxarifado.svg",
-            "size": 1915749,
-            "hash": "de91471e816ba3d643d68c6243acfe17dc42ea655d8fe983a926a6bc4ab039fa"
+            "size": 3831143,
+            "hash": "9a7c4cf93ad56803be0729eb53b5e0e8409e3eab79eec4f2087d79bc7b019638"
         },
         {
             "type": "file",
             "name": "static/assets/almoxarifado.webp",
-            "size": 567590,
-            "hash": "e2361fcba8dfde08cf1c2e9bb5956d2cc99c43083c6422460f21e9d4cd086534"
+            "size": 26590,
+            "hash": "931b2cc4e80bc22cd93199b5dff0dd98a74d17d4f16061e8c767aee07d4dde45"
         },
         {
             "type": "file",
@@ -225,9 +219,9 @@
         },
         {
             "type": "file",
-            "name": "static/assets/eye.png",
-            "size": 143405,
-            "hash": "30b1725b039f8bee4c41875a22655281ef628b32b7f4abaea481228118c0ffb6"
+            "name": "static/assets/facebook.webp",
+            "size": 812,
+            "hash": "637243c6d10f7891dbcaa4da345f566a5ab9608f771746059ab1937015a3385c"
         },
         {
             "type": "file",
@@ -237,21 +231,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/facebook.webp",
-            "size": 812,
-            "hash": "637243c6d10f7891dbcaa4da345f566a5ab9608f771746059ab1937015a3385c"
-        },
-        {
-            "type": "file",
             "name": "static/assets/favicon.ico",
             "size": 32286,
             "hash": "62810e50512df5bea076ba1e6aa367d79455bcd575a93d2da61a21cc9437846b"
         },
         {
             "type": "file",
-            "name": "static/assets/forwho.png",
-            "size": 202315,
-            "hash": "6bd4cfe3c7f0e4b222dae8fdc4e21ca09735b8dedec9b7ed49c00f4670993c95"
+            "name": "static/assets/forwho.webp",
+            "size": 77148,
+            "hash": "9ae868a7ae6fe1f3e7df261e99140b50a8c0cf7a160b7fbdae49a83928b069f4"
         },
         {
             "type": "file",
@@ -285,15 +273,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/integration.webp",
-            "size": 9204,
-            "hash": "537cfe242c756f3897d180b0e59ed0195f964f7bcf1dbe42be84e285b7a2b282"
-        },
-        {
-            "type": "file",
             "name": "static/assets/linkedin.svg",
             "size": 914,
             "hash": "553c430f69a6270f635a95245e7022dfaa1f7b499fcdb89428edd60b09e9eb6e"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/integration.webp",
+            "size": 9204,
+            "hash": "537cfe242c756f3897d180b0e59ed0195f964f7bcf1dbe42be84e285b7a2b282"
         },
         {
             "type": "file",
@@ -387,21 +375,21 @@
         },
         {
             "type": "file",
-            "name": "static/assets/postos.webp",
-            "size": 29820,
-            "hash": "f9cc553ebadd5f8984084510099bade37a9c6bbca614fb3dd6d000a4f2d7a796"
-        },
-        {
-            "type": "file",
             "name": "static/assets/postos.svg",
             "size": 1601313,
             "hash": "84d440b76860228fb98ae6afaf32b168b7f1389e3f10c96b9b5dcfc902e288cd"
         },
         {
             "type": "file",
-            "name": "static/assets/proposel.png",
-            "size": 59115,
-            "hash": "c69d64896db467129bf69b4f0cb2d08b06c38b00a42410e1d4e0365af7b004a5"
+            "name": "static/assets/proposal.webp",
+            "size": 35278,
+            "hash": "9efa2f6a4030a88168aeba7896bfd9fdf1a0538b785426820f5f62b7a74e35e2"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/postos.webp",
+            "size": 29820,
+            "hash": "f9cc553ebadd5f8984084510099bade37a9c6bbca614fb3dd6d000a4f2d7a796"
         },
         {
             "type": "file",
@@ -465,9 +453,9 @@
         },
         {
             "type": "file",
-            "name": "static/assets/team.png",
-            "size": 268166,
-            "hash": "daabc185d4e639401be1c5e1994b64159412cbac9b22f6dd902f34fbf2f1f300"
+            "name": "static/assets/team.webp",
+            "size": 59174,
+            "hash": "868075cc43255a6c5fc26578424d804f6ce4730907f3163763112fc169f7c3d2"
         },
         {
             "type": "file",
@@ -492,6 +480,12 @@
             "name": "static/assets/veiculos.webp",
             "size": 42078,
             "hash": "b181726ffa690fac31b6cbd852199ace19b1e8dda3881e3a1a413e8faeca6881"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/wedo.webp",
+            "size": 20308,
+            "hash": "41ca86deb5c2a711b29ed719be5ceec6353b9230eefc90d4529e29652bac7bca"
         },
         {
             "type": "file",

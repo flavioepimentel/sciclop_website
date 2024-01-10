@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1704922826608,
+    "generatedTime": 1704923681615,
     "data": [
         {
             "type": "folder",
@@ -17,7 +17,7 @@
             "type": "file",
             "name": "index.html",
             "size": 1540,
-            "hash": "b80ded575c856c69b375bd8a8648ef49356f7160f53bfdd7d27bf0984e5eea2c"
+            "hash": "5cddb7cce5f02daf9ac705c7cec259f1f45584cac9c2e539813fbca1f7da0622"
         },
         {
             "type": "folder",
@@ -31,9 +31,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index.ff90c78d.js",
-            "size": 219295,
-            "hash": "12f1de475326cc99ea6652da83d84eed9455deaf58d371067d16cd94474eef88"
+            "name": "assets/index.fb784a94.js",
+            "size": 219343,
+            "hash": "f7dbbbddddf67c70961aa8d35cb6c3c93fea70c257e933d73630b8800f66eed5"
         },
         {
             "type": "folder",
@@ -219,15 +219,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/facebook.webp",
-            "size": 812,
-            "hash": "637243c6d10f7891dbcaa4da345f566a5ab9608f771746059ab1937015a3385c"
-        },
-        {
-            "type": "file",
             "name": "static/assets/facebook.svg",
             "size": 528,
             "hash": "f67832a4a1fc993a5346d237ee8ceeeb85e30ac8f167be7724e8234e7ff92a8d"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/facebook.webp",
+            "size": 812,
+            "hash": "637243c6d10f7891dbcaa4da345f566a5ab9608f771746059ab1937015a3385c"
         },
         {
             "type": "file",
@@ -273,15 +273,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/linkedin.svg",
-            "size": 914,
-            "hash": "553c430f69a6270f635a95245e7022dfaa1f7b499fcdb89428edd60b09e9eb6e"
-        },
-        {
-            "type": "file",
             "name": "static/assets/integration.webp",
             "size": 9204,
             "hash": "537cfe242c756f3897d180b0e59ed0195f964f7bcf1dbe42be84e285b7a2b282"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/linkedin.svg",
+            "size": 914,
+            "hash": "553c430f69a6270f635a95245e7022dfaa1f7b499fcdb89428edd60b09e9eb6e"
         },
         {
             "type": "file",
@@ -381,15 +381,15 @@
         },
         {
             "type": "file",
-            "name": "static/assets/proposal.webp",
-            "size": 35278,
-            "hash": "9efa2f6a4030a88168aeba7896bfd9fdf1a0538b785426820f5f62b7a74e35e2"
-        },
-        {
-            "type": "file",
             "name": "static/assets/postos.webp",
             "size": 29820,
             "hash": "f9cc553ebadd5f8984084510099bade37a9c6bbca614fb3dd6d000a4f2d7a796"
+        },
+        {
+            "type": "file",
+            "name": "static/assets/proposal.webp",
+            "size": 35278,
+            "hash": "9efa2f6a4030a88168aeba7896bfd9fdf1a0538b785426820f5f62b7a74e35e2"
         },
         {
             "type": "file",
